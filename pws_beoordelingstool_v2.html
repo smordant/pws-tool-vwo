@@ -1,0 +1,1375 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PWS Tool — Sophianum VWO 2026–2027</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,sans-serif;background:#f0f4f8;color:#1e293b;min-height:100vh}
+button,input,textarea,select{font-family:inherit}
+
+/* TOPBAR */
+.topbar{background:linear-gradient(135deg,#1e3a5f,#16305a);color:#fff;padding:0 24px;display:flex;align-items:stretch;gap:0;position:sticky;top:0;z-index:50;box-shadow:0 2px 16px rgba(0,0,0,.18)}
+.topbar-logo{background:#fff;display:flex;align-items:center;padding:8px 16px 8px 0;margin-right:18px;border-right:1px solid rgba(255,255,255,.12)}
+.topbar-logo img{height:40px;width:auto}
+.topbar-text{display:flex;flex-direction:column;justify-content:center;padding:11px 0}
+.topbar-title{font-size:17px;font-weight:800;letter-spacing:-.3px}
+.topbar-school{font-size:12px;opacity:.8;font-style:italic;margin-top:1px}
+.topbar-sub{font-size:11px;opacity:.55;margin-top:1px}
+.topbar-right{margin-left:auto;display:flex;gap:8px;align-items:center}
+.rainbow-bar{height:4px;background:linear-gradient(90deg,#e63946,#f4a261,#e9c46a,#2a9d8f,#457b9d,#6a0572);flex-shrink:0}
+
+/* LAYOUT */
+#app{display:flex;flex-direction:column;min-height:100vh}
+.main{flex:1;max-width:900px;margin:0 auto;width:100%;padding:24px 18px 60px}
+
+/* BUTTONS */
+.btn{padding:8px 16px;border-radius:8px;border:none;font-size:13px;font-weight:700;cursor:pointer;transition:opacity .15s}
+.btn:hover{opacity:.85}
+.btn-primary{background:#1e3a5f;color:#fff}
+.btn-ghost{background:rgba(255,255,255,.15);color:#fff}
+.btn-white{background:#fff;color:#1e3a5f}
+.btn-danger{background:#fee2e2;color:#991b1b}
+.btn-sm{padding:6px 13px;font-size:12px;border-radius:7px}
+.btn-outline{background:none;border:1.5px solid #e2e8f0;color:#475569;padding:7px 14px;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer}
+.btn-outline:hover{border-color:#1e3a5f;color:#1e3a5f}
+
+/* CARDS */
+.card{background:#fff;border:1.5px solid #e2e8f0;border-radius:13px;padding:18px 22px;margin-bottom:10px;cursor:pointer;transition:border-color .15s,box-shadow .15s}
+.card:hover{border-color:#1e3a5f;box-shadow:0 3px 14px rgba(30,58,95,.09)}
+.card-title{font-weight:700;font-size:15px;color:#1e3a5f}
+.card-meta{font-size:13px;color:#64748b;margin-top:2px}
+.progress-bar{height:5px;background:#e2e8f0;border-radius:99px;overflow:hidden;margin-top:8px}
+.progress-fill{height:100%;background:#1e3a5f;border-radius:99px;transition:width .3s}
+
+/* TABS */
+.tabs{display:flex;gap:2px;border-bottom:2px solid #e2e8f0;margin-bottom:22px;overflow-x:auto}
+.tab-btn{padding:9px 18px;background:none;border:none;border-bottom:3px solid transparent;color:#64748b;font-size:14px;font-weight:500;cursor:pointer;white-space:nowrap;margin-bottom:-2px;transition:color .15s}
+.tab-btn.active{border-bottom-color:#1e3a5f;color:#1e3a5f;font-weight:700}
+
+/* DETAIL HEADER */
+.detail-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:20px}
+.back-btn{background:none;border:none;color:#64748b;font-size:22px;padding:4px 8px 4px 0;cursor:pointer;flex-shrink:0}
+.detail-title{font-size:21px;font-weight:900;color:#1e3a5f}
+.detail-meta{font-size:13px;color:#64748b;margin-top:3px}
+.detail-cijfer{font-size:46px;font-weight:900;line-height:1}
+
+/* LOGBOEK */
+.fase-label{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8;margin:24px 0 10px}
+.mijlpaal-block{border:1.5px solid #e2e8f0;border-radius:12px;margin-bottom:10px;overflow:hidden;transition:border-color .15s}
+.mijlpaal-block.open{border-color:var(--mc)}
+.mijlpaal-header{display:flex;align-items:center;gap:12px;padding:13px 18px;cursor:pointer;background:#fff;user-select:none}
+.mijlpaal-block.open .mijlpaal-header{background:#f8fafc}
+.mijlpaal-dot{width:12px;height:12px;border-radius:50%;background:var(--mc);flex-shrink:0}
+.mijlpaal-datum{font-size:11px;color:#94a3b8;white-space:nowrap}
+.mijlpaal-name{font-weight:700;font-size:14px;color:#1e3a5f;flex:1}
+.mijlpaal-progress{font-size:12px;color:#94a3b8}
+.mijlpaal-check{font-size:16px}
+.mijlpaal-body{padding:6px 18px 18px;background:#fff;display:none}
+.mijlpaal-block.open .mijlpaal-body{display:block}
+.mijlpaal-desc{font-size:12px;color:#64748b;background:#f8fafc;border-radius:8px;padding:9px 12px;margin:10px 0 14px;line-height:1.5}
+
+/* VRAGEN */
+.vraag-block{margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid #f1f5f9}
+.vraag-block:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.vraag-tekst{font-size:13px;font-weight:600;color:#334155;margin-bottom:8px;display:flex;align-items:flex-start;gap:6px}
+.rubric-tags{display:flex;gap:4px;flex-wrap:wrap;margin-bottom:6px}
+.rubric-tag{font-size:10px;font-weight:700;padding:2px 7px;border-radius:20px;background:#e0f2fe;color:#0369a1}
+.bool-row{display:flex;gap:8px}
+.bool-btn{flex:1;padding:8px;border-radius:8px;border:1.5px solid #e2e8f0;background:#f8fafc;color:#374151;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;text-align:center}
+.bool-btn.ja.selected{background:#dcfce7;border-color:#16a34a;color:#15803d}
+.bool-btn.nee.selected{background:#fee2e2;border-color:#dc2626;color:#b91c1c}
+.bool-btn:not(.selected):hover{border-color:#94a3b8}
+.text-input{width:100%;padding:9px 12px;border-radius:8px;border:1.5px solid #e2e8f0;font-size:13px;color:#334155;background:#f8fafc;resize:vertical;min-height:64px}
+.text-input:focus{outline:none;border-color:#1e3a5f}
+
+/* LOGBOEK SAMENVATTING sidebar per criterium */
+.logboek-hint{background:#f0f9ff;border:1px solid #bae6fd;border-radius:8px;padding:10px 13px;margin-bottom:16px;font-size:12px;color:#0369a1;line-height:1.5}
+.logboek-hint strong{display:block;margin-bottom:4px;font-size:11px;text-transform:uppercase;letter-spacing:.05em}
+
+/* CRITERIUM ACCORDION */
+.crit-block{border:1.5px solid #e2e8f0;border-radius:12px;margin-bottom:10px;overflow:hidden}
+.crit-block.open{border-color:#1e3a5f}
+.crit-header{display:flex;align-items:center;gap:10px;padding:13px 18px;cursor:pointer;background:#fff;user-select:none}
+.crit-block.open .crit-header{background:#f0f4ff}
+.crit-label{font-weight:700;font-size:14px;color:#1e3a5f}
+.crit-weging{font-size:12px;color:#94a3b8;margin-left:4px}
+.crit-header-right{margin-left:auto;display:flex;align-items:center;gap:8px}
+.crit-pill{font-size:12px;font-weight:800;padding:3px 10px;border-radius:20px}
+.crit-body{padding:6px 18px 18px;background:#fff;display:none}
+.crit-block.open .crit-body{display:block}
+.stelling{margin-top:14px;padding-top:14px;border-top:1px solid #f1f5f9}
+.stelling:first-child{margin-top:8px;padding-top:8px;border-top:none}
+.stelling-vraag{font-size:13px;font-weight:600;color:#334155;margin-bottom:8px}
+.opties{display:flex;gap:6px;flex-wrap:wrap}
+.optie-btn{flex:1;min-width:110px;padding:8px 5px;border-radius:8px;border:2px solid #e2e8f0;background:#f8fafc;color:#374151;font-size:11px;line-height:1.35;text-align:center;cursor:pointer;transition:all .15s}
+.optie-btn .niv{display:block;font-size:10px;font-weight:700;opacity:.5;margin-bottom:2px}
+.optie-btn.selected{color:#fff}
+.optie-btn.selected .niv{opacity:1}
+.n4.selected{background:#1a6b3c;border-color:#1a6b3c}
+.n3.selected{background:#3a9e5e;border-color:#3a9e5e}
+.n2.selected{background:#e07b2a;border-color:#e07b2a}
+.n1.selected{background:#c0392b;border-color:#c0392b}
+.n4:not(.selected):hover{border-color:#1a6b3c;color:#1a6b3c}
+.n3:not(.selected):hover{border-color:#3a9e5e;color:#3a9e5e}
+.n2:not(.selected):hover{border-color:#e07b2a;color:#e07b2a}
+.n1:not(.selected):hover{border-color:#c0392b;color:#c0392b}
+.crit-summary{margin-top:12px;padding:9px 13px;border-radius:8px;display:flex;justify-content:space-between;align-items:center;font-size:12px}
+.opmerking-label{font-size:12px;font-weight:600;color:#64748b;margin-top:14px;margin-bottom:5px}
+.opmerking-input{width:100%;min-height:64px;padding:9px 12px;border-radius:8px;border:1px solid #e2e8f0;background:#f8fafc;font-size:13px;color:#334155;resize:vertical}
+.opmerking-input:focus{outline:none;border-color:#1e3a5f}
+
+/* EINDSCORE */
+.eindscore-box{border-radius:14px;padding:26px;text-align:center;margin-bottom:22px;border:2px solid #e2e8f0}
+.eindscore-box.compleet{background:#f0fdf4;border-color:#1a6b3c}
+.eindscore-getal{font-size:68px;font-weight:900;line-height:1}
+.score-table{width:100%;border-collapse:collapse;font-size:13px}
+.score-table th{text-align:left;padding:7px 8px;color:#64748b;font-weight:600;border-bottom:2px solid #e2e8f0}
+.score-table th:not(:first-child){text-align:center}
+.score-table th:last-child{text-align:right}
+.score-table td{padding:9px 8px;border-bottom:1px solid #f1f5f9}
+.score-table td:not(:first-child){text-align:center}
+.score-table td:last-child{text-align:right;font-weight:700}
+.score-table tr.totaal td{border-top:2px solid #1e3a5f;background:#f8fafc;font-weight:700}
+
+/* MODAL */
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:100}
+.modal{background:#fff;border-radius:16px;padding:28px 30px;width:460px;max-width:95vw;box-shadow:0 24px 60px rgba(0,0,0,.18)}
+.modal h2{font-size:18px;font-weight:800;color:#1e3a5f;margin-bottom:18px}
+.field-label{font-size:13px;font-weight:600;color:#374151;display:block;margin-bottom:4px;margin-top:12px}
+.field-input{width:100%;padding:9px 12px;border-radius:8px;border:1.5px solid #e2e8f0;font-size:13px;color:#1e293b}
+.field-input:focus{outline:none;border-color:#1e3a5f}
+.modal-actions{display:flex;gap:10px;justify-content:flex-end;margin-top:20px}
+
+/* EMPTY */
+.empty{text-align:center;padding:70px 0;color:#94a3b8}
+.empty .icon{font-size:48px;margin-bottom:14px}
+
+/* DELETE */
+.delete-btn{background:none;border:1px solid #fecaca;border-radius:7px;color:#f87171;font-size:13px;padding:5px 10px;cursor:pointer;transition:all .15s}
+.delete-btn:hover{background:#fee2e2;border-color:#f87171;color:#dc2626}
+
+/* SEARCH */
+.search-input{width:100%;padding:10px 14px;border-radius:10px;border:1.5px solid #e2e8f0;font-size:14px;background:#fff;color:#1e293b}
+.search-input:focus{outline:none;border-color:#1e3a5f}
+
+/* LOGBOEK VOORTGANGSBALK */
+.logboek-overview{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px}
+.logboek-badge{display:flex;align-items:center;gap:5px;padding:4px 10px;border-radius:20px;font-size:11px;font-weight:700;border:1.5px solid}
+
+
+  /* SCHAALVRAGEN */
+  .scale-opties{display:flex;flex-direction:column;gap:6px;margin-top:4px}
+  .scale-btn{
+    padding:9px 14px;border-radius:8px;border:1.5px solid #e2e8f0;
+    background:#f8fafc;color:#374151;font-size:12px;
+    text-align:left;cursor:pointer;transition:all .15s;
+    display:flex;align-items:center;gap:10px;line-height:1.4
+  }
+  .scale-btn .scale-nr{
+    flex-shrink:0;width:24px;height:24px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    font-size:11px;font-weight:800;background:#e2e8f0;color:#64748b
+  }
+  .scale-btn:hover{border-color:#94a3b8}
+  .scale-btn.s1{} .scale-btn.s2{} .scale-btn.s3{} .scale-btn.s4{}
+  /* s4=Uitstekend(groen), s3=Goed, s2=Matig, s1=Onvoldoende(rood) */
+  .scale-btn.s4.selected{background:#ecfdf5;border-color:#1a6b3c;color:#0f5530}
+  .scale-btn.s4.selected .scale-nr{background:#1a6b3c;color:#fff}
+  .scale-btn.s3.selected{background:#f0fdf4;border-color:#3a9e5e;color:#1f7a42}
+  .scale-btn.s3.selected .scale-nr{background:#3a9e5e;color:#fff}
+  .scale-btn.s2.selected{background:#fff3e0;border-color:#e07b2a;color:#c0620f}
+  .scale-btn.s2.selected .scale-nr{background:#e07b2a;color:#fff}
+  .scale-btn.s1.selected{background:#fee2e2;border-color:#c0392b;color:#c0392b}
+  .scale-btn.s1.selected .scale-nr{background:#c0392b;color:#fff}
+
+  /* PRESENTATIERUBRIC TAB */
+  .pres-crit{border:1.5px solid #e2e8f0;border-radius:12px;margin-bottom:10px;overflow:hidden}
+  .pres-crit.open{border-color:#7c3aed}
+  .pres-crit-header{display:flex;align-items:center;gap:10px;padding:13px 18px;cursor:pointer;background:#fff;user-select:none}
+  .pres-crit.open .pres-crit-header{background:#faf5ff}
+  .pres-crit-body{padding:6px 18px 18px;display:none}
+  .pres-crit.open .pres-crit-body{display:block}
+  .pres-score-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:10px 0}
+  .pres-score-btn{
+    padding:10px 8px;border-radius:9px;border:2px solid #e2e8f0;
+    background:#f8fafc;cursor:pointer;text-align:center;transition:all .15s;font-size:12px;line-height:1.4
+  }
+  .pres-score-btn .ps-nr{font-size:18px;font-weight:900;display:block;margin-bottom:4px}
+  .pres-score-btn .ps-lbl{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;display:block;margin-bottom:4px}
+  .pres-score-btn .ps-desc{font-size:11px;color:#64748b;display:block;line-height:1.35}
+  .pres-score-btn:hover{border-color:#7c3aed}
+  .pres-score-btn.p2.selected{background:#fee2e2;border-color:#c0392b}
+  .pres-score-btn.p2.selected .ps-nr{color:#c0392b}
+  .pres-score-btn.p4.selected{background:#fff3e0;border-color:#e07b2a}
+  .pres-score-btn.p4.selected .ps-nr{color:#e07b2a}
+  .pres-score-btn.p6.selected{background:#fff9e6;border-color:#d97706}
+  .pres-score-btn.p6.selected .ps-nr{color:#d97706}
+  .pres-score-btn.p7.selected{background:#f0fdf4;border-color:#3a9e5e}
+  .pres-score-btn.p7.selected .ps-nr{color:#3a9e5e}
+  .pres-score-btn.p8.selected{background:#ecfdf5;border-color:#1a6b3c}
+  .pres-score-btn.p8.selected .ps-nr{color:#1a6b3c}
+  .pres-score-btn.p10.selected{background:#f5f3ff;border-color:#7c3aed}
+  .pres-score-btn.p10.selected .ps-nr{color:#7c3aed}
+  .pres-totaal{background:#faf5ff;border:1.5px solid #7c3aed;border-radius:12px;padding:16px 20px;margin-bottom:20px;display:flex;align-items:center;gap:16px}
+  .pres-totaal-getal{font-size:48px;font-weight:900;color:#7c3aed;line-height:1}
+
+  /* VERDIEPINGSVRAGEN TAB */
+  .vd-categorie{border:1.5px solid #e2e8f0;border-radius:12px;margin-bottom:10px;overflow:hidden}
+  .vd-categorie.open{border-color:var(--vc)}
+  .vd-cat-header{display:flex;align-items:center;gap:10px;padding:13px 18px;cursor:pointer;background:#fff;user-select:none}
+  .vd-categorie.open .vd-cat-header{background:#f8fafc}
+  .vd-cat-dot{width:12px;height:12px;border-radius:50%;background:var(--vc);flex-shrink:0}
+  .vd-cat-title{font-weight:700;font-size:14px;color:#1e3a5f;flex:1}
+  .vd-cat-sub{font-size:12px;color:#94a3b8}
+  .vd-cat-body{padding:10px 18px 16px;display:none;background:#fff}
+  .vd-categorie.open .vd-cat-body{display:block}
+  .vd-vraag{
+    padding:10px 14px;margin-bottom:6px;border-radius:8px;
+    background:#f8fafc;border:1px solid #e2e8f0;font-size:13px;color:#334155;
+    display:flex;align-items:flex-start;gap:10px;cursor:pointer;transition:background .15s
+  }
+  .vd-vraag:hover{background:#e0f2fe;border-color:#0369a1}
+  .vd-vraag.gebruikt{background:#dcfce7;border-color:#16a34a;color:#15803d}
+  .vd-vraag-nr{flex-shrink:0;font-weight:700;font-size:11px;color:#94a3b8;margin-top:1px}
+  .vd-tip{font-size:12px;color:#64748b;background:#f0f9ff;border:1px solid #bae6fd;border-radius:8px;padding:10px 13px;margin-bottom:14px}
+
+  /* ══ PRINT ══ */
+@media print{
+  *{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
+  body{background:#fff!important;font-size:10pt;margin:0;padding:0}
+
+  /* Verberg alle UI-elementen */
+  .topbar,.rainbow-bar,.tabs,.back-btn,.no-print,
+  .search-input,.modal-overlay,
+  .bool-row,.scale-opties,.opties,
+  .crit-arrow,.logboek-hint,.rubric-tags,
+  .pres-score-grid,.vd-cat-body,
+  button:not(.print-show){display:none!important}
+
+  /* Layout */
+  #app{display:block}
+  .main{max-width:100%;padding:0 0 20px;margin:0;width:100%}
+
+  /* Print header altijd tonen */
+  .print-header{display:block!important;margin-bottom:16px;padding-bottom:12px;border-bottom:2px solid #1e3a5f}
+
+  /* Criteria en mijlpalen: altijd uitklappen */
+  .crit-block,.pres-crit{
+    border:1px solid #ccc!important;border-radius:4px!important;
+    margin-bottom:8px!important;page-break-inside:avoid;
+  }
+  .crit-header,.pres-crit-header{
+    background:#f0f4f8!important;padding:7px 12px!important;
+  }
+  .crit-body,.pres-crit-body{
+    display:block!important;padding:6px 12px 10px!important;
+  }
+
+  /* Stellingen: toon geselecteerde waarde als tekst */
+  .stelling{margin-top:8px!important;padding-top:8px!important}
+  .stelling-vraag{font-size:9.5pt!important;font-weight:600!important}
+
+  /* Opmerkingen tonen */
+  .opmerking-input,.text-input{
+    border:1px solid #ccc!important;background:#fff!important;
+    min-height:30px!important;font-size:9pt!important;
+    -webkit-appearance:none;resize:none;
+  }
+  .opmerking-label{font-size:9pt!important;margin-top:6px!important}
+
+  /* Eindscore tabel */
+  .eindscore-box{border:2px solid #1e3a5f!important;padding:12px!important;margin-bottom:12px!important}
+  .eindscore-getal{font-size:36pt!important}
+  .score-table{font-size:9.5pt!important}
+  .score-table th,.score-table td{padding:5px 6px!important}
+
+  /* Handtekeningen */
+  .handtekening-blok{display:block!important;margin-top:24px!important;page-break-inside:avoid}
+
+  /* Print-only eindscore */
+  .print-eindscore{display:block!important;page-break-before:always}
+
+  /* Samenvatting bars verbergen */
+  .crit-summary,.pres-totaal{display:none!important}
+
+  /* Paginamarges */
+  @page{margin:15mm 15mm 20mm 15mm;size:A4}
+}
+.print-header,.handtekening-blok,.print-eindscore{display:none}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script>
+// ══════════════════════════════════════════════════════════════
+// DATA
+// ══════════════════════════════════════════════════════════════
+const LOGO_B64 = "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N153zueqF36lcu5H/MlvTox7VeXMSyunX1Q17fyKyS+umnDF1He/Zd5nP7ToP798xi0/POfWH776C9dd8razZpwySSd9TAksPztD99vkgQqZ7ITAOhIjgmWTrD83PfMfqk//9/FX/GLy62+e8OrvtbzkKw1nvqd6wWtrZl9eOe1FVTMuqpj64uSEK9LT3pE86RNVC7/4V+d/5eOX/ts/XfSVa0/52zOnXFJb0USCnlKcSvbj0wPt4AQWbd2Emlf8w8XXffmqN3/5mrcgf+ma0gn21335muu+dPV1X7769Z+78vzXnekn7dvVgaweWjncTU9+0fhXfnvS626a/LqbS3nSa3856dpbJr3u5nGvufXU//eF675w5bWffsWCi+fiBoQhQMw/yDYwZH5Sv/M1i37w+ct//NUr8fCB/JOvXlXKP/7q1T/+6lWQ/OhLV3zhvS+eObXGRHg2trZFRCt+46sWffefX/mjr1xR0h/ef+3KH3/lqh995Yrrv3rFT7585Rc/dPHcaXV45EY1IXPZRTN/8GXov/onX7nyJyMNjZxcff1Xrv7JV1793c9f/pF3n9/cgJ8BMGrIqHo4GU4mKr3z33DG6z716jd+6eo3xYP1pi9dc90Xr7jiX9591q3fP/M3159RyrddP+tT/6Qq0pgnbKKGy1586df/9s1fvOI6VBnOV173uav//upPf+CSb3zwxd/84CVfefu5H5laPwtTlIn54L1jfGOIEvUzmi7+54mv+flEDOJrb5r4upt35Wtvnoj8ul+Ov/J/x139135txQFtM1L8pBORpGZPnfyON7zqnZ9938u+8cGLvvmOcz/+msV/c8nsK06ZfMFJTadOG994/qUDuJ9fdNbMV19y0rtee8Zn/u5F3/nUK/7xgx+YeM3PGi/+fNXsy1SyytiVJ2x7Zbd9OSDsVZ/8lolXoxe/3On/pNfePP51vzrjip98+CXf/MBLvvavH7juCx94EW75kTFl7MTm/cbJjS/553Gv+enEK26a//mfn/X7H53xG+SfnvWb68/61Y8W/fQ/xr/hGjZ4ZmGkPY3gqcTg60LTlR96+Zu++Jo3fOnqD38JU+uq67/26m9/7PUfuvQrH3rxtz70km9+6MXffM8rvn7Gpz+RnGn/HcSeRo756+Mp5LAIshExiv3adOOM+rkTJr40Oe2tFXM+ULX4602XfHfS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";
+
+const MIJLPALEN = [{"id": "kickoff", "datum": "do 16 april 2026", "fase": "Fase 1 — Opstarten", "titel": "Kick-off", "kleur": "#6366f1", "beschrijving": "Leerlingen ontvangen de opdracht en oriënteren zich op onderwerp en duo-partner.", "vragen": [{"id": "ko_aanwezig", "tekst": "Waren beide leerlingen aanwezig bij de kick-off?", "type": "bool", "rubric": []}, {"id": "ko_betrokkenheid", "tekst": "Mate van betrokkenheid en interesse tijdens de kick-off", "type": "scale", "rubric": ["samenwerken"], "schaal": ["Passief, nauwelijks aandacht of interesse getoond", "Beperkt betrokken, maar weinig actieve deelname", "Redelijk betrokken, toonden interesse in de opdracht", "Actief en enthousiast betrokken, stelden direct vragen"]}, {"id": "ko_notitie", "tekst": "Notities / eerste indruk", "type": "text", "rubric": []}]}, {"id": "keuzeformulier", "datum": "do 7 mei 2026 (vóór 13:00)", "fase": "Fase 1 — Opstarten", "titel": "Keuzeformulier ingeleverd", "kleur": "#6366f1", "beschrijving": "Duo en vakvoorkeur ingediend via SomToday vóór 13:00 uur.", "vragen": [{"id": "kf_tijdig", "tekst": "Hebben de leerlingen het keuzeformulier tijdig ingeleverd (vóór 13:00)?", "type": "bool", "rubric": ["communiceren"]}, {"id": "kf_zelfstandig", "tekst": "Hebben de leerlingen het formulier zelfstandig ingeleverd (zonder herinneringen)?", "type": "bool", "rubric": ["communiceren"]}, {"id": "kf_notitie", "tekst": "Notities", "type": "text", "rubric": []}]}, {"id": "gesprek1", "datum": "Vóór zomervakantie 2026", "fase": "Fase 1 — Opstarten", "titel": "Eerste begeleidingsgesprek", "kleur": "#6366f1", "beschrijving": "Bespreking onderwerp en eerste opzet hoofdvraag. Leerlingen worden verwacht proactief en goed voorbereid te zijn.", "vragen": [{"id": "g1_initiatief", "tekst": "Heeft het duo zelf de afspraak gepland (zonder dat jij moest aansturen)?", "type": "bool", "rubric": ["communiceren"]}, {"id": "g1_agenda", "tekst": "Hadden de leerlingen een agenda voorbereid voor dit gesprek?", "type": "bool", "rubric": ["communiceren"]}, {"id": "g1_kwaliteit_vragen", "tekst": "Kwaliteit van de vragen die de leerlingen stelden", "type": "scale", "rubric": ["communiceren"], "schaal": ["Geen of nauwelijks vragen gesteld", "Vragen waren oppervlakkig of weinig gericht", "Redelijk gerichte vragen, toonden betrokkenheid bij het onderwerp", "Scherpe, inhoudelijke vragen die blijk geven van grondige voorbereiding"]}, {"id": "g1_aantekeningen", "tekst": "Maakten de leerlingen aantekeningen tijdens het gesprek?", "type": "bool", "rubric": ["communiceren"]}, {"id": "g1_logboek", "tekst": "Is het logboek al gestart en bijgehouden?", "type": "bool", "rubric": ["methodisch"]}, {"id": "g1_deskundige", "tekst": "Mate van concreetheid over te raadplegen deskundige", "type": "scale", "rubric": ["informatie"], "schaal": ["Nog niet over nagedacht", "Vaag idee, maar geen concrete stap gezet", "Hebben een deskundige in gedachten en weten hoe ze contact leggen", "Deskundige al concreet geïdentificeerd, contact gelegd of gepland"]}, {"id": "g1_samenwerking", "tekst": "Zichtbaarheid en kwaliteit van de samenwerking tot nu toe", "type": "scale", "rubric": ["samenwerken"], "schaal": ["Weinig samenwerking zichtbaar, één leerling domineert of er is nauwelijks overleg geweest", "Enige samenwerking, maar taakverdeling is onduidelijk of scheef", "Redelijke samenwerking, taakverdeling aanwezig maar niet optimaal benut", "Gelijkwaardige samenwerking zichtbaar, beiden dragen duidelijk bij"]}, {"id": "g1_notitie", "tekst": "Notities / indruk gesprek", "type": "text", "rubric": []}]}, {"id": "mijlpaal1", "datum": "wo 26 augustus 2026", "fase": "Fase 1 — Opstarten", "titel": "Mijlpaal 1 — Goedkeuring onderwerp & hoofdvraag", "kleur": "#059669", "beschrijving": "Begeleider keurt onderwerp en hoofdvraag goed. Logboek is gestart, oriëntatiefase afgerond, eerste contact met deskundige gelegd.", "vragen": [{"id": "m1_goedgekeurd", "tekst": "Is het onderwerp + hoofdvraag goedgekeurd door jou als begeleider?", "type": "bool", "rubric": ["methodisch"]}, {"id": "m1_initiatief", "tekst": "Heeft het duo zelf de afspraak voor deze mijlpaal gepland?", "type": "bool", "rubric": ["communiceren"]}, {"id": "m1_agenda", "tekst": "Hadden de leerlingen een agenda voorbereid voor dit gesprek?", "type": "bool", "rubric": ["communiceren"]}, {"id": "m1_logboek", "tekst": "Volledigheid en kwaliteit van het logboek tot nu toe", "type": "scale", "rubric": ["methodisch"], "schaal": ["Logboek nauwelijks bijgehouden of niet aanwezig", "Logboek aanwezig maar fragmentarisch — veel hiaten", "Logboek redelijk bijgehouden, de meeste momenten gedocumenteerd", "Logboek systematisch en volledig bijgehouden, goed leesbaar"]}, {"id": "m1_hoofdvraag", "tekst": "Kwaliteit van de geformuleerde hoofdvraag", "type": "scale", "rubric": ["onderzoeken", "methodisch"], "schaal": ["Hoofdvraag ontbreekt of is te vaag om mee te werken", "Hoofdvraag aanwezig maar te breed, te smal of onduidelijk afgebakend", "Hoofdvraag redelijk helder en afgebakend, maar nog voor verbetering vatbaar", "Hoofdvraag helder, precies afgebakend en goed onderzoekbaar"]}, {"id": "m1_deskundige", "tekst": "Concreetheid van het contact met de deskundige", "type": "scale", "rubric": ["informatie"], "schaal": ["Nog geen actie ondernomen richting deskundige", "Deskundige geïdentificeerd maar nog geen contact", "Contact gelegd, afspraak in de planning", "Deskundige al geraadpleegd of afspraak concreet gepland"]}, {"id": "m1_feedback", "tekst": "Mate waarin eerdere feedback zichtbaar is verwerkt", "type": "scale", "rubric": ["communiceren", "reflecteren"], "schaal": ["Eerdere feedback niet terug te zien in het werk", "Feedback gedeeltelijk verwerkt, maar niet consequent", "Feedback grotendeels verwerkt, duidelijk zichtbaar in aanpak", "Feedback grondig verwerkt, aantoonbare verbetering in hoofdvraag en aanpak"]}, {"id": "m1_samenwerking", "tekst": "Duidelijkheid en evenwicht van de taakverdeling", "type": "scale", "rubric": ["samenwerken"], "schaal": ["Geen duidelijke taakverdeling, één leerling trekt alles", "Taakverdeling aanwezig maar scheef of onduidelijk", "Taakverdeling redelijk evenwichtig en duidelijk", "Taakverdeling evenwichtig, helder en door beiden gedragen"]}, {"id": "m1_notitie", "tekst": "Notities / beoordeling mijlpaal 1", "type": "text", "rubric": []}]}, {"id": "contactw37", "datum": "Week 37 — sept. 2026", "fase": "Fase 2 — Verkennen & plannen", "titel": "Contactmoment oriëntatie (week 37)", "kleur": "#d97706", "beschrijving": "Duo bespreekt oriëntatie en verdere aanpak. Leerlingen sturen agenda vooraf, stellen vragen en logboek is de leidraad.", "vragen": [{"id": "w37_initiatief", "tekst": "Heeft het duo zelf het contactmoment geïnitieerd en gepland?", "type": "bool", "rubric": ["communiceren"]}, {"id": "w37_agenda", "tekst": "Hebben de leerlingen zelf een agenda gestuurd vóór het gesprek?", "type": "bool", "rubric": ["communiceren"]}, {"id": "w37_kwaliteit_vragen", "tekst": "Kwaliteit van de vragen en voorbereiding voor dit gesprek", "type": "scale", "rubric": ["communiceren"], "schaal": ["Nauwelijks vragen of voorbereiding, gesprek was weinig productief", "Beperkte voorbereiding, vragen waren oppervlakkig", "Redelijk voorbereid, vragen waren gericht maar konden dieper", "Goed voorbereid met gerichte vragen en concrete punten om te bespreken"]}, {"id": "w37_logboek", "tekst": "Kwaliteit van het logboek als leidraad in het gesprek", "type": "scale", "rubric": ["methodisch"], "schaal": ["Logboek niet bijgehouden of niet gebruikt", "Logboek aanwezig maar fragmentarisch gebruikt", "Logboek redelijk bijgehouden en gebruikt als leidraad", "Logboek volledig bijgehouden, diende als stevige leidraad"]}, {"id": "w37_bronnen", "tekst": "Kwaliteit en diversiteit van geraadpleegde bronnen tot nu toe", "type": "scale", "rubric": ["informatie"], "schaal": ["Alleen internet gebruikt, geen wetenschappelijke of gedrukte bronnen", "Enkele bronnen buiten internet, maar beperkt en weinig kritisch", "Meerdere bronnen geraadpleegd, enige bronnenkritiek aanwezig", "Diverse bronnen (boeken, artikelen, deskundige) kritisch geraadpleegd"]}, {"id": "w37_deelvragen", "tekst": "Kwaliteit van de geformuleerde deelvragen", "type": "scale", "rubric": ["onderzoeken", "methodisch"], "schaal": ["Geen of nauwelijks deelvragen geformuleerd", "Deelvragen aanwezig maar niet logisch afgeleid van de hoofdvraag", "Deelvragen redelijk logisch, maar kunnen beter aansluiten", "Deelvragen logisch, duidelijk afgeleid van hoofdvraag en goed afgebakend"]}, {"id": "w37_samenwerking", "tekst": "Kwaliteit van de samenwerking en taakverdeling op dit moment", "type": "scale", "rubric": ["samenwerken"], "schaal": ["Samenwerking verloopt moeizaam, nauwelijks communicatie", "Samenwerking wisselend, taakverdeling niet altijd duidelijk", "Samenwerking redelijk, taakverdeling aanwezig", "Samenwerking effectief en gelijkwaardig, beiden goed op de hoogte van elkaars werk"]}, {"id": "w37_notitie", "tekst": "Notities / indruk contactmoment week 37", "type": "text", "rubric": []}]}, {"id": "mijlpaal2", "datum": "di 23 september 2026", "fase": "Fase 2 — Verkennen & plannen", "titel": "Mijlpaal 2 — Oriëntatieverslag", "kleur": "#059669", "beschrijving": "Oriëntatieverslag ingeleverd (papier + SomToday). Bevat globale hoofdvraag + deelvragen + begin onderbouwing.", "vragen": [{"id": "m2_tijdig", "tekst": "Is het oriëntatieverslag tijdig ingeleverd (vóór de deadline)?", "type": "bool", "rubric": ["communiceren", "methodisch"]}, {"id": "m2_zelfstandig", "tekst": "Heeft het duo de inleverdatum zelf bewaakt, zonder herinneringen nodig te hebben?", "type": "bool", "rubric": ["communiceren"]}, {"id": "m2_structuur", "tekst": "Structuur en overzichtelijkheid van het oriëntatieverslag", "type": "scale", "rubric": ["methodisch", "schriftelijk"], "schaal": ["Nauwelijks structuur, verslag is moeilijk te volgen", "Enige structuur aanwezig maar logica ontbreekt op meerdere punten", "Redelijk overzichtelijk, structuur aanwezig maar voor verbetering vatbaar", "Logisch en overzichtelijk gestructureerd verslag"]}, {"id": "m2_hoofdvraag_kwaliteit", "tekst": "Kwaliteit en onderbouwing van de hoofdvraag in het verslag", "type": "scale", "rubric": ["onderzoeken", "methodisch"], "schaal": ["Hoofdvraag ontbreekt of is niet onderbouwd", "Hoofdvraag aanwezig maar onderbouwing is mager", "Hoofdvraag helder met begin van onderbouwing", "Hoofdvraag helder, goed onderbouwd en duidelijk afgebakend"]}, {"id": "m2_deelvragen_kwaliteit", "tekst": "Kwaliteit van de deelvragen en logische samenhang met hoofdvraag", "type": "scale", "rubric": ["onderzoeken", "methodisch"], "schaal": ["Deelvragen ontbreken of sluiten niet aan op de hoofdvraag", "Deelvragen aanwezig maar verband met hoofdvraag is onduidelijk", "Deelvragen logisch maar kunnen beter aansluiten", "Deelvragen logisch, volledig en sluiten naadloos aan op de hoofdvraag"]}, {"id": "m2_bronnen", "tekst": "Kwaliteit van brongebruik en -vermelding in het verslag", "type": "scale", "rubric": ["informatie", "schriftelijk"], "schaal": ["Nauwelijks bronnen of geen vermelding", "Beperkte bronnen, vermelding onvolledig of onjuist", "Meerdere bronnen gebruikt, vermelding redelijk correct", "Diverse bronnen kritisch gebruikt, correct en volledig vermeld"]}, {"id": "m2_deskundige", "tekst": "Is een deskundige benoemd en is er al contact geweest?", "type": "bool", "rubric": ["informatie"]}, {"id": "m2_feedback", "tekst": "Mate waarin feedback uit eerdere gesprekken zichtbaar is verwerkt", "type": "scale", "rubric": ["reflecteren", "communiceren"], "schaal": ["Feedback niet terug te zien", "Feedback beperkt verwerkt", "Feedback grotendeels verwerkt", "Feedback grondig en aantoonbaar verwerkt"]}, {"id": "m2_notitie", "tekst": "Notities / beoordeling oriëntatieverslag", "type": "text", "rubric": []}]}, {"id": "mijlpaal3", "datum": "di 21 oktober 2026", "fase": "Fase 2 — Verkennen & plannen", "titel": "Mijlpaal 3 — Plan van aanpak", "kleur": "#059669", "beschrijving": "Plan van aanpak goedgekeurd: onderzoeksmethoden per deelvraag, tijdpad, taakverdeling, materialenlijst, deskundige concreet benoemd.", "vragen": [{"id": "m3_tijdig", "tekst": "Is het plan van aanpak tijdig ingeleverd én besproken?", "type": "bool", "rubric": ["communiceren", "methodisch"]}, {"id": "m3_initiatief", "tekst": "Heeft het duo zelf de besprekingsafspraak gepland?", "type": "bool", "rubric": ["communiceren"]}, {"id": "m3_agenda", "tekst": "Hadden de leerlingen een agenda voor dit gesprek?", "type": "bool", "rubric": ["communiceren"]}, {"id": "m3_methoden", "tekst": "Kwaliteit van de beschreven onderzoeksmethoden per deelvraag", "type": "scale", "rubric": ["onderzoeken", "methodisch"], "schaal": ["Methoden niet of nauwelijks beschreven", "Methoden globaal beschreven, maar verantwoording ontbreekt", "Methoden beschreven en deels verantwoord", "Methoden per deelvraag helder beschreven en goed verantwoord"]}, {"id": "m3_tijdpad", "tekst": "Kwaliteit en haalbaarheid van het tijdpad", "type": "scale", "rubric": ["methodisch"], "schaal": ["Geen tijdpad of volledig onrealistisch", "Tijdpad globaal maar weinig gedetailleerd of deels onrealistisch", "Tijdpad redelijk realistisch en gedetailleerd", "Realistisch, gedetailleerd tijdpad met duidelijke tussenstappen"]}, {"id": "m3_taakverdeling", "tekst": "Helderheid en evenwicht van de taakverdeling in het plan", "type": "scale", "rubric": ["samenwerken"], "schaal": ["Geen taakverdeling beschreven", "Taakverdeling aanwezig maar scheef of vaag", "Taakverdeling redelijk helder en evenwichtig", "Taakverdeling helder, evenwichtig en realistisch"]}, {"id": "m3_deskundige", "tekst": "Is concreet beschreven welke deskundige geraadpleegd wordt en hoe?", "type": "bool", "rubric": ["informatie"]}, {"id": "m3_haalbaarheid", "tekst": "Is het plan haalbaar binnen de gestelde tijd (minimaal 80 uur p.p.)?", "type": "bool", "rubric": ["methodisch"]}, {"id": "m3_feedback", "tekst": "Mate waarin feedback uit eerdere besprekingen is verwerkt", "type": "scale", "rubric": ["reflecteren", "communiceren"], "schaal": ["Eerdere feedback niet verwerkt", "Feedback beperkt verwerkt", "Feedback grotendeels verwerkt", "Feedback grondig en aantoonbaar verwerkt in het plan"]}, {"id": "m3_notitie", "tekst": "Notities / beoordeling plan van aanpak", "type": "text", "rubric": []}]}, {"id": "voortgang", "datum": "uiterlijk di 25 november 2026", "fase": "Fase 3 — Uitvoeren", "titel": "Voortgangscontactmoment", "kleur": "#d97706", "beschrijving": "Duo bespreekt vorderingen met begeleider. Logboek is de leidraad. Beide partijen kunnen initiatief nemen voor extra contactmomenten.", "vragen": [{"id": "vg_initiatief", "tekst": "Heeft het duo zelf het voortgangsmoment gepland?", "type": "bool", "rubric": ["communiceren"]}, {"id": "vg_agenda", "tekst": "Hadden de leerlingen een agenda voorbereid?", "type": "bool", "rubric": ["communiceren"]}, {"id": "vg_kwaliteit_vragen", "tekst": "Kwaliteit van de vragen en mate van voorbereiding", "type": "scale", "rubric": ["communiceren"], "schaal": ["Nauwelijks voorbereiding, gesprek was weinig productief", "Beperkt voorbereid, vragen oppervlakkig", "Redelijk voorbereid, gericht op concrete problemen", "Goed voorbereid met scherpe, inhoudelijke vragen"]}, {"id": "vg_logboek", "tekst": "Volledigheid en kwaliteit van het logboek op dit moment", "type": "scale", "rubric": ["methodisch"], "schaal": ["Logboek nauwelijks bijgehouden", "Logboek fragmentarisch, grote hiaten", "Logboek redelijk bijgehouden, meeste momenten gedocumenteerd", "Logboek volledig en systematisch bijgehouden"]}, {"id": "vg_feedback", "tekst": "Mate waarin eerdere feedback aantoonbaar is verwerkt", "type": "scale", "rubric": ["reflecteren", "communiceren"], "schaal": ["Eerdere feedback niet terug te zien", "Feedback beperkt verwerkt", "Feedback grotendeels verwerkt", "Feedback grondig en aantoonbaar verwerkt, duidelijke verbetering zichtbaar"]}, {"id": "vg_voortgang", "tekst": "Mate van voortgang conform het plan van aanpak", "type": "scale", "rubric": ["methodisch"], "schaal": ["Duidelijk achter op schema, plan wordt niet gevolgd", "Enigszins achter, afwijkingen van plan niet goed verantwoord", "Licht achter of op schema, afwijkingen verantwoord", "Op schema of uitleg waarom afgeweken werd, goed bijgestuurd"]}, {"id": "vg_inhoud", "tekst": "Inhoudelijke kwaliteit van het onderzoek tot nu toe", "type": "scale", "rubric": ["onderzoeken", "informatie"], "schaal": ["Inhoud is te oppervlakkig of bevat fundamentele fouten", "Inhoud is beperkt van niveau, onvoldoende diepgang", "Inhoud is redelijk van niveau, voldoende voor vwo 6", "Inhoud is van hoog niveau, analytisch en goed onderbouwd"]}, {"id": "vg_samenwerking", "tekst": "Kwaliteit van de samenwerking op dit moment", "type": "scale", "rubric": ["samenwerken"], "schaal": ["Samenwerking verloopt slecht, nauwelijks bijdrage van beiden", "Samenwerking wisselend, ongelijke bijdrage", "Samenwerking redelijk, beiden dragen bij", "Samenwerking uitstekend, gelijkwaardig en proactief"]}, {"id": "vg_reflectie", "tekst": "Mate van zelfstandige en kritische reflectie op eigen aanpak", "type": "scale", "rubric": ["reflecteren"], "schaal": ["Nauwelijks in staat kritisch te reflecteren op eigen werk", "Beperkte reflectie, met sturing vanuit begeleider", "Redelijke reflectie, zien verbeterpunten maar niet altijd diepgaand", "Scherpe, zelfstandige reflectie met concrete verbeterideeën"]}, {"id": "vg_notitie", "tekst": "Notities / indruk voortgangsmoment", "type": "text", "rubric": []}]}, {"id": "mijlpaal4", "datum": "di 13 januari 2027 (10:10–10:25)", "fase": "Fase 3 — Uitvoeren", "titel": "Mijlpaal 4 — Definitief verslag ingeleverd", "kleur": "#059669", "beschrijving": "Definitief PWS ingeleverd bij kolomcoördinator + tekstdeel via SomToday voor plagiaatcontrole.", "vragen": [{"id": "m4_tijdig", "tekst": "Is het definitieve verslag tijdig ingeleverd (op het exacte tijdstip)?", "type": "bool", "rubric": ["communiceren", "methodisch"]}, {"id": "m4_volledig", "tekst": "Bevat het verslag alle vereiste onderdelen (titelpagina t/m logboek)?", "type": "bool", "rubric": ["methodisch", "schriftelijk"]}, {"id": "m4_structuur", "tekst": "Structuur en samenhang van het definitieve verslag", "type": "scale", "rubric": ["methodisch", "schriftelijk"], "schaal": ["Nauwelijks structuur, verslag is moeilijk te volgen", "Structuur aanwezig maar mist samenhang op meerdere punten", "Grotendeels logisch en samenhangend", "Logisch, samenhangend en overzichtelijk opgebouwd"]}, {"id": "m4_taal", "tekst": "Kwaliteit van taalgebruik en vakjargon in het verslag", "type": "scale", "rubric": ["schriftelijk"], "schaal": ["Veel taalfouten, vakjargon incorrect of afwezig", "Overwegend correct maar met fouten; vakjargon wisselend", "Correct taalgebruik met doorgaans juist vakjargon", "Correct taalgebruik met consequent en juist vakjargon"]}, {"id": "m4_apa", "tekst": "Is het verslag tijdig ingeleverd via SomToday voor plagiaatcontrole?", "type": "bool", "rubric": ["schriftelijk"]}, {"id": "m4_apa_kwaliteit", "tekst": "Kwaliteit van de APA-bronvermelding door het hele verslag", "type": "scale", "rubric": ["schriftelijk"], "schaal": ["APA nauwelijks of niet correct toegepast", "APA deels correct maar inconsistent", "APA grotendeels correct en consequent", "APA correct en consequent door het hele verslag"]}, {"id": "m4_conclusie", "tekst": "Kwaliteit van de beantwoording van hoofd- en deelvragen", "type": "scale", "rubric": ["onderzoeken", "methodisch"], "schaal": ["Hoofdvraag niet of nauwelijks beantwoord", "Hoofdvraag gedeeltelijk beantwoord, deelvragen onvolledig", "Hoofd- en deelvragen grotendeels beantwoord", "Hoofd- en deelvragen volledig en diepgaand beantwoord"]}, {"id": "m4_analyse", "tekst": "Analytisch niveau en onderbouwing van het onderzoek", "type": "scale", "rubric": ["onderzoeken"], "schaal": ["Laag analytisch niveau, nauwelijks logische onderbouwing", "Beperkt analytisch, onderbouwing is mager", "Redelijk analytisch niveau, voldoende voor vwo 6", "Hoog analytisch niveau, logisch en grondig onderbouwd"]}, {"id": "m4_reflectie", "tekst": "Kwaliteit van de product- én procesevaluatie", "type": "scale", "rubric": ["reflecteren"], "schaal": ["Evaluatie ontbreekt of is erg oppervlakkig", "Evaluatie aanwezig maar weinig diepgang", "Goede evaluatie met concrete bevindingen", "Grondige, zelfkritische evaluatie van zowel product als proces"]}, {"id": "m4_notitie", "tekst": "Notities / algemene indruk definitief verslag", "type": "text", "rubric": []}]}, {"id": "presentatie", "datum": "ma 2 februari 2027", "fase": "Afsluiting", "titel": "Presentatieavond", "kleur": "#7c3aed", "beschrijving": "Beide leerlingen presenteren samen 15–20 minuten voor publiek. Beoordeling via de speciale presentatierubric op het tabblad 'Presentatie'. Daarna vragen — zie verdiepingsvragen per categorie.", "vragen": [{"id": "pr_notitie", "tekst": "Algemene notities / indruk presentatie (scores via het Presentatie-tabblad)", "type": "text", "rubric": []}]}];
+
+const RUBRIC = [{"id": "methodisch", "label": "Methodisch handelen", "weging": 0.12, "stellingen": [{"id": "structuur", "vraag": "Structuur van het werkstuk", "opties": ["Zeer overzichtelijk", "Duidelijk aanwezig", "In enige mate aanwezig", "Weinig tot geen structuur"]}, {"id": "deelvragen", "vraag": "Deelvragen", "opties": ["Uitstekend op elkaar afgestemd", "Sluiten goed op elkaar aan", "Min of meer logisch opgesteld", "Willekeurig / niet logisch"]}, {"id": "hoofdvraag", "vraag": "Beantwoording hoofdvraag", "opties": ["Volledig en diepgaand beantwoord", "Helder beantwoord", "Gedeeltelijk beantwoord", "Niet duidelijk beantwoord"]}, {"id": "stappen", "vraag": "Stappen in het onderzoek", "opties": ["Nauwkeurig en doordacht uitgevoerd", "Consistent en logisch uitgevoerd", "Niet geheel samenhangend", "Geen logische opbouw"]}]}, {"id": "informatie", "label": "Informatie verzamelen", "weging": 0.12, "stellingen": [{"id": "vragen_methoden", "vraag": "Informatievragen + zoekmethodieken + bronnenkritiek", "opties": ["Altijd relevant, kritisch op bronnen", "Meestal relevant, kritisch op bronnen", "Soms relevant, niet altijd kritisch", "Zelden relevant, onvoldoende kritisch"]}, {"id": "deskundigen", "vraag": "Deskundigen raadplegen", "opties": ["Juiste deskundigen geraadpleegd", "Meestal juiste deskundigen", "Soms de juiste deskundigen", "Nauwelijks deskundigen geraadpleegd"]}, {"id": "verbanden", "vraag": "Verbanden leggen tussen informatie", "opties": ["Altijd verbanden gelegd", "Vaak verbanden gelegd", "Af en toe verbanden gelegd", "Zelden verbanden gelegd"]}, {"id": "ontbrekend", "vraag": "Ontbrekende informatie signaleren", "opties": ["Altijd gesignaleerd", "Meestal gesignaleerd", "Soms gesignaleerd", "Nauwelijks gesignaleerd"]}, {"id": "aantekeningen", "vraag": "Aantekeningen bijhouden", "opties": ["Systematisch van alle gevonden info", "Doorgaans systematisch", "Soms aantekeningen gemaakt", "Zelden aantekeningen gemaakt"]}]}, {"id": "onderzoeken", "label": "Onderzoeken", "weging": 0.12, "stellingen": [{"id": "probleemstelling", "vraag": "Probleemstelling + hypothesen", "opties": ["Helder + hypothesen precies passend", "Duidelijk + hypothesen grotendeels passend", "Begrijpelijk + hypothesen deels passend", "Vaag + hypothesen niet goed passend"]}, {"id": "deelvragen_onderscheid", "vraag": "Deelvragen + hoofd- vs bijzaken", "opties": ["Uitstekend onderscheid gemaakt", "Enig onderscheid gemaakt", "Niet altijd duidelijk onderscheid", "Geen onderscheid gemaakt"]}, {"id": "invalshoeken", "vraag": "Invalshoeken + kennis en inzicht", "opties": ["Verschillende invalshoeken + diepgaande kennis", "Meerdere invalshoeken + voldoende kennis", "Enkele invalshoeken + basale kennis", "Één invalshoek + minimale kennis"]}, {"id": "onderbouwing", "vraag": "Analytische onderbouwing", "opties": ["Altijd logisch onderbouwd + analytisch", "Meestal logisch onderbouwd", "Redelijk analytisch, niet altijd logisch", "Niet altijd analytisch onderbouwd"]}, {"id": "eisen", "vraag": "Eisen eindresultaat bewaken", "opties": ["Altijd scherp in de gaten gehouden", "Gelet op de belangrijkste eisen", "Enkele eisen in de gaten gehouden", "Nauwelijks rekening gehouden met eisen"]}, {"id": "terminologie", "vraag": "Terminologie + begrippenkader", "opties": ["Consistent en eenduidig", "Overwegend consistent", "Deels consistent", "Inconsistent"]}, {"id": "niveau", "vraag": "Inhoudelijk niveau + meetonzekerheden", "opties": ["Passend niveau + volledig rekening gehouden", "Goed niveau + rekening met belangrijkste", "Redelijk niveau + beperkte aandacht", "Laag niveau + nauwelijks aandacht"]}]}, {"id": "samenwerken", "label": "Samenwerken", "weging": 0.08, "stellingen": [{"id": "comm_sw", "vraag": "Communicatie over taken en voortgang", "opties": ["Constant proactief en duidelijk", "Regelmatig en duidelijk", "Enige communicatie, niet consistent", "Weinig tot geen communicatie"]}, {"id": "afspraken", "vraag": "Afspraken nakomen", "opties": ["Altijd nagekomen", "Meestal nagekomen", "Soms nagekomen", "Vaak niet nagekomen"]}, {"id": "helpen", "vraag": "Bereidheid om te helpen en hulp te vragen", "opties": ["Voortdurend bereid", "Bereid", "Enige bereidheid", "Geen bereidheid"]}, {"id": "kwaliteiten", "vraag": "Kwaliteiten benutten + taakverdeling", "opties": ["Optimaal benut + evenwichtige verdeling", "Meestal benut + duidelijke verdeling", "Soms benut + basale verdeling", "Niet benut + geen duidelijke verdeling"]}, {"id": "feedback_sw", "vraag": "Kwaliteit van feedback aan elkaar", "opties": ["Altijd constructief en bruikbaar", "Meestal constructief en bruikbaar", "Wisselend van kwaliteit", "Niet gegeven of destructief"]}]}, {"id": "communiceren", "label": "Communiceren", "weging": 0.08, "stellingen": [{"id": "initiatief", "vraag": "Initiatief afspraken + mijlpalen aanhouden", "opties": ["Zelf elke keer initiatief + altijd mijlpalen", "Meestal initiatief + meestal mijlpalen", "Soms initiatief + soms mijlpalen", "Zelden of nooit initiatief"]}, {"id": "agenda", "vraag": "Agenda begeleidingsgesprekken", "opties": ["Zelf altijd verzorgd vooraf", "Meestal zelf verzorgd", "Soms zelf verzorgd", "Zelden of nooit zelf verzorgd"]}, {"id": "houding", "vraag": "Proactieve houding tijdens gesprekken", "opties": ["Altijd vragen gesteld én aantekeningen gemaakt", "Vaak vragen + aantekeningen", "Soms vragen of aantekeningen", "Geen actieve houding"]}, {"id": "feedbackverwerking", "vraag": "Feedback begeleider zichtbaar verwerkt", "opties": ["Altijd aantoonbaar verwerkt", "Meestal verwerkt", "Soms verwerkt", "Zelden of nooit verwerkt"]}]}, {"id": "schriftelijk", "label": "Schriftelijk verslag", "weging": 0.15, "stellingen": [{"id": "taal_jargon", "vraag": "Taalgebruik + vakjargon", "opties": ["Correct taalgebruik + juist vakjargon", "Correct + meestal juist vakjargon", "Overwegend correct + soms onjuist", "Veel fouten + incorrect vakjargon"]}, {"id": "expert_doelgroep", "vraag": "Verwerking expert + afstemming doelgroep", "opties": ["Perfecte afstemming", "Goed afgestemd", "Enigszins afgestemd", "Slecht afgestemd"]}, {"id": "structuur_sv", "vraag": "Structuur verslag", "opties": ["Logisch en samenhangend", "Grotendeels logisch en samenhangend", "Aanwezig maar mist soms samenhang", "Onduidelijk of afwezig"]}, {"id": "apa", "vraag": "APA-richtlijnen", "opties": ["Correct en consequent toegepast", "Meestal correct en consequent", "Niet geheel correct en consequent", "Nauwelijks en/of niet correct"]}]}, {"id": "reflecteren", "label": "Reflecteren", "weging": 0.08, "stellingen": [{"id": "reflectie", "vraag": "Reflectie op eigen handelen", "opties": ["Zelfstandig en effectief", "Zelfstandig", "Soms, met begeleiding nodig", "Zelden, veel begeleiding nodig"]}, {"id": "feedback_vragen", "vraag": "Feedback vragen vanuit verschillende invalshoeken", "opties": ["Grondig vanuit verschillende invalshoeken", "Af en toe vanuit verschillende invalshoeken", "Zelden vanuit verschillende invalshoeken", "Geen feedback gevraagd"]}, {"id": "feedback_toepassen", "vraag": "Feedback analyseren en toepassen", "opties": ["Grondig + aantoonbare verbetering", "Meestal goed + duidelijke verbetering", "Moeite + enigszins verbeterd", "Grote moeite + nauwelijks verbetering"]}]}, {"id": "presentatie", "label": "Presentatie", "weging": 0.25, "stellingen": [{"id": "verstaanbaarheid", "vraag": "Verstaanbaarheid en taalgebruik", "opties": ["Goed te volgen, correct taalgebruik", "Over het algemeen te volgen, kleine fouten", "Soms moeilijk te volgen, meerdere fouten", "Moeilijk te volgen, veel fouten"]}, {"id": "boodschap", "vraag": "Boodschap overbrengen", "opties": ["Helder en begrijpelijk", "Duidelijk, soms extra uitleg nodig", "Enigszins, vaak extra uitleg nodig", "Onduidelijk, leidt tot verwarring"]}, {"id": "expert_pres", "vraag": "Inbreng expert verduidelijkt", "opties": ["Heel goed verduidelijkt", "Over het algemeen duidelijk", "Enigszins duidelijk", "Niet duidelijk gemaakt"]}, {"id": "vragen_pres", "vraag": "Reageren op vragen", "opties": ["Adequaat", "Meestal adequaat, soms moeite", "Enigszins, vaak moeite", "Niet adequaat"]}, {"id": "publiek", "vraag": "Publiek betrekken", "opties": ["Interactief betrokken", "Af en toe betrokken", "Enkel bij begin en afsluiting", "Publiek niet betrokken"]}, {"id": "representatie", "vraag": "Representatie", "opties": ["Aandacht besteed", "Enige aandacht", "Weinig aandacht", "Geen aandacht"]}, {"id": "materialen", "vraag": "Materialen tijdig klaarzetten", "opties": ["Alle materialen tijdig", "Meeste tijdig, kleine tekortkomingen", "Sommige tijdig, meerdere tekortkomingen", "Geen materialen tijdig"]}, {"id": "invalshoek", "vraag": "Invalshoek presentatie", "opties": ["Originele invalshoek", "Standaard aanpak", "Weinig uitnodigend", "Niet uitnodigend"]}, {"id": "structuur_pres", "vraag": "Structuur presentatie", "opties": ["Logisch + meerwaarde voor publiek", "Over het algemeen logisch", "Enigszins logisch, mist samenhang", "Geen logische structuur"]}]}];
+const PRES_RUBRIC = [{"id": "time_management", "label": "Time Management", "weging": 10, "niveaus": {"2": "De presentatie is, gezien de gestelde tijd, duidelijk te kort of te lang.", "4": "De presentatie overschrijdt de tijd enigszins of is wat kort, maar niet storend.", "6": "De presentatie blijft binnen de gestelde tijd. De spreker hoeft de presentatie niet af te raffelen. De beschikbare tijd had beter verdeeld kunnen worden over de diverse onderdelen.", "7": "Tijd is goed verdeeld; de presentatie voelt afgerond aan.", "8": "De presentatie blijft binnen de gestelde tijd. De spreker raffelt niet. De beschikbare tijd is goed verdeeld over de diverse onderdelen.", "10": "Perfecte tijdsbeheersing. Er valt niets meer te verbeteren."}}, {"id": "structuur", "label": "Structureren", "weging": 10, "niveaus": {"2": "De opbouw is rommelig en/of past niet bij het inhoudelijke doel; het verhaal is moeilijk te volgen.", "4": "Er is enige structuur, maar de opbouw heeft duidelijke hiaten of onlogische sprongen.", "6": "De opbouw past bij het inhoudelijke doel, het verhaal is redelijk te volgen, maar de overgangen tussen denkstappen kunnen duidelijker.", "7": "De opbouw is helder en logisch; de overgangen zijn goed.", "8": "De opbouw is logisch en past bij het inhoudelijke doel. Het verhaal is goed te volgen. De overgangen zijn soepel.", "10": "Uitmuntende structuur. Er valt niets meer te verbeteren."}}, {"id": "materiaal", "label": "Ondersteunend materiaal", "weging": 15, "niveaus": {"2": "Niet afgestemd op de inhoud, onoverzichtelijk, ondersteunt het verhaal nauwelijks. Hoeveelheid materiaal is niet in balans met de duur.", "4": "Enigszins afgestemd op de inhoud, maar blijft oppervlakkig of is niet in balans met de duur.", "6": "Afgestemd op de inhoud, doorgaans overzichtelijk, ondersteunt het verhaal maar blijft over het algemeen op het niveau van illustratie. Hoeveelheid is redelijk in balans.", "7": "Goed afgestemd, overzichtelijk, versterkt het verhaal op meerdere punten.", "8": "Afgestemd op de inhoud, overzichtelijk, gaat voorbij het niveau van illustratie en versterkt het verhaal. Hoeveelheid is in balans met de duur.", "10": "Uitmuntend materiaalgebruik. Er valt niets meer te verbeteren."}}, {"id": "presenteren", "label": "Presenteren", "weging": 15, "niveaus": {"2": "Maakt weinig contact met het publiek, moeite om aandacht vast te houden, herstelt zich niet na fouten, stemt presentatiestijl niet af op publiek.", "4": "Maakt soms contact met het publiek, maar oogcontact en spreektempo zijn inconsistent.", "6": "Weet contact te maken met het publiek en aandacht vast te houden (oogcontact, lichaamstaal, spreektempo), herstelt zich na een fout, stemt stijl af op publiek.", "7": "Goed contact met publiek, zelfverzekerd en soepel in herstel bij fouten.", "8": "Op soepele wijze contact met publiek, aandacht goed vast; snel herstel na fout. Manier van presenteren afgestemd op publiek én situatie. Vakjargon correct ingezet zonder ten koste te gaan van begrijpelijkheid.", "10": "Uitmuntende presentatie. Er valt niets meer te verbeteren."}}, {"id": "inhoud", "label": "Inhoud", "weging": 25, "niveaus": {"2": "Relevantie niet helder, doel onduidelijk, onvoldoende begrip van bronnen zichtbaar. Uitspraken onvoldoende onderbouwd met argumenten en voorbeelden.", "4": "Doel is enigszins helder, maar begrip van bronnen en vaktermen is beperkt of oppervlakkig.", "6": "Relevantie helder, doel duidelijk, student toont in grote lijnen begrip van bronnen en vaktermen. Kan nog nauwkeuriger. Uitspraken kunnen beter onderbouwd.", "7": "Goed begrip van inhoud, heldere argumentatie, goede voorbeelden.", "8": "Relevantie helder, doel duidelijk, uitstekend begrip van bronnen en vaktermen op nauwkeurige wijze verwoord. Uitspraken onderbouwd met adequate argumenten en goedgekozen voorbeelden.", "10": "Uitmuntende inhoud. Er valt niets meer te verbeteren."}}, {"id": "niveau", "label": "Niveau", "weging": 15, "niveaus": {"2": "Onder vwo 6-niveau.", "4": "Net onder vwo 6-niveau; beperkte vakinhoudelijke diepgang.", "6": "Op vwo 6-niveau.", "7": "Solide vwo 6-niveau met momenten van hbo-diepgang.", "8": "Op hbo / universitair propedeuse-niveau.", "10": "Uitzonderlijk niveau. Er valt niets meer te verbeteren."}}, {"id": "vragen_beantwoorden", "label": "Vragen beantwoorden", "weging": 10, "niveaus": {"2": "Heeft moeite de vragen te beantwoorden en reageert nauwelijks op kritiek.", "4": "Beantwoordt enkelvoudige vragen, maar heeft moeite met doorvragen of kritiek.", "6": "Kan de meeste vragen beantwoorden, reageert op eventuele kritiek.", "7": "Beantwoordt vragen goed, reageert constructief op kritiek.", "8": "Heeft op de meeste vragen een overtuigend antwoord en maakt kritisch nuttig gebruik voor reflectie op de presentatie.", "10": "Uitmuntende beantwoording. Er valt niets meer te verbeteren."}}];
+const VERDIEPINGSVRAGEN = {"ONDERZOEKEN": {"subtitel": "probleemstelling – hypothesen – analyse – conclusies", "kleur": "#1e3a5f", "vragen": ["Hoe sluit de gekozen theorie aan bij jullie probleemstelling en hoofdvraag?", "Welke theoretische begrippen waren essentieel om deze probleemstelling te formuleren?", "Vanuit welke theoretische invalshoeken hebben jullie het probleem benaderd?", "Hoe zijn jullie hypothesen of verwachtingen gebaseerd op de theorie?", "In hoeverre passen deze hypothesen precies bij wat jullie wilden onderzoeken?", "Waaruit blijkt dat jullie onderscheid maken tussen hoofd- en bijzaken op basis van theorie?", "In hoeverre komen jullie conclusies logisch voort uit theorie én resultaten?", "Welke theoretische aannames liggen onder jullie conclusies?", "Waar ligt volgens jullie de grens van wat theoretisch onderbouwd kan worden?", "Welke conclusies zouden anders kunnen zijn bij gebruik van een ander theoretisch kader?"]}, "METHODISCH HANDELEN": {"subtitel": "opbouw – keuzes – consistentie – (meet)onzekerheden", "kleur": "#059669", "vragen": ["Hoe heeft de theorie invloed gehad op jullie methodische keuzes?", "Welke onderzoeksstappen zijn direct voortgekomen uit het theoretisch kader?", "Waar zie je terug dat theorie heeft gezorgd voor een logische onderzoeksopbouw?", "Welke beperkingen van de theorie hadden invloed op jullie aanpak?", "Hoe hebben jullie rekening gehouden met (meet)onzekerheden vanuit de theorie?", "Welke keuze in jullie methode was theoretisch gezien het meest bepalend?", "Wat zou er methodisch veranderen als deze theorie niet gebruikt werd?", "Waar blijkt dat de deelvragen goed op elkaar aansluiten vanuit theorie?"]}, "INFORMATIE VERZAMELEN": {"subtitel": "bronnen – relevantie – samenhang – kritisch denken", "kleur": "#d97706", "vragen": ["Hoe heeft de theorie bepaald welke informatie relevant was?", "Welke bronnen gebruikten jullie vooral voor theorie en welke voor toepassing?", "Hoe hebben jullie verbanden gelegd tussen verschillende theoretische bronnen?", "Hoe kritisch zijn jullie geweest bij het selecteren van theoriebronnen, en waarom?", "Waar merkten jullie dat theoretische informatie ontbrak?", "Hoe zijn jullie omgegaan met tegenstrijdige theoretische informatie?", "Hoe hebben jullie deskundigheid van bronnen beoordeeld vanuit theoretisch perspectief?"]}, "SCHRIFTELIJK VERSLAG": {"subtitel": "begrippenkader – vakjargon – samenhang", "kleur": "#7c3aed", "vragen": ["Welke kernbegrippen uit de theorie gebruiken jullie consequent?", "Hoe hebben jullie gezorgd voor een consistent begrippenkader?", "Waar was het lastig om vakjargon correct en doelgroepgericht toe te passen?", "Hoe draagt de theorie bij aan de samenhang van het verslag?", "Waar is in het verslag te zien dat theorie richtinggevend is geweest?"]}, "REFLECTEREN": {"subtitel": "inzicht – feedback – verbetering", "kleur": "#c0392b", "vragen": ["Wat hebben jullie tijdens het proces geleerd over het werken met theorie?", "Waar liep de toepassing van theorie niet zoals verwacht?", "Welke feedback hebben jullie gekregen op het theoretisch kader?", "Hoe hebben jullie die feedback gebruikt om het onderzoek te verbeteren?", "Wat zouden jullie theoretisch anders aanpakken bij een volgend onderzoek?"]}};
+
+// Mapping: rubric-id → welke logboekvragen zijn relevant
+const RUBRIC_LOGBOEK_MAP = {
+  methodisch:   ["ko_*","kf_*","g1_logboek","m1_logboek","m1_hoofdvraag","w37_logboek","w37_deelvragen","m2_structuur","m2_hoofdvraag","m2_deelvragen","m3_methoden","m3_tijdpad","m3_haalbaarheid","vg_logboek","vg_voortgang","m4_volledig","m4_structuur","m4_conclusie"],
+  informatie:   ["g1_deskundige","m1_deskundige","w37_bronnen","m2_bronnen","m2_deskundige","m3_deskundige","vg_inhoud","m4_deskundige","pr_expert"],
+  onderzoeken:  ["m1_hoofdvraag","w37_deelvragen","m2_hoofdvraag","m2_deelvragen","m3_methoden","vg_inhoud","m4_conclusie","m4_analyse"],
+  samenwerken:  ["ko_enthousiasme","g1_samenwerking","m1_samenwerking","w37_samenwerking","m3_taakverdeling","vg_samenwerking","pr_bijdrage"],
+  communiceren: ["kf_tijdig","kf_initiatief","g1_initiatief","g1_agenda","g1_vragen","g1_aantekeningen","m1_initiatief","m1_agenda","m1_feedback","w37_initiatief","w37_agenda","w37_vragen","w37_aantekeningen","m2_tijdig","m2_initiatief","m2_feedback","m3_tijdig","m3_initiatief","m3_agenda","m3_feedback","vg_initiatief","vg_agenda","vg_vragen","vg_feedback","m4_tijdig"],
+  schriftelijk: ["m2_structuur","m4_volledig","m4_structuur","m4_taal","m4_apa","m4_deskundige"],
+  reflecteren:  ["m1_feedback","m2_feedback","m3_feedback","vg_feedback","vg_reflectie","m4_reflectie"],
+  presentatie:  ["pr_verstaanbaar","pr_boodschap","pr_expert","pr_vragen","pr_publiek","pr_representatie","pr_materialen","pr_invalshoek","pr_structuur","pr_bijdrage","pr_duur"],
+};
+
+const NIVEAUS = ["","Laag","Gemiddeld","Hoog","Excellent"];
+const NIV_COLORS = ["","#c0392b","#e07b2a","#3a9e5e","#1a6b3c"];
+
+function critScore(critId, scores){
+  const c=RUBRIC.find(r=>r.id===critId); if(!c) return null;
+  const v=c.stellingen.map(s=>scores[s.id]).filter(x=>x!=null);
+  if(!v.length) return null;
+  return Math.round(((v.reduce((a,b)=>a+b,0)/v.length)-1)/3*60+10);
+}
+function eindcijfer(scores){
+  let g=0,w=0;
+  RUBRIC.forEach(c=>{const p=critScore(c.id,scores);if(p!=null){g+=p*c.weging;w+=c.weging;}});
+  if(!w) return null;
+  return Math.min(10,Math.max(1,((g-10)/60)*9+1)).toFixed(1);
+}
+function niveauLabel(p){
+  if(p>=65)return{label:"Excellent",color:"#1a6b3c"};
+  if(p>=55)return{label:"Hoog+",color:"#2d8a50"};
+  if(p>=45)return{label:"Hoog",color:"#3a9e5e"};
+  if(p>=38)return{label:"Gem.+",color:"#c07a1a"};
+  if(p>=28)return{label:"Gemiddeld",color:"#e07b2a"};
+  if(p>=18)return{label:"Laag+",color:"#c0392b"};
+  return{label:"Laag",color:"#922b21"};
+}
+function sColor(c){const n=parseFloat(c);return n>=7.5?"#1a6b3c":n>=5.5?"#e07b2a":"#c0392b";}
+
+// Logboek samenvatting per criterium
+function logboekSamenvattingVoorCriterium(critId, logboek){
+  const relevante = RUBRIC_LOGBOEK_MAP[critId] || [];
+  const resultaten = [];
+  MIJLPALEN.forEach(m=>{
+    m.vragen.forEach(v=>{
+      const isRelevant = relevante.some(r=>{
+        if(r.endsWith('*')) return v.id.startsWith(r.slice(0,-1));
+        return v.id === r;
+      });
+      if(!isRelevant || v.type==='text') return;
+      const val = (logboek[m.id]||{})[v.id];
+      if(val===undefined) return;
+      resultaten.push({mijlpaal:m.titel, datum:m.datum, vraag:v.tekst, antwoord:val});
+    });
+  });
+  return resultaten;
+}
+
+// Storage
+function load(){
+  try{ return JSON.parse(localStorage.getItem('pws_duos_v2')||'[]'); }catch(e){ return []; }
+}
+function save(d){localStorage.setItem('pws_duos_v2',JSON.stringify(d))}
+function exportData(){
+  const blob=new Blob([JSON.stringify({versie:'2.0',exportDatum:new Date().toLocaleDateString('nl-NL'),duos:state.duos},null,2)],{type:'application/json'});
+  const u=URL.createObjectURL(blob),a=document.createElement('a');
+  a.href=u;a.download=`pws-alle-duos-${new Date().toISOString().slice(0,10)}.json`;a.click();URL.revokeObjectURL(u);
+}
+function exportDuo(duo){
+  const slug=duo.naam.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+  const blob=new Blob([JSON.stringify({versie:'2.0',exportDatum:new Date().toLocaleDateString('nl-NL'),duos:[duo]},null,2)],{type:'application/json'});
+  const u=URL.createObjectURL(blob),a=document.createElement('a');
+  a.href=u;a.download=`pws-${slug}-${new Date().toISOString().slice(0,10)}.json`;a.click();URL.revokeObjectURL(u);
+}
+function importData(){
+  const i=document.createElement('input');i.type='file';i.accept='.json';
+  i.onchange=e=>{
+    const f=e.target.files[0];if(!f)return;
+    const r=new FileReader();
+    r.onload=ev=>{
+      try{
+        const p=JSON.parse(ev.target.result);
+        const nd=p.duos||[];
+        if(!Array.isArray(nd)||!nd.length)throw new Error('Geen duo-data gevonden in dit bestand.');
+        const bestaand=new Set(state.duos.map(d=>d.id));
+        const nieuw=nd.filter(d=>!bestaand.has(d.id));
+        const over=nd.filter(d=>bestaand.has(d.id));
+        state.duos=[...state.duos.filter(d=>!over.find(n=>n.id===d.id)),...nd];
+        save(state.duos);
+        state._importMsg=(nieuw.length?nieuw.length+' nieuw duo'+(nieuw.length>1?'s':'')+' toegevoegd':'')+(nieuw.length&&over.length?' · ':'')+(over.length?over.length+' bestaand duo'+(over.length>1?'s':'')+' bijgewerkt':'');
+        render();
+      }catch(err){
+        state._importMsg='❌ Kan bestand niet inlezen: '+err.message;
+        render();
+      }
+    };r.readAsText(f);
+  };i.click();
+}
+
+// State
+let state={duos:load(),view:'list',activeDuoId:null,activeTab:'logboek',openItem:null,zoek:'',gesteldVragen:{}};
+function setState(p){Object.assign(state,p);render();}
+function getActive(){return state.duos.find(d=>d.id===state.activeDuoId)||null;}
+function updateDuo(id,patch){
+  state.duos=state.duos.map(d=>d.id===id?{...d,...patch}:d);
+  save(state.duos);render();
+}
+function updateDuoSilent(id,patch){
+  state.duos=state.duos.map(d=>d.id===id?{...d,...patch}:d);
+  save(state.duos);
+}
+
+// DOM helper
+function el(tag,attrs,...children){
+  const e=document.createElement(tag);
+  Object.entries(attrs||{}).forEach(([k,v])=>{
+    if(k==='className')e.className=v;
+    else if(k==='style'&&typeof v==='object')Object.assign(e.style,v);
+    else if(k.startsWith('on'))e.addEventListener(k.slice(2).toLowerCase(),v);
+    else if(k==='innerHTML')e.innerHTML=v;
+    else e.setAttribute(k,v);
+  });
+  children.flat().forEach(c=>{if(c==null)return;e.appendChild(typeof c==='string'?document.createTextNode(c):c);});
+  return e;
+}
+function txt(s){return document.createTextNode(s);}
+
+// ══ TOPBAR ══
+function renderTopbar(){
+  const duo=state.view==='detail'?getActive():null;
+  const right=el('div',{className:'topbar-right'});
+  if(state.view==='list'){
+    right.appendChild(el('button',{
+      className:'btn btn-ghost btn-sm',
+      title:'Laad een eerder opgeslagen bestand',
+      onClick:importData
+    },'📂 Laden'));
+    if(state.duos.length) right.appendChild(el('button',{
+      className:'btn btn-ghost btn-sm',
+      title:'Exporteer alle beoordelingen als back-up bestand. Laad het volgende sessie via Laden.',
+      onClick:exportData
+    },'💾 Opslaan'));
+    right.appendChild(el('button',{className:'btn btn-white btn-sm',onClick:()=>setState({showModal:true})},'+ Duo toevoegen'));
+  }
+  if(state.view==='detail'&&state.activeTab==='eindscore'){
+    right.appendChild(el('button',{className:'btn btn-ghost btn-sm no-print',onClick:()=>generatePrintWindow(getActive())},'🖨️ Afdrukken'));
+  }
+  return el('div',{className:'topbar'},
+    el('div',{className:'topbar-logo'},el('img',{src:`data:image/png;base64,${LOGO_B64}`,alt:'Sophianum',style:{height:'40px'}})),
+    el('div',{className:'topbar-text'},
+      el('div',{className:'topbar-title'},'PWS Beoordelingstool'),
+      el('div',{className:'topbar-school'},'Sophianum – De Scholengemeenschap van het Heuvelland'),
+      el('div',{className:'topbar-sub'},'VWO · Schooljaar 2026–2027'+(duo?` · ${duo.naam}`:''))
+    ),
+    right
+  );
+}
+
+// ══ LIST VIEW ══
+function renderList(){
+  const filtered=state.duos.filter(d=>d.naam.toLowerCase().includes(state.zoek.toLowerCase())||(d.titel||'').toLowerCase().includes(state.zoek.toLowerCase()));
+  const grid=el('div',{});
+  if(!state.duos.length){
+    grid.appendChild(el('div',{className:'empty'},
+      el('div',{className:'icon'},'📋'),
+      el('div',{style:{fontSize:'16px',fontWeight:'700',marginBottom:'4px'}},'Nog geen duo\'s'),
+      el('div',{style:{fontSize:'13px'}},'Klik op "+ Duo toevoegen" om te starten')
+    ));
+  } else {
+    filtered.forEach(duo=>{
+      const scores=duo.scores||{};
+      const logboek=duo.logboek||{};
+      const cijfer=eindcijfer(scores);
+      const scColor=cijfer?sColor(cijfer):'#94a3b8';
+      // Logboek voortgang
+      let totVragen=0,totJa=0;
+      MIJLPALEN.forEach(m=>m.vragen.forEach(v=>{
+        if(v.type==='text')return;
+        totVragen++;
+        const _v=(logboek[m.id]||{})[v.id];
+        if(_v===true||(typeof _v==='number'&&_v>=3))totJa++;
+      }));
+      const logPct=totVragen?Math.round(totJa/totVragen*100):0;
+      const critIngevuld=RUBRIC.filter(c=>critScore(c.id,scores)!=null).length;
+      const card=el('div',{className:'card',onClick:()=>setState({view:'detail',activeDuoId:duo.id,activeTab:'logboek',openItem:MIJLPALEN[0].id})},
+        el('div',{style:{display:'flex',alignItems:'flex-start',gap:'12px'}},
+          el('div',{style:{flex:'1',minWidth:'0'}},
+            el('div',{className:'card-title'},duo.naam),
+            el('div',{className:'card-meta'},(duo.vak?el('strong',{},duo.vak+' · '):null),el('em',{},duo.titel||'')),
+            el('div',{style:{marginTop:'10px',display:'flex',gap:'16px',fontSize:'12px',color:'#64748b'}},
+              el('span',{},'📋 Logboek: ',el('strong',{},`${logPct}%`)),
+              el('span',{},'📊 Beoordeling: ',el('strong',{},`${critIngevuld}/${RUBRIC.length} criteria`))
+            ),
+            el('div',{className:'progress-bar',style:{marginTop:'8px'}},el('div',{className:'progress-fill',style:{width:logPct+'%'}}))
+          ),
+          el('div',{style:{textAlign:'right',flexShrink:'0',display:'flex',flexDirection:'column',alignItems:'flex-end',gap:'8px'}},
+            cijfer
+              ?[el('div',{className:'detail-cijfer',style:{fontSize:'30px',color:scColor}},cijfer),el('div',{style:{fontSize:'11px',color:'#94a3b8'}},'cijfer')]
+              :el('div',{style:{fontSize:'12px',color:'#cbd5e1'}},'lopend'),
+            state._confirmDelete===duo.id
+              ? el('div',{style:{display:'flex',flexDirection:'column',gap:'4px',alignItems:'flex-end'}},
+                  el('span',{style:{fontSize:'11px',color:'#991b1b',fontWeight:'700'}},'Verwijderen?'),
+                  el('div',{style:{display:'flex',gap:'4px'}},
+                    el('button',{className:'btn btn-danger btn-sm',style:{fontSize:'11px',padding:'4px 8px'},onClick:e=>{e.stopPropagation();state.duos=state.duos.filter(d=>d.id!==duo.id);save(state.duos);setState({_confirmDelete:null});}},`Ja`),
+                    el('button',{className:'btn btn-outline btn-sm',style:{fontSize:'11px',padding:'4px 8px'},onClick:e=>{e.stopPropagation();setState({_confirmDelete:null});}},`Nee`)
+                  )
+                )
+              : el('button',{className:'delete-btn',onClick:e=>{e.stopPropagation();setState({_confirmDelete:duo.id});}},`🗑`)
+          )
+        )
+      );
+      grid.appendChild(card);
+    });
+  }
+  const importBanner=state._importMsg?el('div',{style:{background:state._importMsg.startsWith('❌')?'#fee2e2':'#dcfce7',border:'1.5px solid '+(state._importMsg.startsWith('❌')?'#fca5a5':'#86efac'),borderRadius:'8px',padding:'10px 14px',fontSize:'13px',color:state._importMsg.startsWith('❌')?'#991b1b':'#166534',display:'flex',alignItems:'center',gap:'8px',marginBottom:'12px'}},
+    el('span',{},state._importMsg.startsWith('❌')?'❌ ':('✅ ')),
+    el('span',{},state._importMsg.startsWith('❌')?state._importMsg.slice(2):state._importMsg),
+    el('button',{style:{marginLeft:'auto',background:'none',border:'none',cursor:'pointer',fontSize:'15px',color:'#64748b'},onClick:()=>setState({_importMsg:null})},'×')
+  ):null;
+  return el('div',{className:'main'},
+    importBanner,
+    el('input',{className:'search-input',placeholder:'Zoek op naam of titel...',value:state.zoek,onInput:e=>setState({zoek:e.target.value}),style:{marginBottom:'14px'}}),
+    grid
+  );
+}
+
+// ══ LOGBOEK TAB ══
+function renderLogboek(duo){
+  const logboek=duo.logboek||{};
+  const wrap=el('div',{});
+  let huidige_fase='';
+
+  MIJLPALEN.forEach(m=>{
+    // Presentatieavond wordt apart beoordeeld via het Presentatie-tabblad
+    if(m.id==='presentatie') return;
+    if(m.fase!==huidige_fase){
+      huidige_fase=m.fase;
+      wrap.appendChild(el('div',{className:'fase-label'},m.fase));
+    }
+    // Voortgang deze mijlpaal
+    const boolVragen=m.vragen.filter(v=>v.type!=='text');
+    const ingevuld=boolVragen.filter(v=>(logboek[m.id]||{})[v.id]!==undefined).length;
+    const ja=boolVragen.filter(v=>(logboek[m.id]||{})[v.id]===true||(typeof (logboek[m.id]||{})[v.id]==='number'&&(logboek[m.id]||{})[v.id]>=3)).length;
+    const compleet=ingevuld===boolVragen.length;
+
+    const isOpen=state.openItem===m.id;
+    const block=el('div',{className:'mijlpaal-block'+(isOpen?' open':''),style:{'--mc':m.kleur}});
+
+    const pct=boolVragen.length?Math.round(ingevuld/boolVragen.length*100):0;
+    const header=el('div',{className:'mijlpaal-header',onClick:()=>setState({openItem:isOpen?null:m.id})},
+      el('div',{className:'mijlpaal-dot'}),
+      el('div',{style:{flex:'1'}},
+        el('div',{className:'mijlpaal-name'},m.titel),
+        el('div',{className:'mijlpaal-datum'},m.datum)
+      ),
+      compleet?el('span',{className:'mijlpaal-check'},'✅'):el('span',{className:'mijlpaal-progress'},`${ingevuld}/${boolVragen.length}`),
+      el('span',{style:{color:'#94a3b8',fontSize:'13px',marginLeft:'8px'}},isOpen?'▲':'▼')
+    );
+    block.appendChild(header);
+
+    const body=el('div',{className:'mijlpaal-body'});
+    body.appendChild(el('div',{className:'mijlpaal-desc'},m.beschrijving));
+
+    m.vragen.forEach(v=>{
+      const cur=(logboek[m.id]||{})[v.id];
+      const vblock=el('div',{className:'vraag-block'});
+
+      // Rubric tags
+      if(v.rubric&&v.rubric.length){
+        const tags=el('div',{className:'rubric-tags'});
+        v.rubric.forEach(r=>{
+          const label=RUBRIC.find(c=>c.id===r)?.label||r;
+          tags.appendChild(el('span',{className:'rubric-tag'},label));
+        });
+        vblock.appendChild(tags);
+      }
+
+      vblock.appendChild(el('div',{className:'vraag-tekst'},v.tekst));
+
+      if(v.type==='bool'){
+        const row=el('div',{className:'bool-row'});
+        ['ja','nee'].forEach(opt=>{
+          const isSelected=(opt==='ja'&&cur===true)||(opt==='nee'&&cur===false);
+          const btn=el('button',{
+            className:`bool-btn ${opt}${isSelected?' selected':''}`,
+            onClick:()=>{
+              const val=opt==='ja'?true:false;
+              const newVal=cur===val?undefined:val;
+              const newLb={...logboek,[m.id]:{...(logboek[m.id]||{}),[v.id]:newVal}};
+              if(newVal===undefined)delete newLb[m.id][v.id];
+              updateDuo(duo.id,{logboek:newLb});
+            }
+          },opt==='ja'?'✓ Ja':'✗ Nee');
+          row.appendChild(btn);
+        });
+        vblock.appendChild(row);
+      } else if(v.type==='scale'){
+        const optsDiv=el('div',{className:'scale-opties'});
+        // Score 4=Uitstekend (groen), 3=Goed, 2=Matig, 1=Onvoldoende (rood)
+        // schaal[0]=omschrijving score 1, schaal[3]=omschrijving score 4
+        // Tonen van hoog naar laag: 4,3,2,1
+        const sLabels={4:'Uitstekend',3:'Goed',2:'Matig',1:'Onvoldoende'};
+        [4,3,2,1].forEach(score=>{
+          const desc=v.schaal[score-1]; // schaal[0]=score1, schaal[3]=score4
+          const isSelected=cur===score;
+          const btn=el('button',{
+            className:`scale-btn s${score}${isSelected?' selected':''}`,
+            onClick:()=>{
+              const newVal=cur===score?undefined:score;
+              const newLb={...logboek,[m.id]:{...(logboek[m.id]||{}),[v.id]:newVal}};
+              if(newVal===undefined)delete newLb[m.id][v.id];
+              updateDuo(duo.id,{logboek:newLb});
+            }
+          },
+            el('span',{className:'scale-nr'},String(score)),
+            el('span',{},`${sLabels[score]}: ${desc}`)
+          );
+          optsDiv.appendChild(btn);
+        });
+        vblock.appendChild(optsDiv);
+      } else {
+        const ta=el('textarea',{className:'text-input',placeholder:'Notities...'});
+        ta.value=cur||'';
+        ta.addEventListener('input',e=>{
+          const d=getActive();if(!d)return;
+          const nb={...(d.logboek||{}),[m.id]:{...((d.logboek||{})[m.id]||{}),[v.id]:e.target.value}};
+          updateDuoSilent(d.id,{logboek:nb});
+        });
+        vblock.appendChild(ta);
+      }
+      body.appendChild(vblock);
+    });
+
+    // Ja-ratio samenvatting
+    if(ingevuld>0){
+      const ratio=Math.round(ingevuld/boolVragen.length*100);
+      const positief=boolVragen.filter(v=>{const val=(logboek[m.id]||{})[v.id];return val===true||(typeof val==='number'&&val>=3);}).length;
+      const clr=ratio>=80?'#1a6b3c':ratio>=60?'#e07b2a':'#c0392b';
+      body.appendChild(el('div',{style:{marginTop:'12px',padding:'9px 13px',background:clr+'12',borderRadius:'8px',border:`1px solid ${clr}30`,fontSize:'12px',display:'flex',justifyContent:'space-between'}},
+        el('span',{style:{color:'#64748b'}},`${ingevuld}/${boolVragen.length} vragen ingevuld`),
+        el('span',{style:{color:clr,fontWeight:'800'}},`${positief} van ${boolVragen.length} positief (${Math.round(positief/boolVragen.length*100)}%)`)
+      ));
+    }
+
+    block.appendChild(body);
+    wrap.appendChild(block);
+  });
+  return wrap;
+}
+
+// ══ BEOORDELING TAB ══
+function renderBeoordeling(duo){
+  const scores=duo.scores||{};
+  const opmerkingen=duo.opmerkingen||{};
+  const logboek=duo.logboek||{};
+  const wrap=el('div',{});
+
+  RUBRIC.forEach(crit=>{
+    const punten=critScore(crit.id,scores);
+    const ingevuld=crit.stellingen.filter(s=>scores[s.id]!=null).length;
+    const niv=punten?niveauLabel(punten):null;
+    const isOpen=state.openItem===('crit_'+crit.id);
+
+    // Logboek hints voor dit criterium
+    const hints=logboekSamenvattingVoorCriterium(crit.id,logboek);
+    const positief=hints.filter(h=>h.antwoord===true).length;
+    const negatief=hints.filter(h=>h.antwoord===false).length;
+
+    const block=el('div',{className:'crit-block'+(isOpen?' open':'')});
+    const header=el('div',{className:'crit-header',onClick:()=>setState({openItem:isOpen?null:('crit_'+crit.id)})},
+      el('span',{className:'crit-label'},crit.label),
+      el('span',{className:'crit-weging'},`${Math.round(crit.weging*100)}%`),
+      el('div',{className:'crit-header-right'},
+        hints.length?el('span',{style:{fontSize:'12px',color:'#94a3b8'}},`📋 ${positief}✓ ${negatief}✗`):null,
+        el('span',{style:{fontSize:'12px',color:'#94a3b8'}},`${ingevuld}/${crit.stellingen.length}`),
+        punten?el('span',{className:'crit-pill',style:{background:niv.color+'18',color:niv.color,border:`1px solid ${niv.color}40`}},`${niv.label} · ${punten}p`):null,
+        el('span',{className:'crit-arrow',style:{color:'#94a3b8',fontSize:'13px'}},isOpen?'▲':'▼')
+      )
+    );
+    block.appendChild(header);
+
+    const body=el('div',{className:'crit-body'});
+
+    // Logboek geheugensteun
+    if(hints.length){
+      const hintDiv=el('div',{className:'logboek-hint'});
+      hintDiv.appendChild(el('strong',{},'📋 Wat je eerder hebt geregistreerd'));
+      hints.slice(0,6).forEach(h=>{
+        const icon=h.antwoord===true?'✓':h.antwoord===false?'✗':'—';
+        const clr=h.antwoord===true?'#15803d':h.antwoord===false?'#b91c1c':'#64748b';
+        hintDiv.appendChild(el('div',{style:{marginTop:'4px',color:clr}},`${icon} [${h.datum.split(' ').slice(-2).join(' ')}] ${h.vraag}`));
+      });
+      if(hints.length>6)hintDiv.appendChild(el('div',{style:{color:'#94a3b8',marginTop:'4px',fontSize:'11px'}},`+${hints.length-6} meer geregistreerd`));
+      body.appendChild(hintDiv);
+    }
+
+    crit.stellingen.forEach((stelling,si)=>{
+      const huidig=scores[stelling.id];
+      const sdiv=el('div',{className:'stelling'+(si===0?' stelling-first':'')});
+      sdiv.appendChild(el('div',{className:'stelling-vraag'},stelling.vraag));
+      const opties=el('div',{className:'opties'});
+      [4,3,2,1].forEach((score,idx)=>{
+        const btn=el('button',{
+          className:`optie-btn n${score}`+(huidig===score?' selected':''),
+          onClick:()=>{
+            const ns={...scores,[stelling.id]:huidig===score?undefined:score};
+            if(huidig===score)delete ns[stelling.id];
+            updateDuo(duo.id,{scores:ns});
+          }
+        },el('span',{className:'niv'},NIVEAUS[score]),stelling.opties[idx]);
+        opties.appendChild(btn);
+      });
+      sdiv.appendChild(opties);
+      body.appendChild(sdiv);
+    });
+
+    if(punten){
+      body.appendChild(el('div',{className:'crit-summary',style:{background:niv.color+'10',border:`1px solid ${niv.color}30`}},
+        el('span',{style:{color:'#64748b'}},`Gemiddelde van ${ingevuld} stelling${ingevuld!==1?'en':''}`),
+        el('span',{style:{fontWeight:'800',color:niv.color}},`${niv.label} · ${punten}p · bijdrage: ${(punten*crit.weging).toFixed(1)}p`)
+      ));
+    }
+
+    const opLabel=el('div',{className:'opmerking-label'},`Opmerkingen – ${crit.label}`);
+    const opInput=el('textarea',{className:'opmerking-input',placeholder:`Notities over ${crit.label.toLowerCase()}...`});
+    opInput.value=opmerkingen[crit.id]||'';
+    opInput.addEventListener('input',e=>{
+      const d=getActive();if(!d)return;
+      const no={...(d.opmerkingen||{}),[crit.id]:e.target.value};
+      updateDuoSilent(d.id,{opmerkingen:no});
+    });
+    body.appendChild(opLabel);
+    body.appendChild(opInput);
+    block.appendChild(body);
+    wrap.appendChild(block);
+  });
+  return wrap;
+}
+
+// ══ EINDSCORE TAB ══
+function renderEindscore(duo){
+  const scores=duo.scores||{};
+  const opmerkingen=duo.opmerkingen||{};
+  const cijfer=eindcijfer(scores);
+  const compleet=RUBRIC.every(c=>critScore(c.id,scores)!=null);
+  const scClr=cijfer?sColor(cijfer):'#94a3b8';
+
+  const box=el('div',{className:'eindscore-box'+(compleet?' compleet':'')},
+    compleet
+      ?[el('div',{style:{fontSize:'13px',color:'#64748b',marginBottom:'4px'}},'Eindcijfer PWS'),
+        el('div',{className:'eindscore-getal',style:{color:scClr}},cijfer),
+        el('div',{style:{fontSize:'12px',color:'#94a3b8',marginTop:'4px'}},'op schaal 1–10')]
+      :el('div',{style:{color:'#94a3b8',fontSize:'14px'}},`${RUBRIC.filter(c=>critScore(c.id,scores)!=null).length} van ${RUBRIC.length} criteria ingevuld`)
+  );
+
+  const printBtn=el('button',{className:'btn btn-primary no-print',style:{marginBottom:'18px'},onClick:()=>generatePrintWindow(getActive())},'🖨️  Afdrukken / Opslaan als PDF');
+
+  const tbl=el('table',{className:'score-table'},
+    el('thead',{},el('tr',{},
+      el('th',{},'Criterium'),el('th',{},'Niveau'),el('th',{},'Punten'),el('th',{},'Weging'),el('th',{},'Bijdrage')
+    ))
+  );
+  const tbody=el('tbody',{});
+  RUBRIC.forEach(c=>{
+    const p=critScore(c.id,scores);
+    const niv=p?niveauLabel(p):null;
+    const inv=c.stellingen.filter(s=>scores[s.id]!=null).length;
+    tbody.appendChild(el('tr',{},
+      el('td',{},el('strong',{},c.label),` (${inv}/${c.stellingen.length})`),
+      el('td',{},p?el('span',{style:{color:niv.color,fontWeight:'700'}},niv.label):'—'),
+      el('td',{},p?String(p):'—'),
+      el('td',{},`${Math.round(c.weging*100)}%`),
+      el('td',{},p?(p*c.weging).toFixed(1):'—')
+    ));
+    if(opmerkingen[c.id])tbody.appendChild(el('tr',{},el('td',{colspan:'5',style:{fontStyle:'italic',color:'#64748b',fontSize:'12px',paddingTop:'2px',paddingBottom:'8px'}},`↳ ${opmerkingen[c.id]}`)));
+  });
+  // Presentatie aparte rij
+  const presScores=(duo.presScores||{});
+  let presTot=0,presW=0;
+  PRES_RUBRIC.forEach(c=>{const s=presScores[c.id];if(s!=null){presTot+=s*(c.weging/100);presW+=c.weging/100;}});
+  const presGem2=presW>0?(presTot/presW).toFixed(1):null;
+  if(presGem2){
+    tbody.appendChild(el('tr',{style:{background:'#faf5ff'}},
+      el('td',{colspan:'3',style:{fontSize:'12px',color:'#7c3aed'}},el('em',{},'Presentatiescore (apart beoordeeld via Presentatie-tab)')),
+      el('td',{style:{textAlign:'center',fontSize:'12px',color:'#7c3aed'}},'25%'),
+      el('td',{style:{color:'#7c3aed',fontWeight:'700',textAlign:'right'}},`${presGem2}/10`)
+    ));
+  }
+  tbody.appendChild(el('tr',{className:'totaal'},el('td',{colspan:'4'},'Eindcijfer (verslag + proces)'),el('td',{style:{color:scClr,fontSize:'17px'}},cijfer||'—')));
+  tbl.appendChild(tbody);
+
+  // Handtekeningen
+  const ht=el('div',{className:'handtekening-blok'},
+    el('hr',{style:{margin:'28px 0 18px',border:'none',borderTop:'1px solid #ccc'}}),
+    el('div',{style:{fontWeight:'700',marginBottom:'22px'}},'Handtekeningen'),
+    el('div',{style:{display:'flex',gap:'50px',flexWrap:'wrap'}},
+      ...['Leerling 1','Leerling 2','Begeleider'].map(l=>el('div',{style:{flex:'1',minWidth:'140px'}},
+        el('div',{style:{borderBottom:'1px solid #333',height:'48px',marginBottom:'6px'}}),
+        el('div',{style:{fontSize:'12px',color:'#555'}},l)
+      ))
+    )
+  );
+
+  return el('div',{},box,printBtn,tbl,ht);
+}
+
+// ══ DETAIL VIEW ══
+function renderDetail(){
+  const duo=getActive();
+  if(!duo){setState({view:'list'});return el('div',{});}
+  const scores=duo.scores||{};
+  const cijfer=eindcijfer(scores);
+  const scClr=cijfer?sColor(cijfer):'#94a3b8';
+
+  // Print header
+  const ph=el('div',{className:'print-header'},
+    el('div',{style:{display:'flex',alignItems:'center',gap:'14px',marginBottom:'6px'}},
+      el('img',{src:`data:image/png;base64,${LOGO_B64}`,style:{height:'42px'}}),
+      el('div',{},
+        el('div',{style:{fontSize:'16pt',fontWeight:'900',color:'#1e3a5f'}},'Beoordelingsformulier Profielwerkstuk'),
+        el('div',{style:{fontSize:'10pt',color:'#555'}},'Sophianum – De Scholengemeenschap van het Heuvelland')
+      )
+    ),
+    el('div',{style:{borderTop:'2px solid #1e3a5f',paddingTop:'10px',marginTop:'8px',display:'flex',gap:'40px',flexWrap:'wrap',fontSize:'10pt'}},
+      el('div',{},el('strong',{style:{display:'block',fontSize:'9pt',color:'#777'}},'Leerlingen'),duo.naam),
+      el('div',{},el('strong',{style:{display:'block',fontSize:'9pt',color:'#777'}},'Vak'),duo.vak||'—'),
+      el('div',{},el('strong',{style:{display:'block',fontSize:'9pt',color:'#777'}},'Titel'),duo.titel||'—'),
+      el('div',{},el('strong',{style:{display:'block',fontSize:'9pt',color:'#777'}},'Datum'),new Date().toLocaleDateString('nl-NL'))
+    )
+  );
+
+  const header=el('div',{className:'detail-header'},
+    el('button',{className:'back-btn no-print',onClick:()=>setState({view:'list'})},'←'),
+    el('div',{style:{flex:'1'}},
+      el('div',{className:'detail-title'},duo.naam),
+      el('div',{className:'detail-meta'},(duo.vak||'')+(duo.vak&&duo.titel?' · ':'')+(duo.titel||''))
+    ),
+    el('div',{className:'no-print',style:{textAlign:'right',flexShrink:'0',display:'flex',flexDirection:'column',alignItems:'flex-end',gap:'6px'}},
+      cijfer?[el('div',{className:'detail-cijfer',style:{color:scClr}},cijfer),el('div',{style:{fontSize:'11px',color:'#94a3b8'}},'cijfer')]:null,
+      el('button',{className:'btn btn-outline btn-sm',onClick:e=>{e.stopPropagation();exportDuo(duo);}},`💾 Opslaan`),
+      state._confirmDelete===duo.id
+        ? el('div',{style:{display:'flex',gap:'6px',alignItems:'center'}},
+            el('span',{style:{fontSize:'12px',color:'#991b1b',fontWeight:'700'}},'Weet je het zeker?'),
+            el('button',{className:'btn btn-danger btn-sm',onClick:e=>{e.stopPropagation();state.duos=state.duos.filter(d=>d.id!==duo.id);save(state.duos);setState({view:'list',_confirmDelete:null});}},`Ja, verwijderen`),
+            el('button',{className:'btn btn-outline btn-sm',onClick:e=>{e.stopPropagation();setState({_confirmDelete:null});}},`Annuleren`)
+          )
+        : el('button',{className:'delete-btn',onClick:e=>{e.stopPropagation();setState({_confirmDelete:duo.id});}},`🗑 Verwijderen`)
+    )
+  );
+
+  const tabs=el('div',{className:'tabs no-print'});
+  [['logboek','📋 Logboek'],['beoordeling','📊 Beoordeling'],['verdieping','💡 Verdiepingsvragen'],['eindscore','🎯 Eindscore & Print']].forEach(([id,label])=>{
+    tabs.appendChild(el('button',{className:'tab-btn'+(state.activeTab===id?' active':''),onClick:()=>setState({activeTab:id,openItem:id==='logboek'?MIJLPALEN[0].id:id==='beoordeling'?'crit_methodisch':id==='verdieping'?'vd_ONDERZOEKEN':null})},label));
+  });
+
+  let content;
+  if(state.activeTab==='logboek') content=renderLogboek(duo);
+  else if(state.activeTab==='beoordeling') content=renderBeoordeling(duo);
+  else if(state.activeTab==='verdieping') content=renderVerdiepingTab();
+  else content=renderEindscore(duo);
+
+  return el('div',{className:'main'},ph,header,tabs,content);
+}
+
+// ══ MODAL ══
+function renderModal(){
+  let naam='',vak='Economie',titel='';
+  const modal=el('div',{className:'modal-overlay',onClick:e=>{if(e.target===modal)setState({showModal:false});}},
+    el('div',{className:'modal'},
+      el('h2',{},'Nieuw PWS duo toevoegen'),
+      el('label',{className:'field-label'},'Namen leerlingen *'),
+      (()=>{const i=el('input',{className:'field-input',placeholder:'Bijv. Jan Janssen & Lisa de Vries'});i.addEventListener('input',e=>naam=e.target.value);return i;})(),
+      el('label',{className:'field-label'},'Vak'),
+      (()=>{const i=el('input',{className:'field-input',value:'Economie'});i.addEventListener('input',e=>vak=e.target.value);vak='Economie';return i;})(),
+      el('label',{className:'field-label'},'Titel PWS (optioneel)'),
+      (()=>{const i=el('input',{className:'field-input',placeholder:'Bijv. Het effect van...'});i.addEventListener('input',e=>titel=e.target.value);return i;})(),
+      el('div',{className:'modal-actions'},
+        el('button',{className:'btn-outline',onClick:()=>setState({showModal:false})},'Annuleren'),
+        el('button',{className:'btn btn-primary',onClick:()=>{
+          if(!naam.trim())return;
+          const d={id:Date.now().toString(),naam:naam.trim(),vak,titel,scores:{},opmerkingen:{},logboek:{}};
+          state.duos=[...state.duos,d];save(state.duos);
+          setState({showModal:false,view:'detail',activeDuoId:d.id,activeTab:'logboek',openItem:MIJLPALEN[0].id});
+        }},'Toevoegen')
+      )
+    )
+  );
+  return modal;
+}
+
+
+// ══ PRESENTATIE TAB ══
+function renderPresentatieTab(duo){
+  const presScores=duo.presScores||{};
+  const presOpm=duo.presOpmerkingen||{};
+
+  // Totaalscore berekenen (gewogen gemiddeld op 10)
+  let totaal=0,wegTot=0;
+  PRES_RUBRIC.forEach(c=>{
+    const s=presScores[c.id];
+    if(s!=null){totaal+=s*(c.weging/100);wegTot+=c.weging/100;}
+  });
+  const presGem=wegTot>0?(totaal/wegTot).toFixed(1):null;
+
+  const wrap=el('div',{});
+
+  // Intro
+  wrap.appendChild(el('div',{style:{fontSize:'13px',color:'#6b7280',marginBottom:'16px',padding:'10px 14px',background:'#faf5ff',border:'1px solid #e9d5ff',borderRadius:'8px'}},
+    '📊 Beoordeel elke categorie via de 6-puntsschaal (2/4/6/7/8/10). De gewogen totaalscore wordt automatisch berekend. Presentatie telt voor 25% mee in de eindcijferberekening.'
+  ));
+
+  // Totaalscore box
+  const totBox=el('div',{className:'pres-totaal'},
+    el('div',{style:{flex:'1'}},
+      el('div',{style:{fontSize:'13px',color:'#64748b',marginBottom:'2px'}},'Gewogen totaalscore presentatie'),
+      el('div',{style:{fontSize:'12px',color:'#94a3b8'}},`${PRES_RUBRIC.filter(c=>presScores[c.id]!=null).length} van ${PRES_RUBRIC.length} criteria beoordeeld`)
+    ),
+    el('div',{style:{textAlign:'right'}},
+      presGem
+        ?[el('div',{className:'pres-totaal-getal'},presGem),el('div',{style:{fontSize:'11px',color:'#7c3aed',fontWeight:'700'}},'/ 10')]
+        :el('div',{style:{fontSize:'14px',color:'#94a3b8'}},'—')
+    )
+  );
+  wrap.appendChild(totBox);
+
+  // Per criterium
+  PRES_RUBRIC.forEach(crit=>{
+    const cur=presScores[crit.id];
+    const isOpen=state.openItem===('pres_'+crit.id);
+    const block=el('div',{className:'pres-crit'+(isOpen?' open':'')});
+
+    const header=el('div',{className:'pres-crit-header',onClick:()=>setState({openItem:isOpen?null:('pres_'+crit.id)})},
+      el('div',{style:{flex:'1'}},
+        el('span',{style:{fontWeight:'700',fontSize:'14px',color:'#1e3a5f'}},crit.label),
+        el('span',{style:{fontSize:'12px',color:'#94a3b8',marginLeft:'6px'}},`${crit.weging}%`)
+      ),
+      cur!=null?el('span',{style:{fontWeight:'800',fontSize:'15px',color:'#7c3aed',marginRight:'8px'}},`${cur} / 10`):null,
+      el('span',{style:{color:'#94a3b8',fontSize:'13px'}},isOpen?'▲':'▼')
+    );
+    block.appendChild(header);
+
+    const body=el('div',{className:'pres-crit-body'});
+    const grid=el('div',{className:'pres-score-grid'});
+
+    [[2,'Laag'],[4,'Laag+'],[6,'Gemiddeld'],[7,'Gem.+'],[8,'Hoog'],[10,'Excellent']].forEach(([score,lbl])=>{
+      const desc=crit.niveaus[score]||'';
+      const isSelected=cur===score;
+      const btn=el('button',{
+        className:`pres-score-btn p${score}${isSelected?' selected':''}`,
+        onClick:()=>{
+          const newV=cur===score?null:score;
+          const ns={...presScores,[crit.id]:newV};
+          if(newV===null)delete ns[crit.id];
+          updateDuo(duo.id,{presScores:ns});
+        }
+      },
+        el('span',{className:'ps-nr'},String(score)),
+        el('span',{className:'ps-lbl'},lbl),
+        desc?el('span',{className:'ps-desc'},desc):null
+      );
+      grid.appendChild(btn);
+    });
+    body.appendChild(grid);
+
+    // Opmerking
+    body.appendChild(el('div',{className:'opmerking-label'},`Opmerkingen – ${crit.label}`));
+    const ta=el('textarea',{className:'opmerking-input',placeholder:`Notities over ${crit.label.toLowerCase()}...`});
+    ta.value=presOpm[crit.id]||'';
+    ta.addEventListener('input',e=>{
+      const d=getActive();if(!d)return;
+      const no={...(d.presOpmerkingen||{}),[crit.id]:e.target.value};
+      updateDuoSilent(d.id,{presOpmerkingen:no});
+    });
+    body.appendChild(ta);
+    block.appendChild(body);
+    wrap.appendChild(block);
+  });
+
+  return wrap;
+}
+
+// ══ VERDIEPINGSVRAGEN TAB ══
+function renderVerdiepingTab(){
+  const wrap=el('div',{});
+
+  wrap.appendChild(el('div',{className:'vd-tip'},
+    el('strong',{},'💡 Hoe gebruik je deze vragen? '),
+    'Kies per categorie 1–2 vragen die aansluiten bij wat het duo heeft gepresenteerd. Klik een vraag aan om te markeren dat je hem hebt gesteld. De vragen zijn bedoeld om te toetsen of leerlingen hun eigen onderzoek écht begrijpen — niet alleen van buiten kennen.'
+  ));
+
+  Object.entries(VERDIEPINGSVRAGEN).forEach(([cat,data])=>{
+    const isOpen=state.openItem===('vd_'+cat);
+    const block=el('div',{className:'vd-categorie'+(isOpen?' open':''),style:{'--vc':data.kleur}});
+    const header=el('div',{className:'vd-cat-header',onClick:()=>setState({openItem:isOpen?null:('vd_'+cat)})},
+      el('div',{className:'vd-cat-dot'}),
+      el('div',{style:{flex:'1'}},
+        el('div',{className:'vd-cat-title'},cat),
+        el('span',{className:'vd-cat-sub'},data.subtitel)
+      ),
+      el('span',{style:{color:'#94a3b8',fontSize:'13px'}},isOpen?'▲':'▼')
+    );
+    block.appendChild(header);
+
+    const body=el('div',{className:'vd-cat-body'});
+    body.appendChild(el('div',{style:{fontSize:'12px',color:'#64748b',marginBottom:'10px'}},'Klik op een vraag om hem als "gesteld" te markeren.'));
+
+    data.vragen.forEach((vraag,i)=>{
+      const key=`vd_${cat}_${i}`;
+      const gebruikt=!!(state.gesteldVragen||{})[key];
+      const vDiv=el('div',{
+        className:'vd-vraag'+(gebruikt?' gebruikt':''),
+        onClick:()=>{
+          const gv={...(state.gesteldVragen||{}),[key]:!gebruikt};
+          setState({gesteldVragen:gv});
+        }
+      },
+        el('span',{className:'vd-vraag-nr'},`${i+1}.`),
+        el('span',{},vraag),
+        gebruikt?el('span',{style:{marginLeft:'auto',flexShrink:'0',fontSize:'16px'}},'✓'):null
+      );
+      body.appendChild(vDiv);
+    });
+
+    block.appendChild(body);
+    wrap.appendChild(block);
+  });
+
+  return wrap;
+}
+
+
+
+
+
+
+// ══ OPSLAAN ALS BESTAND ══
+function saveAsFile() {
+  // Sla data op als JSON-bestand — open het later via "Laden" om door te gaan
+  exportData();
+}
+
+// ══ PRINT VENSTER GENERATOR ══
+function generatePrintWindow(duo) {
+  const scores     = duo.scores        || {};
+  const opmerkingen= duo.opmerkingen   || {};
+  const presScores = duo.presScores    || {};
+  const presOpm    = duo.presOpmerkingen || {};
+  const logboek    = duo.logboek       || {};
+
+  const NIV_LABELS = ['','Laag','Gemiddeld','Hoog','Excellent'];
+  const NIV_COLORS = ['','#c0392b','#e07b2a','#3a9e5e','#1a6b3c'];
+  const SCALE_LABELS = {4:'Uitstekend',3:'Goed',2:'Matig',1:'Onvoldoende'};
+  const SCALE_COLORS = {4:'#1a6b3c',3:'#3a9e5e',2:'#e07b2a',1:'#c0392b'};
+  const SCALE_BG     = {4:'#ecfdf5',3:'#f0fdf4',2:'#fff3e0',1:'#fee2e2'};
+  const PRES_COLORS  = {2:'#c0392b',4:'#e07b2a',6:'#d97706',7:'#3a9e5e',8:'#1a6b3c',10:'#7c3aed'};
+  const PRES_LBLS    = {2:'Laag',4:'Laag+',6:'Gemiddeld',7:'Gem.+',8:'Hoog',10:'Excellent'};
+
+  function critScoreLocal(critId) {
+    var c = RUBRIC.find(function(r){return r.id===critId;});
+    if (!c) return null;
+    var v = c.stellingen.map(function(s){return scores[s.id];}).filter(function(x){return x!=null;});
+    if (!v.length) return null;
+    var gem = v.reduce(function(a,b){return a+b;},0)/v.length;
+    return Math.round(((gem-1)/3)*60+10);
+  }
+
+  function niveauLabelLocal(p) {
+    if (p>=65) return {label:'Excellent', color:'#1a6b3c'};
+    if (p>=55) return {label:'Hoog+',     color:'#2d8a50'};
+    if (p>=45) return {label:'Hoog',      color:'#3a9e5e'};
+    if (p>=38) return {label:'Gem.+',     color:'#c07a1a'};
+    if (p>=28) return {label:'Gemiddeld', color:'#e07b2a'};
+    if (p>=18) return {label:'Laag+',     color:'#c0392b'};
+    return             {label:'Laag',     color:'#922b21'};
+  }
+
+  // Eindcijfer
+  var gewP=0, totW=0;
+  RUBRIC.forEach(function(c){ var p=critScoreLocal(c.id); if(p!=null){gewP+=p*c.weging;totW+=c.weging;} });
+  var eindcijferVal = totW>0 ? Math.min(10,Math.max(1,((gewP-10)/60)*9+1)).toFixed(1) : null;
+
+  // Presentatiescore
+  var presTot=0, presW=0;
+  PRES_RUBRIC.forEach(function(c){ var s=presScores[c.id]; if(s!=null){presTot+=s*(c.weging/100);presW+=c.weging/100;} });
+  var presGemVal = presW>0 ? (presTot/presW).toFixed(1) : null;
+
+  var datum = new Date().toLocaleDateString('nl-NL',{day:'numeric',month:'long',year:'numeric'});
+
+  // ── HTML bouwen via string concatenatie (geen nested template literals) ──
+  function q(s){ return (s||'').toString().replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+  // SCOREOVERZICHT RIJEN
+  var sumRijen = '';
+  RUBRIC.forEach(function(c){
+    var p = critScoreLocal(c.id);
+    var niv = p ? niveauLabelLocal(p) : null;
+    sumRijen += '<tr>';
+    sumRijen += '<td>' + q(c.label) + '</td>';
+    sumRijen += '<td style="text-align:center;' + (niv?'color:'+niv.color+';font-weight:700':'') + '">' + (niv?q(niv.label):'—') + '</td>';
+    sumRijen += '<td style="text-align:center">' + (p||'—') + '</td>';
+    sumRijen += '<td style="text-align:center">' + Math.round(c.weging*100) + '%</td>';
+    sumRijen += '<td style="text-align:right;font-weight:700">' + (p?(p*c.weging).toFixed(1):'—') + '</td>';
+    sumRijen += '</tr>';
+  });
+  if(presGemVal){
+    sumRijen += '<tr style="background:#faf5ff">';
+    sumRijen += '<td style="color:#7c3aed;font-style:italic">Presentatie (apart beoordeeld)</td>';
+    sumRijen += '<td style="text-align:center">—</td>';
+    sumRijen += '<td style="text-align:center;color:#7c3aed;font-weight:700">' + presGemVal + '/10</td>';
+    sumRijen += '<td style="text-align:center">25%</td>';
+    sumRijen += '<td style="text-align:right;color:#7c3aed;font-weight:700">—</td>';
+    sumRijen += '</tr>';
+  }
+  sumRijen += '<tr class="totaal-rij"><td colspan="4">Eindcijfer (verslag + proces)</td><td>' + (eindcijferVal||'—') + '</td></tr>';
+
+  // EINDSCORE BOX
+  var eindscoreBox = '';
+  if(eindcijferVal){
+    var eClr = parseFloat(eindcijferVal)>=7.5?'#1a6b3c':parseFloat(eindcijferVal)>=5.5?'#e07b2a':'#c0392b';
+    eindscoreBox = '<div class="eindscore-box" style="border-color:'+eClr+';background:'+eClr+'12">'
+      + '<div class="eindscore-getal" style="color:'+eClr+'">' + eindcijferVal + '</div>'
+      + '<div class="eindscore-meta">'
+      + '<div class="lbl">Eindcijfer profielwerkstuk</div>'
+      + '<div class="sub">Berekend op basis van gewogen gemiddelde van alle rubriccriteria</div>'
+      + (presGemVal?'<div class="sub" style="margin-top:4px;color:#7c3aed">Presentatiescore: '+presGemVal+'/10 (apart beoordeeld)</div>':'')
+      + '</div></div>';
+  }
+
+  // RUBRIC SECTIE — alleen totaalscore per criterium + opmerking
+  var rubricHTML = '';
+  RUBRIC.forEach(function(c){
+    var p = critScoreLocal(c.id);
+    var niv = p ? niveauLabelLocal(p) : null;
+    var opm = opmerkingen[c.id] || '';
+    rubricHTML += '<div class="crit-row">';
+    rubricHTML += '<div class="crit-row-header">';
+    rubricHTML += '<span class="crit-naam">' + q(c.label) + '</span>';
+    rubricHTML += '<span class="crit-weg">' + Math.round(c.weging*100) + '%</span>';
+    if(p){
+      rubricHTML += '<span class="crit-score" style="color:'+niv.color+';border-color:'+niv.color+'">' + q(niv.label) + ' &middot; ' + p + 'p</span>';
+    } else {
+      rubricHTML += '<span class="crit-score-leeg">Niet ingevuld</span>';
+    }
+    rubricHTML += '</div>';
+    if(opm){ rubricHTML += '<div class="opm-row"><em>Opmerking:</em> ' + q(opm) + '</div>'; }
+    rubricHTML += '</div>';
+  });
+
+  // PRESENTATIE DETAIL SECTIE
+  var presHTML = '';
+  if(!presW){
+    presHTML = '<p style="color:#94a3b8;font-style:italic">Presentatie nog niet beoordeeld.</p>';
+  } else {
+    presHTML += '<div class="pres-totaal-print">Gewogen presentatiescore: <strong>' + presGemVal + ' / 10</strong></div>';
+    PRES_RUBRIC.forEach(function(c){
+      var s = presScores[c.id];
+      var opm = presOpm[c.id] || '';
+      if(s==null && !opm) return;
+      var clr = s ? (PRES_COLORS[s]||'#374151') : '#94a3b8';
+      var lbl = s ? (PRES_LBLS[s]||'') : '';
+      presHTML += '<div class="crit-row">';
+      presHTML += '<div class="crit-row-header">';
+      presHTML += '<span class="crit-naam">' + q(c.label) + '</span>';
+      presHTML += '<span class="crit-weg">' + c.weging + '%</span>';
+      if(s!=null){
+        presHTML += '<span class="crit-score" style="color:'+clr+';border-color:'+clr+'">' + lbl + ' &middot; ' + s + '/10</span>';
+      } else {
+        presHTML += '<span class="crit-score-leeg">Niet ingevuld</span>';
+      }
+      presHTML += '</div>';
+      if(s!=null && c.niveaus[s]){
+        presHTML += '<div class="stelling-row"><span class="st-a" style="color:'+clr+'">&#9658; ' + q(c.niveaus[s]) + '</span></div>';
+      }
+      if(opm){ presHTML += '<div class="opm-row"><em>Opmerking:</em> ' + q(opm) + '</div>'; }
+      presHTML += '</div>';
+    });
+  }
+
+  // LOGBOEK SECTIE
+  var logHTML = '';
+  var heeftLogData = false;
+  MIJLPALEN.forEach(function(m){
+    if(m.id==='presentatie') return;
+    var mData = logboek[m.id] || {};
+    var ingevulde = m.vragen.filter(function(v){ return mData[v.id]!==undefined && mData[v.id]!=='' && mData[v.id]!==null; });
+    if(!ingevulde.length) return;
+    heeftLogData = true;
+    logHTML += '<div class="log-mijlpaal">';
+    logHTML += '<div class="log-m-titel">' + q(m.titel) + ' <span class="log-m-datum">' + q(m.datum) + '</span></div>';
+    ingevulde.forEach(function(v){
+      var val = mData[v.id];
+      logHTML += '<div class="log-vraag">';
+      logHTML += '<span class="log-q">' + q(v.tekst) + '</span>';
+      if(v.type==='text'){
+        logHTML += '<div class="log-notitie">' + q(val) + '</div>';
+      } else if(v.type==='bool'){
+        var kleur = val===true?'#15803d':'#b91c1c';
+        var icon  = val===true?'&#10003; Ja':'&#10007; Nee';
+        logHTML += '<span class="log-bool" style="color:'+kleur+';font-weight:700">' + icon + '</span>';
+      } else if(v.type==='scale'){
+        if(val==null){ logHTML += '</div>'; return; }
+        var slbl = SCALE_LABELS[val]||val;
+        var sclr = SCALE_COLORS[val]||'#374151';
+        var sbg  = SCALE_BG[val]||'#f8fafc';
+        var desc = v.schaal ? (v.schaal[val-1]||'') : '';
+        logHTML += '<span class="log-scale" style="color:'+sclr+';background:'+sbg+';border:1px solid '+sclr+'">'+val+' – '+slbl+': '+q(desc)+'</span>';
+      }
+      logHTML += '</div>';
+    });
+    logHTML += '</div>';
+  });
+  if(!heeftLogData){ logHTML = '<p style="color:#94a3b8;font-style:italic">Geen logboekdata ingevuld.</p>'; }
+
+  // ── LOGO (inline) ──
+  var logoSrc = document.querySelector('.topbar-logo img') ? document.querySelector('.topbar-logo img').src : '';
+
+  // ── VOLLEDIGE HTML SAMENSTELLEN ──
+  var html = '<!DOCTYPE html><html lang="nl"><head><meta charset="UTF-8">';
+  html += '<title>PWS Beoordelingsformulier \u2013 ' + q(duo.naam) + '</title>';
+  html += '<style>';
+  html += '*{box-sizing:border-box;margin:0;padding:0}';
+  html += 'body{font-family:Arial,Helvetica,sans-serif;font-size:10pt;color:#1e293b;background:#fff}';
+  html += '@page{size:A4;margin:15mm 15mm 18mm 15mm}';
+  html += '.doc-header{display:flex;align-items:flex-start;gap:16px;border-bottom:3px solid #1e3a5f;padding-bottom:12px;margin-bottom:16px}';
+  html += '.doc-header img{height:46px;width:auto}';
+  html += '.doc-header h1{font-size:14pt;font-weight:900;color:#1e3a5f}';
+  html += '.doc-header .school{font-size:9pt;color:#555;margin-top:2px;font-style:italic}';
+  html += '.doc-header .datum{font-size:9pt;color:#94a3b8;margin-top:2px}';
+  html += '.info-tabel{width:100%;border-collapse:collapse;margin-bottom:16px}';
+  html += '.info-tabel td{padding:5px 8px;border:1px solid #e2e8f0;font-size:9.5pt}';
+  html += '.info-tabel td:first-child{font-weight:700;color:#64748b;width:110px;background:#f8fafc}';
+  html += '.sectie-kop{font-size:10.5pt;font-weight:900;color:#1e3a5f;background:#e8eef7;padding:6px 12px;border-left:4px solid #1e3a5f;margin:16px 0 9px;page-break-after:avoid}';
+  html += '.sectie-kop.paars{background:#f5f3ff;border-color:#7c3aed;color:#5b21b6}';
+  html += '.sectie-kop.groen{background:#f0fdf4;border-color:#059669;color:#065f46}';
+  html += '.crit-row{border:1px solid #e2e8f0;border-radius:4px;margin-bottom:7px;overflow:hidden;page-break-inside:avoid}';
+  html += '.crit-row-header{display:flex;align-items:center;gap:8px;padding:6px 10px;background:#f8fafc}';
+  html += '.crit-naam{font-weight:700;font-size:9.5pt;color:#1e3a5f;flex:1}';
+  html += '.crit-weg{font-size:8pt;color:#94a3b8}';
+  html += '.crit-score{font-size:8.5pt;font-weight:800;padding:2px 8px;border-radius:12px;border:1.5px solid}';
+  html += '.crit-score-leeg{font-size:8.5pt;color:#94a3b8;font-style:italic}';
+  html += '.stelling-row{padding:4px 10px 4px 18px;border-top:1px solid #f1f5f9;display:flex;gap:8px;flex-wrap:wrap}';
+  html += '.st-q{font-size:8.5pt;color:#64748b;flex:1;min-width:150px}';
+  html += '.st-a{font-size:8.5pt;font-weight:600}';
+  html += '.opm-row{padding:5px 10px 6px 18px;border-top:1px solid #f1f5f9;font-size:8.5pt;color:#374151;background:#fffbeb}';
+  html += '.eindscore-box{border:2.5px solid #1a6b3c;border-radius:8px;padding:14px 18px;display:flex;align-items:center;gap:18px;margin:14px 0}';
+  html += '.eindscore-getal{font-size:38pt;font-weight:900;line-height:1}';
+  html += '.eindscore-meta .lbl{font-size:9pt;color:#64748b}';
+  html += '.eindscore-meta .sub{font-size:8pt;color:#94a3b8;margin-top:3px}';
+  html += '.sum-tabel{width:100%;border-collapse:collapse;margin:8px 0 16px;font-size:9pt}';
+  html += '.sum-tabel th{background:#1e3a5f;color:#fff;padding:6px 8px;text-align:left}';
+  html += '.sum-tabel th:not(:first-child){text-align:center}';
+  html += '.sum-tabel th:last-child{text-align:right}';
+  html += '.sum-tabel td{padding:5px 8px;border-bottom:1px solid #f1f5f9}';
+  html += '.sum-tabel td:not(:first-child){text-align:center}';
+  html += '.sum-tabel td:last-child{text-align:right;font-weight:700}';
+  html += '.totaal-rij{background:#f0fdf4;border-top:2px solid #1a6b3c}';
+  html += '.totaal-rij td{font-weight:900;font-size:11pt;color:#1a6b3c}';
+  html += '.pres-totaal-print{font-size:9.5pt;font-weight:700;color:#7c3aed;background:#faf5ff;border:1.5px solid #7c3aed;border-radius:6px;padding:7px 12px;margin-bottom:9px}';
+  html += '.log-mijlpaal{margin-bottom:10px;border:1px solid #e2e8f0;border-radius:4px;overflow:hidden;page-break-inside:avoid}';
+  html += '.log-m-titel{font-weight:700;font-size:9pt;color:#1e3a5f;background:#f0f4ff;padding:5px 10px;display:flex;justify-content:space-between}';
+  html += '.log-m-datum{font-weight:400;color:#94a3b8;font-size:8pt}';
+  html += '.log-vraag{padding:3px 10px;border-top:1px solid #f1f5f9;display:flex;gap:8px;flex-wrap:wrap;align-items:flex-start}';
+  html += '.log-q{font-size:8pt;color:#64748b;flex:1;min-width:150px}';
+  html += '.log-bool{font-size:8.5pt}';
+  html += '.log-scale{font-size:8pt;padding:2px 7px;border-radius:4px}';
+  html += '.log-notitie{font-size:8pt;color:#374151;font-style:italic;width:100%}';
+  html += '.ht-blok{margin-top:26px;padding-top:14px;border-top:2px solid #e2e8f0;page-break-inside:avoid}';
+  html += '.ht-titel{font-size:10.5pt;font-weight:900;color:#1e3a5f;margin-bottom:18px}';
+  html += '.ht-rij{display:flex;gap:24px;flex-wrap:wrap}';
+  html += '.ht-item{flex:1;min-width:130px}';
+  html += '.ht-naam-vak{border:1px solid #e2e8f0;border-radius:4px;padding:4px 8px;min-height:20px;margin-bottom:4px;font-size:8pt;color:#94a3b8}';
+  html += '.ht-lijn{border-bottom:1.5px solid #334155;height:50px;margin-bottom:5px}';
+  html += '.ht-label{font-size:8.5pt;color:#64748b;font-weight:700}';
+  html += '.ht-datum{font-size:8pt;color:#94a3b8;margin-top:2px}';
+  html += '.page-break{page-break-before:always}';
+  html += '</style></head><body>';
+
+  // HEADER
+  html += '<div class="doc-header">';
+  if(logoSrc){ html += '<img src="' + logoSrc + '" alt="Sophianum">'; }
+  html += '<div><h1>Beoordelingsformulier Profielwerkstuk VWO</h1>';
+  html += '<div class="school">Sophianum \u2013 De Scholengemeenschap van het Heuvelland</div>';
+  html += '<div class="datum">Schooljaar 2026\u20132027 \u00b7 ' + datum + '</div></div>';
+  html += '</div>';
+
+  // LEERLINGINFORMATIE
+  html += '<table class="info-tabel">';
+  html += '<tr><td>Leerlingen</td><td><strong>' + q(duo.naam) + '</strong></td></tr>';
+  html += '<tr><td>Vak</td><td>' + q(duo.vak||'\u2014') + '</td></tr>';
+  html += '<tr><td>Titel PWS</td><td><em>' + q(duo.titel||'\u2014') + '</em></td></tr>';
+  html += '<tr><td>Begeleider</td><td>&nbsp;</td></tr>';
+  html += '</table>';
+
+  // SCOREOVERZICHT
+  html += '<div class="sectie-kop">Scoreoverzicht</div>';
+  html += '<table class="sum-tabel"><thead><tr>';
+  html += '<th>Criterium</th><th>Niveau</th><th>Punten</th><th>Weging</th><th>Bijdrage</th>';
+  html += '</tr></thead><tbody>' + sumRijen + '</tbody></table>';
+  html += eindscoreBox;
+
+  // PAGINA 2: RUBRIC DETAILS
+  html += '<div class="page-break"></div>';
+  html += '<div class="sectie-kop">Beoordeling per criterium</div>';
+  html += rubricHTML;
+  html += '<div class="sectie-kop paars">Presentatiebeoordeling</div>';
+  html += presHTML;
+
+  // PAGINA 3: LOGBOEK
+  html += '<div class="page-break"></div>';
+  html += '<div class="sectie-kop groen">Proceslogboek \u2013 registratie begeleider</div>';
+  html += logHTML;
+
+  // HANDTEKENINGEN
+  html += '<div class="ht-blok"><div class="ht-titel">Handtekeningen</div><div class="ht-rij">';
+  ['Leerling 1','Leerling 2','Begeleider'].forEach(function(lbl){
+    html += '<div class="ht-item">';
+    html += '<div class="ht-naam-vak">Naam ' + lbl.toLowerCase() + ':</div>';
+    html += '<div class="ht-lijn"></div>';
+    html += '<div class="ht-label">' + lbl + '</div>';
+    html += '<div class="ht-datum">Datum: _______________</div>';
+    html += '</div>';
+  });
+  html += '</div></div>';
+  html += '<script>window.onload=function(){window.print();}<\/script>';
+  html += '</body></html>';
+
+  // Popup geblokkeerd? Dan blob-URL gebruiken als fallback
+  var w = window.open('', '_blank');
+  if (w && w.document) {
+    w.document.write(html);
+    w.document.close();
+  } else {
+    // Fallback: blob URL in hetzelfde tabblad
+    var blob = new Blob([html], {type: 'text/html'});
+    var url  = URL.createObjectURL(blob);
+    var a    = document.createElement('a');
+    a.href   = url;
+    a.target = '_blank';
+    a.rel    = 'noopener';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setTimeout(function(){ URL.revokeObjectURL(url); }, 10000);
+  }
+}
+
+
+// ══ RENDER ══
+function render(){
+  const app=document.getElementById('app');app.innerHTML='';
+  app.appendChild(renderTopbar());
+  app.appendChild(el('div',{className:'rainbow-bar'}));
+  if(state.view==='list') app.appendChild(renderList());
+  else app.appendChild(renderDetail());
+  if(state.showModal) app.appendChild(renderModal());
+}
+render();
+</script>
+</body>
+</html>
