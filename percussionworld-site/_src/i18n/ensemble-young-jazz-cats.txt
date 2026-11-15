@@ -1,0 +1,27 @@
+2
+nl: Michel Mordant als drummer van de Young Jazz Cats, een New Orleans-jazzband uit Eschweiler (Duitsland), inclusief hun tournee door New Orleans.
+de: Michel Mordant als Drummer der Young Jazz Cats, einer New-Orleans-Jazzband aus Eschweiler (Deutschland), einschließlich ihrer Tournee durch New Orleans.
+5
+nl: Duitsland · als drummer
+de: Deutschland · als Drummer
+6
+nl: Michel Mordant drumt bij de Young Jazz Cats, een traditionele jazzband uit Eschweiler. <1>De Young Jazz Cats (PDF)</1>
+de: Michel Mordant spielt Schlagzeug bei den Young Jazz Cats, einer traditionellen Jazzband aus Eschweiler. <1>Die Young Jazz Cats (PDF)</1>
+7
+nl: De Young Jazz Cats tijdens een concert.
+de: Die Young Jazz Cats im Konzert.
+8
+nl: De band met Michel Mordant op drums.
+de: Die Band mit Michel Mordant am Schlagzeug.
+= “Cool und funky, heiß und rockig” — press review.
+nl: ‘Cool und funky, heiß und rockig’ — krantenrecensie.
+de: „Cool und funky, heiß und rockig“ — Pressebericht.
+10
+nl: Tournee
+de: Tournee
+12
+nl: Tourschema van de Young Jazz Cats in New Orleans.
+de: Tourplan der Young Jazz Cats in New Orleans.
+= New Orleans tour schedule
+nl: Tourschema New Orleans
+de: Tourplan New Orleans

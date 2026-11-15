@@ -1,0 +1,93 @@
+= Level
+nl: Niveau
+de: Stufe
+1
+nl: Start-methodes
+de: Start-Schulen
+2
+nl: De Start-serie van Michel Mordant: methodes voor jonge leerlingen op pauken, kleine trom, drums, percussie, mallets en klaroen — met recensies en voorbeeldpagina’s.
+de: Die Start-Reihe von Michel Mordant: Schulen für junge Schüler für Pauken, kleine Trommel, Drums, Percussion, Mallets und Signalhorn — mit Rezensionen und Beispielseiten.
+3
+nl: Percussive Notes, geselecteerde recensies juni 2006 — George Frock over Start for Timpani
+de: Percussive Notes, ausgewählte Rezensionen Juni 2006 — George Frock über Start for Timpani
+4
+nl: <1>Lesgeven</1> / Start-methodes
+de: <1>Unterricht</1> / Start-Schulen
+5
+nl: Lesmethodes
+de: Lehrwerke
+6
+nl: De <1>Start</1>-serie
+de: Die <1>Start</1>-Reihe
+7
+nl: Een reeks methodes voor jonge beginners, waarin heldere theorie wordt gecombineerd met opbouwende oefeningen en solo’s — enkele verschenen in het Nederlands, Duits en Engels.
+de: Eine Reihe von Schulen für junge Anfänger, die klare Theorie mit aufbauenden Übungen und Soli verbindet — einige davon auf Niederländisch, Deutsch und Englisch erschienen.
+8
+nl: Overzicht & methodes
+de: Überblick & Schulen
+9
+nl: Start-methodes
+de: Start-Schulen
+11
+nl: Start for Timpani
+de: Start for Timpani
+12
+nl: Een paukenmethode voor jonge leerlingen, in het Engels, Duits en Nederlands: notenoefeningen, stemmen, handzettingen, contrasterende maatsoorten en solo’s.
+de: Eine Paukenschule für junge Schüler, auf Englisch, Deutsch und Niederländisch: Notenübungen, Stimmen, Handsätze, kontrastierende Taktarten und Soli.
+13
+nl: Recensie door George Frock<1>PAS Percussive Notes, geselecteerde recensies, juni 2006</1>
+de: Rezension von George Frock<1>PAS Percussive Notes, ausgewählte Rezensionen, Juni 2006</1>
+15
+nl: Start for Snare Drum
+de: Start for Snare Drum
+16
+nl: Een methode voor kleine trom voor jonge leerlingen. Op de linkerpagina’s staat de theorie (in het Duits en Nederlands), op de rechterpagina’s de oefeningen.
+de: Eine Schule für kleine Trommel für junge Schüler. Auf den linken Seiten steht die Theorie (auf Deutsch und Niederländisch), auf den rechten Seiten die Übungen.
+18
+nl: Start for Drums
+de: Start for Drums
+19
+nl: Oefeningen en theoriedelen voor de jonge drummer, met zeven solo’s — en een voorwoord van Heinz von Moisy.
+de: Übungen und Theorieteile für den jungen Drummer, mit sieben Soli — und einem Vorwort von Heinz von Moisy.
+20
+nl: Recensie van Start for Drums
+de: Rezension zu Start for Drums
+24
+nl: Voorwoord van Heinz von Moisy
+de: Vorwort von Heinz von Moisy
+25
+nl: Heinz von Moisy — homepage
+de: Heinz von Moisy — Homepage
+26
+nl: Start for Percussion
+de: Start for Percussion
+27
+nl: Eenvoudige solo’s voor kleine opstellingen, die elk een familie van slaginstrumenten introduceren.
+de: Leichte Soli für kleine Set-ups, die jeweils eine Familie von Schlaginstrumenten vorstellen.
+28
+nl: Greet the Guiro – A Gogo Going
+de: Greet the Guiro – A Gogo Going
+29
+nl: Clink the Cymbals – Try the Triangle
+de: Clink the Cymbals – Try the Triangle
+30
+nl: Templeblocks Tackle
+de: Templeblocks Tackle
+31
+nl: Bongo Battle
+de: Bongo Battle
+32
+nl: Start for Mallets
+de: Start for Mallets
+33
+nl: Basisoefeningen in verschillende toonsoorten voor twee en vier mallets, met een voorwoord van Leo Ouderits. Besproken in het <1>Vaalser Weekblad</1>.
+de: Grundübungen in verschiedenen Tonarten für zwei und vier Schlägel, mit einem Vorwort von Leo Ouderits. Besprochen im <1>Vaalser Weekblad</1>.
+36
+nl: Start for Bugle · Methode voor klaroen
+de: Start for Bugle · Schule für Signalhorn
+37
+nl: Start for Bugle
+de: Start for Bugle
+38
+nl: Een methode voor klaroenblazers, geschreven voor de traditie van de tamboer- en klaroenkorpsen.
+de: Eine Schule für Signalhornbläser (<1>methode voor klaroen</1>), geschrieben für die Tradition der Trommel- und Fanfarenkorps.

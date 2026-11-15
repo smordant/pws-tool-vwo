@@ -1,0 +1,24 @@
+2
+nl: Slagwerkensemble en jeugddrumband van Fanfare Concordia Einighausen onder leiding van Michel Mordant: concoursoverwinningen, concerten en repertoire 2007–2010.
+de: Schlagzeugensemble und Jugendtrommelkorps der Fanfare Concordia Einighausen unter der Leitung von Michel Mordant: Wettbewerbssiege, Konzerte und Repertoire 2007–2010.
+4
+nl: Slagwerkensemble en jeugddrumband van <1>Fanfare Concordia Einighausen</1>, les van Michel Mordant vanaf 26 januari 2007.
+de: Schlagzeugensemble und Jugendtrommelkorps der <1>Fanfare Concordia Einighausen</1>, unterrichtet von Michel Mordant ab 26. Januar 2007.
+7
+nl: <1>Jeugddrumband:</1> <2>Impressions</2> (Jo Corstjens); <3>Largo</3> (Antonín Dvořák, arr. Michel Mordant); een werk van Vincent Cox.
+de: <1>Jugendtrommelkorps:</1> <2>Impressions</2> (Jo Corstjens); <3>Largo</3> (Antonín Dvořák, Arr. Michel Mordant); ein Werk von Vincent Cox.
+= Predicate <1>“very good”</1>: <2>Magnificent People</2> (W. Norel); <3><4>Western Movie</4></3> (Henk Martens); <5>You’re So Cool</5> (H. Zimmer, arr. F. Kessels).
+nl: Predicaat <1>‘zeer goed’</1>: <2>Magnificent People</2> (W. Norel); <3><4>Western Movie</4></3> (Henk Martens); <5>You’re So Cool</5> (H. Zimmer, arr. F. Kessels).
+de: Prädikat <1>„sehr gut“</1>: <2>Magnificent People</2> (W. Norel); <3><4>Western Movie</4></3> (Henk Martens); <5>You’re So Cool</5> (H. Zimmer, Arr. F. Kessels).
+= <1>22 November</1> — LBT contest, Kerkrade: <2>Winner 2nd division</2> · <3>contest winner (PDF)</3> · <4>photos</4> · <5>Limburgs Dagblad</5> · <6>Trompetter</6>
+nl: <1>22 november</1> — LBT-concours, Kerkrade: <2>Winnaar 2e divisie</2> · <3>concourswinnaar (PDF)</3> · <4>foto’s</4> · <5>Limburgs Dagblad</5> · <6>Trompetter</6>
+de: <1>22. November</1> — LBT-Wettbewerb, Kerkrade: <2>Sieger 2. Division</2> · <3>Wettbewerbssieger (PDF)</3> · <4>Fotos</4> · <5>Limburgs Dagblad</5> · <6>Trompetter</6>
+22
+nl: <1>12 april</1> — Einighausen, jurylid Henrico Stevens — ook <2>Concordia on Parade</2> (M. Mordant)
+de: <1>12. April</1> — Einighausen, Juror Henrico Stevens — außerdem <2>Concordia on Parade</2> (M. Mordant)
+27
+nl: Kerstconcert: <1>Jingle Bells</1>, <2>Little Drummer Boy</2>, m.m.v. de blokfluitgroep van de opleiding.
+de: Weihnachtskonzert: <1>Jingle Bells</1>, <2>Little Drummer Boy</2>, unter Mitwirkung der Blockflötengruppe der Ausbildung.
+29
+nl: “Toen was het de beurt aan onze drumband. Ik denk dat zij voor vele toeschouwers en zeker ook fanfareleden de verrassing van de avond zijn geweest. We wisten dat ze op een andere manier bezig waren, maar dat ze ons nu al dit konden laten horen heeft velen zeker verrast. Wat een sfeer bij <1>Io</1> en wat een virtuoze afsluiting met de Sabeldans. Dames en heren van de drumband, complimenten hiervoor en zeker ook aan instructeur Michel Mordant.”
+de: „Dann war unser Trommelkorps an der Reihe. Ich glaube, sie waren für viele Zuschauer und sicher auch für die Mitglieder der Fanfare die Überraschung des Abends. Wir wussten, dass sie auf andere Weise arbeiteten, aber dass sie uns das schon jetzt zeigen konnten, hat viele überrascht. Was für eine Stimmung bei <1>Io</1> und was für ein virtuoser Abschluss mit dem Säbeltanz. Meine Damen und Herren des Trommelkorps, unser Kompliment — und ganz sicher auch an Ausbilder Michel Mordant.“

@@ -207,6 +207,10 @@ def load_catalogue():
             line = line.rstrip()
             if not line or line.startswith("#"):
                 continue
+            if line.startswith("= "):  # letterlijke brontekst in plaats van een nummer
+                cur = "=" + line[2:]
+                ids[cur] = line[2:]
+                continue
             if re.fullmatch(r"\d+", line):
                 cur = line
                 if cur not in ids:
@@ -224,11 +228,16 @@ def _cap(w):
     return w[:1].upper() + w[1:]
 
 
+PROTECT = []  # namen die nooit vertaald worden
+
+
 def compile_glossary():
     """Reguliere expressies eerst (in volgorde), daarna vaste termen van lang naar kort."""
     rx, plain = [], []
     for row in GLOSSARY:
-        if row[0].startswith("re:"):
+        if row[0] == row[1] == row[2]:
+            PROTECT.append(row[0])
+        elif row[0].startswith("re:"):
             rx.append((re.compile(row[0][3:]), row[1], row[2]))
         else:
             plain.append(row)
@@ -260,8 +269,11 @@ def glossary(text, lang, tags=()):
             out.append(chunk)
             k += 2
             continue
+        for n, name in enumerate(PROTECT):
+            chunk = chunk.replace(name, f"\x00{n}\x00")
         for r in GLOSS:
             chunk = r[0].sub(r[i], chunk)
+        chunk = re.sub("\x00(\\d+)\x00", lambda m: PROTECT[int(m.group(1))], chunk)
         out.append(chunk)
         k += 1
     return "".join(out)
@@ -496,7 +508,7 @@ def main():
             for el, src, tags in segments_of(soup):
                 if not has_letters(src):
                     continue
-                literal = bool(set(el.get("class", [])) & LITERAL) or el.find_parent(class_="pill-list") is not None
+                literal = bool(set(el.get("class", [])) & LITERAL) or el.name == "cite" or el.find_parent(["cite"]) is not None or el.find_parent(class_="pill-list") is not None
                 new = translate(src, lang, page_lang, cat, p.stem, tags, literal)
                 if new != src:
                     el.clear()

@@ -1,0 +1,102 @@
+1
+nl: Resultaten van leerlingen
+de: Erfolge der Schüler
+2
+nl: Concoursresultaten van de slagwerkleerlingen van Michel Mordant, van 1993 tot heden: Limburgse en Nederlandse kampioenschappen, prijzen bij Jugend Musiziert en meer.
+de: Wettbewerbsergebnisse der Schlagzeugschüler von Michel Mordant, von 1993 bis heute: Limburger und Niederländische Meisterschaften, Preise bei Jugend musiziert und mehr.
+4
+nl: <1>Lesgeven</1> / Resultaten van leerlingen
+de: <1>Unterricht</1> / Erfolge der Schüler
+5
+nl: Mijn leerlingen
+de: Meine Schüler
+6
+nl: Drie decennia concoursresultaten: Limburgse en Nederlandse kampioenen, prijswinnaars bij <1>Jugend Musiziert</1>, en solisten en ensembles die werden onderscheiden in Nederland, Duitsland, België en Frankrijk.
+de: Drei Jahrzehnte Wettbewerbsergebnisse: Limburger und Niederländische Meister, Preisträger bei <1>Jugend musiziert</1> sowie Solisten und Ensembles, die in den Niederlanden, Deutschland, Belgien und Frankreich ausgezeichnet wurden.
+7
+nl: Concourssystemen
+de: Wettbewerbssysteme
+8
+nl: Hoe concoursen worden ingedeeld
+de: Wie Wettbewerbe eingeteilt sind
+9
+nl: Zes afdelingen
+de: Sechs Stufen
+10
+nl: Jeugdafdeling (t/m 12 jaar)
+de: Jugendstufe (bis 12 Jahre)
+16
+nl: Leeftijdsgroepen
+de: Altersgruppen
+25
+nl: Frankrijk
+de: Frankreich
+26
+nl: Twee leeftijdsgroepen
+de: Zwei Altersgruppen
+29
+nl: Resultaten
+de: Ergebnisse
+30
+nl: Jaar voor jaar
+de: Jahr für Jahr
+31
+nl: Punten zijn uitgedrukt ten opzichte van het maximum van het betreffende concours. ‘In samenwerking met’ duidt op leerlingen die ook les kregen van een andere docent.
+de: Die Punkte beziehen sich auf das jeweilige Maximum des Wettbewerbs. „In Zusammenarbeit mit“ bezeichnet Schüler, die auch von einem anderen Lehrer unterrichtet wurden.
+38
+nl: Uitnodiging voor Felix Labedzki: improvisatie op drumstel.
+de: Einladung für Felix Labedzki: Improvisation am Drumset.
+43
+nl: Wedstrijdprogramma’s 2026
+de: Wettbewerbsprogramme 2026
+47
+nl: Tijdcategorie
+de: Zeitkategorie
+74
+nl: Wedstrijdprogramma’s 2025
+de: Wettbewerbsprogramme 2025
+75
+nl: Duur (min.)
+de: Dauer (Min.)
+84
+nl: ‘Best Of’-concert Eschweiler — <1>programma (PDF)</1>
+de: „Best Of“-Konzert Eschweiler — <1>Programm (PDF)</1>
+88
+nl: Mausbach: workshop ‘Trommelzeichen zu heutigen Noten’ <1>PDF</1>
+de: Mausbach: Workshop „Trommelzeichen zu heutigen Noten“ <1>PDF</1>
+90
+nl: Sabbatical.
+de: Sabbatjahr.
+91
+nl: Slagwerkworkshops (diversen, 1–4) <1>PDF</1>
+de: Schlagzeug-Workshops (verschiedene, 1–4) <1>PDF</1>
+93
+nl: Slagwerkworkshop ‘Jedes Kind ein Instrument’, Eschweiler
+de: Schlagzeug-Workshop „Jedes Kind ein Instrument“, Eschweiler
+94
+nl: World Music Contest (WMC), solistenconcours: <1>Daan Westra</1> en <2>Jonas Germans</2> <3>PDF</3>
+de: World Music Contest (WMC), Solistenwettbewerb: <1>Daan Westra</1> und <2>Jonas Germans</2> <3>PDF</3>
+121
+nl: O.L.S. Nederweert — solistenwedstrijden eredivisie slagwerk
+de: O.L.S. Nederweert — Solistenwettbewerb, Ehrendivision Schlagzeug
+136
+nl: Voor het beste resultaat krijgen leerlingen daarnaast extra les van een ervaren slagwerker; voor St. Stephanus Dieteren is dat Henry Geelen.
+de: Für die besten Ergebnisse erhalten die Schüler zusätzlich Unterricht von einem erfahrenen Schlagzeuger; für St. Stephanus Dieteren ist das Henry Geelen.
+196
+nl: Jugend Musiziert, Düren (Duitsland), 28 januari: <1>Timo Coutura</1> (leeftijdsgroep 4), <2>Daniel Kupper</2> (leeftijdsgroep 3), <3>Stefan Hagel en Linda Mertes</3> (leeftijdsgroep 2) — marimba, pauken, kleine trom en drumstel; Stefan speelde een paukensolo van J. McKenzie
+de: Jugend musiziert, Düren (Deutschland), 28. Januar: <1>Timo Coutura</1> (Altersgruppe 4), <2>Daniel Kupper</2> (Altersgruppe 3), <3>Stefan Hagel und Linda Mertes</3> (Altersgruppe 2) — Marimba, Pauken, kleine Trommel und Drumset; Stefan spielte ein Paukensolo von J. McKenzie
+198
+nl: Concert ‘Het Land van Ooit’, Drunen: <1>Rafael Sars</1> — kleine trom, bij de recordpoging ‘Het grootste symfonieorkest Ooit’, dirigent Henk Westbroek
+de: Konzert „Het Land van Ooit“, Drunen: <1>Rafael Sars</1> — kleine Trommel, beim Rekordversuch „Das größte Sinfonieorchester ‚Ooit‘“, Dirigent Henk Westbroek
+217
+nl: Zuidlimburgse Schuttersbond, Wijlre, 29 maart: <1>Ronnie Lurken</1> — kleine trom, eerste afdeling. Dit concours is vier keer gewonnen door oud-leerlingen (1992, 1993, 1995 en 1996).
+de: Zuidlimburgse Schuttersbond, Wijlre, 29. März: <1>Ronnie Lurken</1> — kleine Trommel, erste Stufe. Dieser Wettbewerb wurde viermal von ehemaligen Schülern gewonnen (1992, 1993, 1995 und 1996).
+221
+nl: 1993<1>t/m 1997</1>
+de: 1993<1>bis 1997</1>
+229
+nl: Krantenknipsels en documenten
+de: Zeitungsausschnitte und Dokumente
+230
+nl: Krantenartikelen, oorkonden en concoursdocumenten uit het leerlingenarchief.
+de: Zeitungsartikel, Urkunden und Wettbewerbsunterlagen aus dem Schülerarchiv.

@@ -1,0 +1,30 @@
+2
+nl: Drumband en slagwerkensemble van Harmonie St. Cecilia Grevenbicht-Papenhoven onder leiding van Michel Mordant, 2009–2013.
+de: Trommelkorps und Schlagzeugensemble der Harmonie St. Cecilia Grevenbicht-Papenhoven unter der Leitung von Michel Mordant, 2009–2013.
+3
+nl: Nieuwe instructeur voor de drumband, 2009
+de: Neuer Ausbilder für das Trommelkorps, 2009
+7
+nl: Michel Mordant <1>begon</1> op 5 september 2009 als instructeur van de drumband van <2>Harmonie St. Cecilia</2> en stopte in 2013.
+de: Michel Mordant <1>begann</1> am 5. September 2009 als Ausbilder des Trommelkorps der <2>Harmonie St. Cecilia</2> und hörte 2013 auf.
+= Predicate <1>“very good”</1> — jury: Mr. Henrico Stevens. <2>Suite Slava</2> (Etienne Houben); <3>Phantasm</3> (Vincent Cox) — <4>part 1</4>, <5>part 2</5>.
+nl: Predicaat <1>‘zeer goed’</1> — jury: dhr. Henrico Stevens. <2>Suite Slava</2> (Etienne Houben); <3>Phantasm</3> (Vincent Cox) — <4>deel 1</4>, <5>deel 2</5>.
+de: Prädikat <1>„sehr gut“</1> — Jury: Herr Henrico Stevens. <2>Suite Slava</2> (Etienne Houben); <3>Phantasm</3> (Vincent Cox) — <4>Teil 1</4>, <5>Teil 2</5>.
+12
+nl: Nieuwe instructeur voor de drumband
+de: Ein neuer Ausbilder für das Trommelkorps
+13
+nl: Uit het verenigingsnieuws, 7 september 2009:
+de: Aus den Vereinsnachrichten, 7. September 2009 (aus dem Niederländischen übersetzt):
+14
+nl: Zaterdag 5 september was de vakantie ten einde voor de drumband en werd gestart met de repetitie. Een hele frisse start met een nieuwe instructeur, want na ruim 16 jaar o.l.v. John Maassen te hebben gemusiceerd, zal dit vanaf zaterdag onder leiding van Michel Mordant gaan plaatsvinden.
+de: Am Samstag, dem 5. September, endeten die Ferien für das Trommelkorps, und die Proben begannen wieder — mit einem frischen Start unter einem neuen Ausbilder. Nach über sechzehn Jahren unter der Leitung von John Maassen wird das Korps von nun an von Michel Mordant geleitet.
+15
+nl: John had vorig jaar te kennen gegeven ermee te willen stoppen. Een werkgroep bestaande uit vice-voorzitter Hub Renet, bestuurslid Tilly Vola-Stoffels en drumbandlid Kirsten Theunissen is toen op zoek gegaan naar een nieuwe instructeur. De werkgroep is hier heel zorgvuldig mee bezig geweest, maar door wat tegenslagen duurde het wat langer dan gepland. Inmiddels is het gelukt, want op vrijdag 28 augustus 2009, na uiteraard de goedkeuring van het bestuur te hebben gekregen in een extra ingelaste vergadering, vond een laatste positief gesprek plaats met Michel Mordant, onze nieuwe instructeur.
+de: John hatte im vergangenen Jahr angekündigt, aufhören zu wollen. Eine Arbeitsgruppe aus dem stellvertretenden Vorsitzenden Hub Renet, Vorstandsmitglied Tilly Vola-Stoffels und Korpsmitglied Kirsten Theunissen machte sich daraufhin auf die Suche nach einem neuen Ausbilder. Die Gruppe ging dabei sehr sorgfältig vor, doch durch einige Rückschläge dauerte es etwas länger als geplant. Am Freitag, dem 28. August 2009, fand — nach Zustimmung des Vorstands in einer eigens einberufenen Sitzung — ein abschließendes, positives Gespräch mit Michel Mordant statt, unserem neuen Ausbilder.
+16
+nl: Zaterdagavond werd Michel geïntroduceerd bij de drumband en gaf hij zijn eerste repetitie. Michel is 47 jaar, gehuwd, heeft 2 kinderen en is tevens instructeur bij de drumband van fanfare Concordia te Einighausen. Verder geeft hij les aan Kreato te Thorn en aan de Muziekschool in Eschweiler. Hij is bij ons reeds actief geweest als jurylid tijdens een Trio-concert in 2006.
+de: Am Samstagabend wurde Michel dem Trommelkorps vorgestellt und leitete seine erste Probe. Michel ist 47 Jahre alt, verheiratet, hat zwei Kinder und ist außerdem Ausbilder des Trommelkorps der Fanfare Concordia in Einighausen. Zudem unterrichtet er bei Kreato in Thorn und an der Musikschule in Eschweiler. Bei uns war er bereits 2006 als Juror bei einem Trio-Konzert tätig.
+17
+nl: We wensen Michel en de hele drumband heel veel succes toe en een prettige en vruchtbare samenwerking. In een volgend <1>Cecielke</1> zal de redactie hem diverse wetenswaardigheden proberen te ontfutselen. Aan John natuurlijk heel veel dank voor zijn inzet in de afgelopen jaren. Van John zal nog op gepaste wijze afscheid worden genomen op een later tijdstip.
+de: Wir wünschen Michel und dem ganzen Trommelkorps viel Erfolg und eine angenehme und fruchtbare Zusammenarbeit. In einer der nächsten Ausgaben des <1>Cecielke</1> wird die Redaktion versuchen, mehr über ihn zu erfahren. John danken wir herzlich für seinen Einsatz in den vergangenen Jahren; er wird zu einem späteren Zeitpunkt gebührend verabschiedet.

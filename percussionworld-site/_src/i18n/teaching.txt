@@ -1,0 +1,132 @@
+1
+nl: Slagwerkles bij Michel Mordant: drumstel, kleine trom, marimba, vibrafoon en pauken — methodes, repertoire, Start-methodes en de voortgang van leerlingen.
+de: Schlagzeugunterricht bei Michel Mordant: Drumset, kleine Trommel, Marimba, Vibraphon und Pauken — Schulen, Repertoire, Start-Schulen und Lernfortschritt.
+2
+nl: Malletoefeningen — M. Mordant
+de: Mallet-Übungen — M. Mordant
+7
+nl: Lessen op drumstel, kleine trom, marimba, vibrafoon en pauken — gebaseerd op beproefde internationale methodes, Michel Mordants eigen <1>Start</1>-serie en een zorgvuldig bijgehouden voortgang van elke leerling.
+de: Unterricht in Drumset, kleiner Trommel, Marimba, Vibraphon und Pauken — auf Grundlage bewährter internationaler Schulen, Michel Mordants eigener <1>Start</1>-Reihe und sorgfältig dokumentierter Fortschritte jedes Schülers.
+8
+nl: Werkwijze
+de: Ansatz
+9
+nl: Slagwerk leren
+de: Schlagzeug unterrichten
+10
+nl: Elke les bouwt voort op een brede basis: techniek, notenlezen, ritmisch dictee, theorie en repertoire, over de hele familie van slaginstrumenten.
+de: Jede Stunde baut auf einer breiten Grundlage auf: Technik, Notenlesen, Rhythmusdiktat, Theorie und Repertoire — über die ganze Familie der Schlaginstrumente hinweg.
+11
+nl: Voor elk instrument werkt Michel Mordant met een zorgvuldig gekozen reeks methodes en sololiteratuur, aangevuld met zijn eigen <1>Start-methodes</1> voor jonge beginners.
+de: Für jedes Instrument arbeitet Michel Mordant mit sorgfältig ausgewählten Schulen und Sololiteratur, ergänzt durch seine eigenen <1>Start-Schulen</1> für junge Anfänger.
+12
+nl: Zijn leerlingen nemen deel aan concoursen in Nederland, Duitsland, België en Frankrijk, en velen werden <1>prijswinnaar en provinciaal of landelijk kampioen</1>. Zijn <2>slagwerkgroepen</2> gaven vele concerten en wonnen concoursen in binnen- en buitenland.
+de: Seine Schüler nehmen an Wettbewerben in den Niederlanden, Deutschland, Belgien und Frankreich teil, und viele wurden <1>Preisträger sowie Provinz- oder Landesmeister</1>. Seine <2>Schlagzeuggruppen</2> gaben viele Konzerte und gewannen Wettbewerbe im In- und Ausland.
+13
+nl: Video’s over zijn lessen zijn te vinden op <1>Facebook</1>.
+de: Videos zu seinem Unterricht finden Sie auf <1>Facebook</1>.
+16
+nl: Lesverslagen
+de: Unterrichtsprotokolle
+18
+nl: Ter inspiratie: <1>mooie drumsolo’s op Drummerworld</1>.
+de: Zur Inspiration: <1>großartige Drumsoli bei Drummerworld</1>.
+21
+nl: Niveau / opmerkingen
+de: Stufe / Anmerkungen
+22
+nl: Voor zeer jonge leerlingen, met extra solo’s
+de: Für sehr junge Schüler, mit zusätzlichen Soli
+25
+nl: Eenvoudig–gemiddeld, met extra solo’s
+de: Leicht–mittel, mit zusätzlichen Soli
+48
+nl: Voorbeelden van lesverslagen van het <1>eerste en tweede jaar</1> laten zien hoe een leerling kleine trom zich ontwikkelt.
+de: Beispielhafte Unterrichtsprotokolle des <1>ersten und zweiten Jahres</1> zeigen, wie sich ein Schüler an der kleinen Trommel entwickelt.
+53
+nl: Gevorderd, 2 en 4 mallets
+de: Mittelstufe, 2 und 4 Schlägel
+55
+nl: Eenvoudige oefeningen met theorie
+de: Leichte Übungen mit Theorie
+56
+nl: Snelheidscontrole / kracht en uithoudingsvermogen
+de: Geschwindigkeitskontrolle / Kraft und Ausdauer
+57
+nl: Moeller-techniek
+de: Moeller-Technik
+66
+nl: Gevorderd
+de: Mittelstufe
+83
+nl: Voor jonge leerlingen, 2 mallets, met orkeststudies
+de: Für junge Schüler, 2 Schlägel, mit Orchesterstudien
+87
+nl: Voor jonge leerlingen, 2 mallets
+de: Für junge Schüler, 2 Schlägel
+90
+nl: Eenvoudige stukken voor 4 mallets, ook als duet te spelen
+de: Leichte Stücke für 4 Schlägel, auch als Duette spielbar
+91
+nl: Basisoefeningen in verschillende toonsoorten, 2 en 4 mallets
+de: Grundübungen in verschiedenen Tonarten, 2 und 4 Schlägel
+94
+nl: 2 mallets, aanstekelijke melodie, 2/4
+de: 2 Schlägel, eingängige Melodie, 2/4
+97
+nl: 2 mallets, dans op xylofoon, 2/4
+de: 2 Schlägel, Tanz auf dem Xylophon, 2/4
+100
+nl: 2 mallets tegelijk, 3/4
+de: 2 Schlägel gleichzeitig, 3/4
+113
+nl: Eenvoudig, 4 mallets, toonladdervariaties, 3/4
+de: Leicht, 4 Schlägel, Tonleitervariationen, 3/4
+130
+nl: Eenvoudige solo’s voor 4 mallets met extra oefeningen
+de: Leichte Soli für 4 Schlägel mit zusätzlichen Übungen
+145
+nl: Hoe een leerling zich ontwikkelt
+de: Wie sich ein Schüler entwickelt
+146
+nl: Elke stap en elke uitleg wordt genoteerd. Deze twee voorbeelden volgen één leerling kleine trom gedurende de eerste twee lesjaren.
+de: Jeder Schritt und jede Erklärung wird notiert. Diese beiden Beispiele begleiten einen Schüler der kleinen Trommel durch die ersten zwei Unterrichtsjahre.
+147
+nl: Eerste jaar
+de: Erstes Jahr
+148
+nl: Deze leerling begon in 1999 op achtjarige leeftijd. De gebruikte methode was Siegfried Fink, <1>Percussion Studio</1> deel 1 voor kleine trom. (pv. = prima vista / van blad spelen)
+de: Dieser Schüler begann 1999 im Alter von acht Jahren. Verwendet wurde Siegfried Fink, <1>Percussion Studio</1> Teil 1 für kleine Trommel. (pv. = prima vista / Blattspiel)
+149
+nl: Lesinhoud
+de: Unterrichtsinhalt
+162
+nl: Bongo’s: etude Mordant (t/m achtste noten)
+de: Bongos: Etüde Mordant (bis zu Achtelnoten)
+168
+nl: Kleine trom: Fink 1, etude 46; uitleg 6/8-maat; Egberts roffelfiguren 1 + 2; rudiments vervolg
+de: Kleine Trommel: Fink 1, Etüde 46; Erklärung des 6/8-Takts; Egberts Wirbelfiguren 1 + 2; Rudiments fortgesetzt
+169
+nl: Tweede jaar
+de: Zweites Jahr
+170
+nl: Het programma werd uitgebreid met percussie, marimba, ritmisch dictee en theorie voor de tamboer, niveau A (© Kreato). Oefentijd, leeftijd, talent en motivatie bepalen de voorbereiding op examens: twee jaar voor goede leerlingen, drie voor minder ijverige.
+de: Das Programm wurde um Percussion, Marimba, Rhythmusdiktat und Theorie für den Trommler, Stufe A (© Kreato), erweitert. Übezeit, Alter, Talent und Motivation bestimmen die Prüfungsvorbereitung: zwei Jahre für gute Schüler, drei für weniger fleißige.
+171
+nl: <1>Examenprogramma:</1> Etude A1 en A2, Voordracht A1 en A2 (G. Bomhof); <2>Het Debuut</2> (S. Egberts); <3>A-mix</3> voor claves en bongo’s (G. Bomhof).
+de: <1>Prüfungsprogramm:</1> Etüde A1 und A2, Voordracht (Vortragsstück) A1 und A2 (G. Bomhof); <2>Het Debuut</2> (S. Egberts); <3>A-mix</3> für Claves und Bongos (G. Bomhof).
+172
+nl: <1>Ook verplicht:</1> imitatie (in 4/4, wals en 6/8-mars), prima vista, uit het hoofd spelen, rudiments 1, 2, 3, 4, 5, 11 en 20, roffeloefeningen (S. Egberts) en fouten verbeteren op gehoor en vanuit het notenbeeld.
+de: <1>Ebenfalls Pflicht:</1> Imitation (im 4/4-Takt, Walzer und 6/8-Marsch), Blattspiel, Auswendigspiel, Rudiments 1, 2, 3, 4, 5, 11 und 20, Wirbelübungen (S. Egberts) sowie Fehlerkorrektur nach Gehör und Notenbild.
+187
+nl: Kleine trom: Bomhof etude A2 afgerond; Voordracht A1 (regels 1 + 2, pv.); mallets: Ouderits, <1>Dreaming</1> (p. 2)
+de: Kleine Trommel: Bomhof Etüde A2 abgeschlossen; Voordracht A1 (Zeilen 1 + 2, pv.); Mallets: Ouderits, <1>Dreaming</1> (S. 2)
+190
+nl: Interesse in lessen?
+de: Interesse an Unterricht?
+191
+nl: De lessen worden gegeven bij Cultuurperron Thorn, Stichting Opmaat Schinnen en de muziekscholen van Eschweiler en Heinsberg.
+de: Der Unterricht findet bei Cultuurperron Thorn, Stichting Opmaat Schinnen und an den Musikschulen Eschweiler und Heinsberg statt.
+192
+nl: Neem contact op met Michel Mordant
+de: Michel Mordant kontaktieren

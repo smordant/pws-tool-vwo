@@ -1,0 +1,12 @@
+2
+nl: Drumband Trommelaere van Herle in Heerlen, les van Michel Mordant vanaf juni 1996.
+de: Drumband Trommelaere van Herle in Heerlen, unterrichtet von Michel Mordant ab Juni 1996.
+3
+nl: Artikel in De Grasmusch
+de: Artikel in De Grasmusch
+6
+nl: Michel Mordant begon in juni 1996 als instructeur van de <1>Trommelaere van Herle</1>.
+de: Michel Mordant begann im Juni 1996 als Ausbilder der <1>Trommelaere van Herle</1>.
+8
+nl: Artikel in <1>De Grasmusch</1>.
+de: Artikel in <1>De Grasmusch</1>.

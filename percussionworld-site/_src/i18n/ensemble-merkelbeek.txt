@@ -1,0 +1,21 @@
+2
+nl: Concoursoverzicht van de slagwerkgroep St. Johannes St. Clemens Merkelbeek onder leiding van Michel Mordant, 1989–1995.
+de: Wettbewerbsübersicht der Schlagzeuggruppe St. Johannes St. Clemens Merkelbeek unter der Leitung von Michel Mordant, 1989–1995.
+5
+nl: Het volledige concoursoverzicht van de slagwerkgroep, met punten, repertoire en plaatsen. ‘HAP.’ staat voor een festival waarop de groep winnaar van het concours werd.
+de: Die vollständige Wettbewerbsübersicht der Schlagzeuggruppe, mit Punkten, Repertoire und Orten. „HAP.“ bezeichnet ein Festival, bei dem die Gruppe Sieger des Wettbewerbs wurde.
+9
+nl: Stuk(ken)
+de: Stück(e)
+= Composer(s)
+nl: Componist(en)
+de: Komponist(en)
+= Contest venue
+nl: Concoursplaats
+de: Wettbewerbsort
+= “—” : no points recorded.
+nl: “—” : geen punten genoteerd.
+de: „—“ : keine Punkte verzeichnet.
+= Various; Corstjens
+nl: Diversen; Corstjens
+de: Verschiedene; Corstjens

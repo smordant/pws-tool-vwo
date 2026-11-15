@@ -24,11 +24,17 @@ re:^December\b|December|Dezember
 re:(\d)\.(\d+) points|\1,\2 points|\1,\2 points
 re:\b(\d)(?:st|nd|rd|th) division\b|\1e divisie|\1. Division
 re:\b(\d)(?:st|nd|rd|th) level\b|\1e afdeling|\1. Stufe
-re:\b(\d)(?:st|nd|rd|th) best\b|\1e plaats|\1. Platz
+re:\bfrom (\d)(?:st|nd|rd|th) to (\d)(?:st|nd|rd|th) level\b|van de \1e naar de \2e afdeling|von der \1. in die \2. Stufe
+re:\b(\d)(?:st|nd|rd|th) best\b(?! of)|\1e plaats|\1. Platz
+re:· from (\d{4})|· vanaf \1|· ab \1
+re:· since (\d{4})|· sinds \1|· seit \1
 re:\b(\d)(?:st|nd|rd|th) place\b|\1e plaats|\1. Platz
 re:\b(\d)(?:st|nd|rd|th) prize\b|\1e prijs|\1. Preis
 re:\b(\d+) of (\d+) points\b|\1 van \2 points|\1 von \2 points
-re:\b[Aa]ge group (\w+)\b|leeftijdsgroep \1|Altersgruppe \1
+re:\bAge group (\w+)\b|Leeftijdsgroep \1|Altersgruppe \1
+re:\bage group (\w+)\b|leeftijdsgroep \1|Altersgruppe \1
+re:\b(\d+) to (\d+)\b|\1 tot \2|\1 bis \2
+re:\bup to (\d+) years\b|t/m \1 jaar|bis \1 Jahre
 re:\((\d) mallets\)|(\1 mallets)|(\1 Schlägel)
 re:\b(\d)(-| )mallets?\b|\1\2mallets|\1 Schlägel
 snare drum|kleine trom|kleine Trommel
@@ -213,3 +219,64 @@ student|leerling|Schüler
 duration|duur|Dauer
 distinction|onderscheiding|Auszeichnung
 view|bekijk|Ansehen
+re:\b(\d)-stroke roll\b|\1-slagroffel|\1er-Wirbel
+Snare:|Kleine trom:|Kleine Trommel:
+etude|etude|Etüde
+etudes|etudes|Etüden
+exercises|oefeningen|Übungen
+exercise|oefening|Übung
+whole, half and quarter notes|hele, halve en kwartnoten|ganzen, halben und Viertelnoten
+whole to eighth notes|hele t/m achtste noten|Ganze bis Achtelnoten
+eighth notes|achtste noten|Achtelnoten
+sixteenth notes|zestiende noten|Sechzehntelnoten
+roll figures|roffelfiguren|Wirbelfiguren
+roll exercise|roffeloefening|Wirbelübung
+lines|regels|Zeilen
+completed|afgerond|abgeschlossen
+rudiments continued|rudiments vervolg|Rudiments fortgesetzt
+imitation|imitatie|Imitation
+imitation in|imitatie in|Imitation in
+up to|t/m|bis zu
+rhythmic dictation|ritmisch dictee|Rhythmusdiktat
+bars|maten|Takte
+mark|cijfer|Note
+bouncing|stuiteren|Prellen
+explanation of 6/8 time|uitleg 6/8-maat|Erklärung des 6/8-Takts
+World Music Contest|World Music Contest|World Music Contest
+Percussion Contest|Percussion Contest|Percussion Contest
+Day of Percussion|Day of Percussion|Day of Percussion
+Day Of Percussion|Day Of Percussion|Day Of Percussion
+Percussion & Friends|Percussion & Friends|Percussion & Friends
+Percussion Friends|Percussion Friends|Percussion Friends
+Percussion Festival|Percussion Festival|Percussion Festival
+Percussive Arts Society|Percussive Arts Society|Percussive Arts Society
+Percussive Notes|Percussive Notes|Percussive Notes
+Percussion Studio|Percussion Studio|Percussion Studio
+Percussion World|Percussion World|Percussion World
+Young Jazz Cats|Young Jazz Cats|Young Jazz Cats
+Start for Timpani|Start for Timpani|Start for Timpani
+Start for Drums|Start for Drums|Start for Drums
+Start for Mallets|Start for Mallets|Start for Mallets
+Start for Percussion|Start for Percussion|Start for Percussion
+Focus for Marimba|Focus for Marimba|Focus for Marimba
+Percussion Pleasure|Percussion Pleasure|Percussion Pleasure
+Question Mark|Question Mark|Question Mark
+prize-winner|prijswinnaar|Preisträger
+advanced to state level|door naar het Landeswettbewerb|Weiterleitung zum Landeswettbewerb
+press clipping|krantenknipsel|Zeitungsausschnitt
+improvisation|improvisatie|Improvisation
+workshop|workshop|Workshop
+workshops|workshops|Workshops
+various|diversen|verschiedene
+duet with|duet met|Duett mit
+years|jaar|Jahre
+Aachen|Aken|Aachen
+re:\bmin$|min.|Min.
+age group|leeftijdsgroep|Altersgruppe
+for percussion duo|voor slagwerkduo|für Schlagzeugduo
+stage contest|podiumwedstrijd|Bühnenwettbewerb
+march contest|marswedstrijd|Marschwettbewerb
+to the highest level|naar de hoogste afdeling|in die höchste Stufe
+Class B|Klasse B|Klasse B
+in preparation|in voorbereiding|in Vorbereitung
+judge|jurylid|Juror
