@@ -1,0 +1,29 @@
+1	Contact
+2	Contact Michel Mordant for percussion lessons, workshops, ensemble projects, sheet music or adjudication.
+3	Get in touch
+4	For lessons, workshops and school projects, ensemble direction, sheet music or jury requests — Michel Mordant looks forward to hearing from you.
+5	Contact details
+6	Michel Mordant
+7	E-mail
+8	slagwerkadvies@gmail.com
+9	Telephone
+10	Address
+11	Sittarderweg 80<1/>6412 CJ Heerlen<2/>The Netherlands
+12	PAS Netherlands
+13	percussion@home.nl
+14	Send an e-mail
+15	Call
+16	Follow
+17	YouTube
+18	percussion1962
+19	Facebook
+20	LinkedIn
+21	My instruments
+22	Facebook page
+23	Free sheet music
+24	Teaching videos
+25	Where Michel teaches
+26	<1>Cultuurperron</1>, Thorn (NL)
+27	<1>Stichting Opmaat</1>, Schinnen (NL)
+28	<1>Jugendmusikschule</1> and Gesamtschule Eschweiler (DE)
+29	<1>Jugendmusikschule Heinsberg</1> (DE)

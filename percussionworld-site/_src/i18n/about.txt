@@ -1,0 +1,150 @@
+1
+nl: Over Michel
+de: Über Michel
+2
+nl: Biografie van Michel Mordant: slagwerkstudie aan het Conservatorium Maastricht, orkestloopbaan, geleide ensembles, docentschappen en muzikale wortels in Vijlen.
+de: Biografie von Michel Mordant: Schlagzeugstudium am Konservatorium Maastricht, Orchesterlaufbahn, geleitete Ensembles, Lehrtätigkeiten und musikalische Wurzeln in Vijlen.
+3
+nl: Michel Mordant met Jim Chapin
+de: Michel Mordant mit Jim Chapin
+5
+nl: Michel Mordant aan de marimba tijdens een concert, Eschweiler 1999
+de: Michel Mordant an der Marimba im Konzert, Eschweiler 1999
+6
+nl: Michel Mordant in militaire dienst bij de Limburgse Jagers, Roermond 1982
+de: Michel Mordant im Militärdienst bei den Limburgse Jagers, Roermond 1982
+7
+nl: Biografie
+de: Biografie
+8
+nl: Over Michel Mordant
+de: Über Michel Mordant
+9
+nl: Slagwerker, paukenist, componist, dirigent en docent — geworteld in het Limburgse muziekleven en actief aan beide zijden van de Nederlands-Duitse grens.
+de: Schlagzeuger, Paukist, Komponist, Dirigent und Lehrer — verwurzelt im Limburger Musikleben und aktiv auf beiden Seiten der deutsch-niederländischen Grenze.
+10
+nl: Michel Mordant studeerde slagwerk aan het Conservatorium Maastricht, waar hij in 1991 afstudeerde.
+de: Michel Mordant studierte Schlagzeug am Konservatorium Maastricht (Niederlande) und schloss sein Studium 1991 ab.
+11
+nl: Zijn hoofdvakdocenten waren Ruud Wiener (mallets), Hay Beurskens (kleine trom), Pieter Jansen (kleine trom en mallets), Werner Otten (pauken) en Chris Dekker (drumstel). Hij verdiepte zich verder met lessen en masterclasses bij Ruud Wiener in malletimprovisatie (Zwitserland) en bij <1>Jim Chapin</1> op kleine trom.
+de: Seine Hauptfachlehrer waren Ruud Wiener (Mallets), Hay Beurskens (kleine Trommel), Pieter Jansen (kleine Trommel und Mallets), Werner Otten (Pauken) und Chris Dekker (Drumset). Er vertiefte seine Ausbildung durch Unterricht und Meisterkurse bei Ruud Wiener in Mallet-Improvisation (Schweiz) und bei <1>Jim Chapin</1> an der kleinen Trommel.
+12
+nl: Als freelance slagwerker speelde hij bij gerenommeerde orkesten in binnen- en buitenland, waaronder het Limburgs Symfonie Orkest, het Johann Strauss Orkest en het Städtisches Orchester Eschweiler, en als drummer bij de <1>Young Jazz Cats</1> (Duitsland). Tegenwoordig is hij paukenist van het Symphonie Orchester Kerkrade.
+de: Als freiberuflicher Schlagzeuger spielte er in renommierten Orchestern im In- und Ausland, darunter das Limburgs Symfonie Orkest, das Johann Strauss Orkest und das Städtische Orchester Eschweiler, sowie als Drummer bei den <1>Young Jazz Cats</1> (Deutschland). Heute ist er Paukist des Symphonie Orchesters Kerkrade.
+13
+nl: Daarnaast geeft hij slagwerkles aan de muziekscholen <1>Cultuurperron</1> in Thorn en Stichting <2>Opmaat</2> in Schinnen (Nederland), en aan de <3>Jugendmusikschule</3> en <4>Gesamtschule</4> Eschweiler en de <5>Jugendmusikschule Heinsberg</5> (Duitsland).
+de: Daneben unterrichtet er Schlagzeug an den Musikschulen <1>Cultuurperron</1> in Thorn und Stichting <2>Opmaat</2> in Schinnen (Niederlande) sowie an der <3>Jugendmusikschule</3> und <4>Gesamtschule</4> Eschweiler und der <5>Jugendmusikschule Heinsberg</5> (Deutschland).
+14
+nl: Michel Mordant schreef <1>een omvangrijk oeuvre voor slagwerk</1>, van lesmateriaal en concourssolo’s tot ensemblemuziek. Hij is <2>jurylid</2> bij concoursen en examens en is betrokken bij <3>tal van andere activiteiten</3> — workshops, schoolprojecten en het <4>Nederlandse Chapter van de Percussive Arts Society</4>, waarvan hij voorzitter is.
+de: Michel Mordant schrieb <1>ein umfangreiches Werk für Schlagzeug</1>, von Unterrichtsstücken und Wettbewerbssoli bis zu Ensemblemusik. Er ist <2>Juror</2> bei Wettbewerben und Prüfungen und engagiert sich in <3>vielen weiteren Aktivitäten</3> — Workshops, Schulprojekten und dem <4>niederländischen Chapter der Percussive Arts Society</4>, dessen Präsident er ist.
+15
+nl: Aan de marimba tijdens een concert, Eschweiler 1999.
+de: An der Marimba im Konzert, Eschweiler 1999.
+16
+nl: Studie
+de: Studium
+17
+nl: Conservatorium Maastricht, 1991
+de: Konservatorium Maastricht, 1991
+18
+nl: Orkest
+de: Orchester
+19
+nl: Paukenist, Symphonie Orchester Kerkrade
+de: Paukist, Symphonie Orchester Kerkrade
+22
+nl: Lidmaatschap
+de: Mitgliedschaft
+23
+nl: Voorzitter, PAS Chapter Nederland
+de: Präsident, PAS Chapter Niederlande
+24
+nl: Rechten
+de: Rechte
+25
+nl: Composities geregistreerd bij B.U.M.A.
+de: Kompositionen registriert bei B.U.M.A.
+26
+nl: Dirigent
+de: Dirigent
+27
+nl: Ensembles en korpsen
+de: Ensembles und Korps
+28
+nl: Michel Mordant leidt momenteel twee Duitse slagwerkensembles. In de loop der jaren leidde hij vele Nederlandse en Duitse drumbands, slagwerkgroepen en klaroenkorpsen — vaak naar provinciale en landelijke titels.
+de: Michel Mordant leitet derzeit zwei deutsche Schlagzeugensembles. Im Laufe der Jahre leitete er viele niederländische und deutsche Trommelkorps, Schlagzeuggruppen und Fanfarenkorps — oft bis zu Provinz- und Landestiteln.
+29
+nl: Huidige ensembles
+de: Aktuelle Leitung
+32
+nl: Eerder geleid
+de: Früher geleitet
+40
+nl: Eerder geleid (vervolg)
+de: Früher geleitet (Fortsetzung)
+47
+nl: (document)
+de: (Dokument)
+53
+nl: Alle ensembles
+de: Alle Ensembles
+54
+nl: Uitvoerend musicus
+de: Musiker
+55
+nl: Orkesten en ensembles
+de: Orchester und Ensembles
+56
+nl: Michel Mordant speelde slagwerk bij:
+de: Michel Mordant spielte Schlagzeug bei:
+58
+nl: Johann Strauss Orkest (André Rieu)
+de: Johann Strauss Orchester (André Rieu)
+59
+nl: Harmonieorkest van het conservatorium
+de: Harmonieorchester des Konservatoriums
+60
+nl: Symfonieorkest van het conservatorium
+de: Sinfonieorchester des Konservatoriums
+61
+nl: Slagwerkensemble van het conservatorium (o.l.v. Werner Otten en Hay Beurskens)
+de: Schlagzeugensemble des Konservatoriums (Ltg. Werner Otten und Hay Beurskens)
+62
+nl: PhilHarmonie Bocholtz
+de: PhilHarmonie Bocholtz
+63
+nl: Nationaal Slagwerkensemble Nederland (o.l.v. Leo Pustjens)
+de: Nationales Schlagzeugensemble der Niederlande (Ltg. Leo Pustjens)
+64
+nl: Vallis Spatzen (Vaals) en Dirgelländer Muzikanten (Stein)
+de: Vallis Spatzen (Vaals) und Dirgelländer Muzikanten (Stein)
+65
+nl: Orkesten in Thorn, Linne, Lemiers, Mechelen, Vaals, Meerssen en Treebeek
+de: Orchester in Thorn, Linne, Lemiers, Mechelen, Vaals, Meerssen und Treebeek
+66
+nl: Het begin
+de: Anfänge
+67
+nl: Muzikale wortels in Vijlen
+de: Musikalische Wurzeln in Vijlen
+68
+nl: Michel begon als trombonist bij St. Martinus Vijlen, met les van Th. Janssen en A. Mullenders. In 1979 stapte hij over op pauken, bij B. Flas, en volgde hij lessen mallets en kleine trom bij H. Martens en T. Winkens (drumband). Van 1982 tot 1986 speelde hij kleine trom in het <1>tamboer- en klaroenkorps St. Joseph Vijlen</1>.
+de: Michel begann als Posaunist bei St. Martinus Vijlen, unterrichtet von Th. Janssen und A. Mullenders. 1979 wechselte er zu den Pauken, bei B. Flas, und nahm Unterricht in Mallets und kleiner Trommel bei H. Martens und T. Winkens (Trommelkorps). Von 1982 bis 1986 spielte er kleine Trommel im <1>Trommel- und Fanfarenkorps St. Joseph Vijlen</1>.
+69
+nl: Zijn grootvader, Michel Mohnen — een mondharmonicaspeler die van 1907 tot 1989 in Vijlen woonde — maakte Michels allereerste trommelstokken. Samen met zijn moeder was hij de belangrijkste inspiratiebron voor Michels muzikale loopbaan.
+de: Sein Großvater, Michel Mohnen — ein Mundharmonikaspieler, der von 1907 bis 1989 in Vijlen lebte — fertigte Michels allererste Trommelstöcke an. Zusammen mit seiner Mutter war er die wichtigste Inspiration für Michels musikalische Laufbahn.
+70
+nl: De kerkklokken van Vijlen — een artikel van Michel Mohnen
+de: Die Kirchenglocken von Vijlen — ein Artikel von Michel Mohnen
+71
+nl: In militaire dienst bij de Limburgse Jagers, Roermond 1982: rechts Michel (tamboer), links Jan Weeda (trompet) en in het midden Michels moeder.
+de: Im Militärdienst bei den Limburgse Jagers, Roermond 1982: rechts Michel (Tambour), links Jan Weeda (Trompete) und in der Mitte Michels Mutter.
+72
+nl: Meer ontdekken
+de: Mehr entdecken
+73
+nl: Blader door het fotoarchief, van Michels eerste stappen als vierjarige trommelaar tot ontmoetingen met Billy Cobham, Thomas Lang, Nebojša Živković en Jim Chapin.
+de: Stöbern Sie im Fotoarchiv, von Michels ersten Schritten als vierjähriger Trommler bis zu Begegnungen mit Billy Cobham, Thomas Lang, Nebojša Živković und Jim Chapin.
+74
+nl: Fotoarchief
+de: Fotoarchiv

@@ -1,0 +1,57 @@
+1
+nl: Contact
+de: Kontakt
+2
+nl: Neem contact op met Michel Mordant voor slagwerklessen, workshops, ensembleprojecten, bladmuziek of jurering.
+de: Kontaktieren Sie Michel Mordant für Schlagzeugunterricht, Workshops, Ensembleprojekte, Noten oder Jurytätigkeit.
+3
+nl: Neem contact op
+de: Kontakt aufnehmen
+4
+nl: Voor lessen, workshops en schoolprojecten, het leiden van ensembles, bladmuziek of juryverzoeken — Michel Mordant hoort graag van u.
+de: Für Unterricht, Workshops und Schulprojekte, Ensembleleitung, Noten oder Jury-Anfragen — Michel Mordant freut sich auf Ihre Nachricht.
+5
+nl: Contactgegevens
+de: Kontaktdaten
+7
+nl: E-mail
+de: E-Mail
+9
+nl: Telefoon
+de: Telefon
+10
+nl: Adres
+de: Adresse
+11
+nl: Sittarderweg 80<1/>6412 CJ Heerlen<2/>Nederland
+de: Sittarderweg 80<1/>6412 CJ Heerlen<2/>Niederlande
+12
+nl: PAS Nederland
+de: PAS Niederlande
+14
+nl: Stuur een e-mail
+de: E-Mail senden
+15
+nl: Bel
+de: Anrufen
+16
+nl: Volg
+de: Folgen
+21
+nl: Mijn instrumenten
+de: Meine Instrumente
+22
+nl: Facebookpagina
+de: Facebook-Seite
+23
+nl: Gratis bladmuziek
+de: Kostenlose Noten
+24
+nl: Lesvideo’s
+de: Unterrichtsvideos
+25
+nl: Waar Michel lesgeeft
+de: Wo Michel unterrichtet
+28
+nl: <1>Jugendmusikschule</1> en Gesamtschule Eschweiler (DE)
+de: <1>Jugendmusikschule</1> und Gesamtschule Eschweiler (DE)

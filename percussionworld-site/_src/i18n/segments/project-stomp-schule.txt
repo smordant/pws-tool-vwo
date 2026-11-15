@@ -1,0 +1,104 @@
+1	Stomp at School (Germany): a full school-year programme for pupils aged 10 to 14 with body percussion, self-built instruments, rap and public performances.
+2	Information sheet: Gesamtschule Projekt STOMP
+3	Jahresplan für Schülerinnen und Schüler von 10 bis 14 Jahren: Bodypercussion, selbst gebaute Instrumente, Rap und Auftritte — im Altersheim, in der Gesamtschule und beim Sommerfest.
+4	Stundeneinteilung
+5	Datum
+6	Stunde
+7	Inhalt
+8	7 Sept
+9	Vorstellung und Werbung in den Klassen. Fotos und Film.
+10	14 Sept
+11	Willkommen, Sitzplan erstellen, Stomp-Video (7 Min.), Vor- und Nachspiel 1: Klatschen. <1>Hausaufgabe:</1> im Schulplaner notieren — Weinkorken, Konservendosen, trockene Erbsen, Reis, Kronkorken von Bierflaschen, Holzbrettchen, Stöcke, Bunt- und Filzstifte, Zeitungen und andere Dinge zum Instrumentenbau sammeln; Kleber und Schere mitbringen.
+12	21 Sept
+13	Vor- und Nachspiel 2 in Richtung Bodypercussion 1. Vorstellen der mitgebrachten Gegenstände und Ideen. Gruppenimprovisation 1 auf eigenen Gegenständen. Konserven- und Getränkedosen bekleben, bemalen und beschriften. <1>Hausaufgabe:</1> weitere Materialien mitbringen. Fotos und Film.
+14	28 Sept
+15	Vor- und Nachspiel 3, Bodypercussion 2, Dosen weiter gestalten. Gruppenimprovisation 2. <1>Hausaufgabe:</1> weitere Materialien mitbringen; einen Reim im 4/4-Takt erfinden (Bein – Klatsch – Schnips – Schnips). Fotos und Film.
+16	5 Okt
+17	Vor- und Nachspiel 4. Dosen fertig bekleben und füllen (Reis, Steine usw.). Vorstellung von Eimern, Dosen, Pfannen, Kesseln, Löffeln und Stöcken für die Gruppenimprovisation. Bodypercussion 3 (Bein – Klatsch – Schnips – Schnips) mit Raptext; Arbeitsblatt 1 (Text eines dreistrophigen Raps). Fotos und Film.
+18	12 Okt
+19	Frei (Aktivwoche).
+20	19 Okt
+21	Bodypercussion 2, Rasseln basteln und Rap weiter. Vor- und Nachspiel 5 (Achtel, Sechzehntel und Kombinationen). Stomp-Video Kapitel 2. Probe mit dem Chor.
+22	26 Okt – 2 Nov
+23	Herbstferien.
+24	9 Nov
+25	<1>Hausaufgabe:</1> Weinkorken und (Bambus-)Stöcke sammeln (Beispiel mitnehmen und zeigen). Trommelstöcke basteln.
+26	16 Nov
+27	Fotos und Film.
+28	23 Nov
+29	Auftritt im Altersheim. Fotos und Film.
+30	30 Nov
+31	Vor- und Nachspiel 5 mit Trommelstöcken, Rap weiter.
+32	2 Dez
+33	Auftritt in der Gesamtschule.
+34	7 Dez
+35	Stöcke basteln 1, Stomp-Video Kapitel 3, Vorführung Schlagzeug im Schlagzeugraum und Probe mit dem Chor (Weihnachtslieder).
+36	14 Dez
+37	21 Dez
+38	Auftritt im Altersheim.
+39	28 Dez – 4 Jan
+40	Weihnachtsferien.
+41	11 Jan
+42	Stöcke basteln 2 / Vor- und Nachspiel.
+43	18 Jan
+44	Stöcke basteln 3 / Stomp-Video.
+45	25 Jan
+46	Stöcke basteln 4 — einige Schüler fertig, vier noch nicht. Video der Sambagruppe der Musikschule Eschweiler.
+47	1 Feb
+48	8 Feb
+49	Weiberfastnacht.
+50	15 Feb
+51	Stöcke basteln 5 — noch vier Schüler; die übrigen bemalen ihre Stöcke.
+52	22 Feb
+53	Vorbereitung Chocalho, Vor- und Nachspiel. <1>Hausaufgabe:</1> Kronkorken und ein Stück Holz mitbringen (genaue Maße im Hausaufgabenheft).
+54	1 Mrz
+55	Kronkorken, Holz bemalen, Vor- und Nachspiel (Achtel, Sechzehntel und Kombinationen), Probe mit dem Chor.
+56	6 Mrz
+57	8 Mrz
+58	Kronkorken, Holz bemalen. Video Schlagzeug: Ensembles der Musikschule und Schlagzeuggruppe aus den Niederlanden.
+59	15 Mrz
+60	Kronkorken, Holz bemalen, Vor- und Nachspiel. Info und Probe für das Konzert am 5. Mai (Sommerfest der Gesamtschule).
+61	22 Mrz
+62	Info und Probe Konzert 5. Mai. Film Sambastück und Chorprobe.
+63	29 Mrz – 5 Apr
+64	Osterferien.
+65	12 Apr
+66	Info und Probe Konzert 5. Mai: 4 Shaker, 4 Eimer mit Stöcken und 4 Chocalhos (und weiter basteln).
+67	19 Apr
+68	Info und Probe Konzert 5. Mai: 4 Shaker, 4 Eimer mit Stöcken und 4 Chocalhos.
+69	26 Apr
+70	Chocalhos fertigstellen, Samba <1>Di Villa</1> üben.
+71	2 Mai
+72	(Extra) Mittwochmorgen — Vorbereitung 5. Mai.
+73	3 Mai
+74	Samba <1>Di Villa</1> üben.
+75	4 Mai
+76	(Extra) Freitagmorgen.
+77	5 Mai
+78	Samstag: Auftritt beim Sommerfest.
+79	10 Mai
+80	Christi Himmelfahrt.
+81	17 Mai
+82	Extra: Anfertigen von Shakern, Stöcken und Chocalhos für die Gesamtschule.
+83	24 Mai
+84	Pfingsten.
+85	31 Mai
+86	Fronleichnam.
+87	7 Jun
+88	11 Jun
+89	Vorstellung und Werbung in Klasse 9C.
+90	14 Jun
+91	21 Jun
+92	28 Jun
+93	5 Jul
+94	Gesamtschule Eschweiler — Projekt STOMP.
+95	Stunden 36 bis 40
+96	Altersheim
+97	Musikschule
+98	Werbungsunterricht und Konzert
+99	Organisation
+100	<1>Bastelmaterial:</1> Schere, Klebstoff, Nadeln und Draht (zum Nähen), Leimklemmen, Messer, Nägel, Hammer, Dosen, Eimer.
+101	<1>Instrumente:</1> Besen, Eimer und Töpfe, Kehrblech und Feger, Bälle, Container.
+102	<1>Einrichtung:</1> abschließbarer Schrank, Musikanlage. Für Spezialstunden leihen: DVD und Fernseher.
+103	<1>Ausnahmen:</1> bei schönem Wetter nach draußen gehen — aber auf den Lärm für den übrigen Unterricht achten (Container, Eimer, Treppengeländer, Füße, Bälle, Besen und Handfeger).
+104	<1>Vorbereitung:</1> Zeitungen mitbringen und unter die Bastelarbeiten legen.

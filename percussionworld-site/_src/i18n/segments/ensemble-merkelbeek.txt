@@ -1,0 +1,66 @@
+1	Drumband St. Johannes St. Clemens Merkelbeek
+2	Contest record of the percussion group St. Johannes St. Clemens Merkelbeek under Michel Mordant, 1989–1995.
+3	<1>Ensembles</1> / Merkelbeek
+4	Netherlands · 1989 – 1995
+5	The complete contest record of the percussion group, with points, repertoire and venues. “HAP.” denotes a festival at which the group was the winner of the contest.
+6	Date
+7	Points
+8	Distinction
+9	Piece(s)
+10	Composer(s)
+11	Contest venue
+12	Concerto II; Highland Sound
+13	Van Zanten; Corstjens
+14	Schimmert
+15	Scottish Victory
+16	Zinzen
+17	Schaesberg (O.L.S.)
+18	<1>Winner</1> HAP. Festival
+19	Glamour; Highland Sound
+20	Prince; Corstjens
+21	Nieuwenhagen
+22	Glamour; Scottish Victory
+23	Prince; Zinzen
+24	Limbricht
+25	Maasbree
+26	Highland Sound
+27	Corstjens
+28	Brunssum (O.L.S.)
+29	<1>Winner</1> HAP. Districtsfestival L.B.T.
+30	Terwinselen
+31	<1>Winner</1> HAP. Ere divisie
+32	Scottish Victory; Highland Sound
+33	Zinzen; Corstjens
+34	Heerlen
+35	Long John
+36	Van Zanten
+37	Kelpen-Oler (O.L.S.)
+38	Walking Medley Catena; Highland Sound
+39	Various; Corstjens
+40	Sweykhuizen
+41	Highland Sound; Long John
+42	Corstjens; Van Zanten
+43	Vaesrade
+44	African Rhythm; Walking Tall
+45	Westra; Mordant
+46	Roermond
+47	Mordant
+48	Koningsbosch
+49	Walking Tall; Highland Sound
+50	Mordant; Corstjens
+51	Hingen-Echt
+52	Geleen
+53	Heythuysen
+54	<1>Winner</1> 1st division
+55	Fantasie Drumming
+56	Timmermans
+57	Voerendaal
+58	<1>Winner</1> HAP. 1st division
+59	Concerto I; Fantasie Drumming
+60	Van Zanten; Timmermans
+61	Gulpen
+62	Puth
+63	<1>Winner</1> HAP. Tamboerkorpsen
+64	Heerlerheide
+65	Jabeek
+66	“—” : no points recorded.

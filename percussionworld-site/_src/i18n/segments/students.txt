@@ -1,0 +1,245 @@
+1	Student Achievements
+2	Contest results of Michel Mordant's percussion students, from 1993 to today: Limburg and Dutch national championships, Jugend Musiziert prizes and more.
+3	Press clipping — Joost Schins
+4	<1>Teaching</1> / Student achievements
+5	My students
+6	Three decades of contest results: Limburg and Dutch national champions, prize-winners at <1>Jugend Musiziert</1>, and soloists and ensembles honoured in the Netherlands, Germany, Belgium and France.
+7	Contest systems
+8	How contests are graded
+9	Six levels
+10	Youth level (up to 12 years)
+11	Third level
+12	Second level
+13	First level
+14	Excellent level
+15	Level of Honour
+16	Age groups
+17	Age group 1a — up to 8 years
+18	Age group 1b — 8 to 10
+19	Age group 2 — 11 to 12
+20	Age group 3 — 13 to 14
+21	Age group 4 — 15 to 16
+22	Age group 5 — 17 to 18
+23	Age group 6 — 19 to 20
+24	Age group 7 — 20 to 28
+25	France
+26	Two age groups
+27	Age group 1 — up to 14 years
+28	Age group 2 — 14 to 19
+29	Results
+30	Year by year
+31	Points are out of the maximum used at each contest. “In cooperation with” indicates students who also received lessons from another teacher.
+32	Jugend Musiziert — Regionalwettbewerb, Aachen, 31 January · Drumset (pop)
+33	<1>Felix</1> (age group 5) — 24/25 points: 1st prize and prize-winner, advanced to state level
+34	<1>Jonas</1> (age group 2) — 23/25 points: 1st prize and prize-winner
+35	<1>Fynn</1> (age group 3) — 23/25 points: 1st prize and prize-winner, advanced to state level
+36	<1>Alex</1> (age group 2) — 20/25 points: 2nd prize
+37	Jugend Musiziert — Preisträgerkonzert, Aachen, 27 February
+38	Invitation for Felix Labedzki: drumset improvisation.
+39	Jugend Musiziert — Landeswettbewerb, Dortmund, 21 March <1>PDF</1>
+40	<1>Felix</1> — 23/25 points
+41	<1>Jonas</1> — 23/25 points
+42	<1>Fynn</1> — 21/25 points
+43	Competition programmes 2026
+44	Student
+45	Age group
+46	Programme
+47	Time category
+48	Duration
+49	Eschweiler
+50	Jonas Lamm
+51	<1>Dance the Drums 1</1> (M. Mordant); <2>Rocksolo 4</2> (H. Mennens); <3>Welcome to the…</3> (Guns N’ Roses)
+52	6–10 min
+53	Fynn Krahl
+54	<1>Fynn’s Favourite</1> (M. Mordant); <2>Funksolo 3</2> (H. Mennens); <3>Numb</3> (Linkin Park)
+55	10–15 min
+56	Felix Labedzki
+57	<1>Crazy Army</1> (E. Lemley / S. Gadd); <2>Dance the Drums 2</2> (M. Mordant); <3>Feeling Good</3> (Michael Bublé); Improvisation (F. Labedzki)
+58	15–20 min
+59	Gangelt
+60	Alexander Foti
+61	<1>Rocksolo 3</1> (H. Mennens); <2>Dancing the Drums 3</2> (M. Mordant); <3>Starlight</3> (Muse)
+62	Jugend Musiziert — Regionalwettbewerb, Jülich, 1 February · Mallets
+63	<1>Jonas</1> (age group 1b) — 24/25 points: 1st prize and prize-winner
+64	<1>Fynn</1> (age group 2) — 24/25 points: 1st prize and prize-winner, advanced to state level
+65	<1>Alex</1> (age group 1b) — 24/25 points: 1st prize and prize-winner
+66	<1>Felix</1> (age group 4) — 24/25 points: 1st prize and prize-winner, advanced to state level
+67	<1>Burkhard</1> (age group 4) — 22/25 points: 1st prize
+68	<1>Tobias</1> (age group 4) — 22/25 points: 1st prize
+69	Jugend Musiziert — Preisträgerkonzert, Aachen, 21 February
+70	<1>Jonas</1> — marimba: <2>Miniature for Marimba</2> (Michel Mordant)
+71	<1>Felix</1> — drumset: <2>New Era</2> (Felix Labedzki)
+72	Jugend Musiziert — Landeswettbewerb, Essen, 24 March <1>PDF</1>
+73	<1>Felix</1> — 21/25 points
+74	Competition programmes 2025
+75	Duration (min)
+76	Marimba: <1>Eli Green’s Cakewalk</1> (S. Koninsky); glockenspiel: <2>Menuet</2> (J. S. Bach); marimba: <3>Miniature for Marimba</3> (M. Mordant); marimba: <4>Pirates of the Caribbean</4> (H. Zimmer)
+77	Snare drum: <1>Ranec</1> (J. Zinzen); drumset: <2>Rocksolo 4</2> (H. Mennens); set-up: <3>Set-Up Solo 1</3> (M. Mordant); snare drum: <4>Try It</4> (F. Rademakers)
+78	Burkhard Vogt
+79	Marimba: <1>Solo 3</1> (R. Wiener); vibraphone: <2>Für Elise</2> (L. van Beethoven); marimba: <3>Triad Dimension</3> (M. Mordant); marimba: <4>Alla Turca</4> (W. A. Mozart)
+80	Drumset: <1>Signature</1> (S. Fink); set-up: <2>Jeroen</2> (F. Rademakers); snare drum: <3>Back in Town</3> (M. Mordant); drumset: <4>New Era</4> — improvisation
+81	Tobias Frank
+82	Marimba: <1>Marimba Piece 1</1> (R. Wiener); marimba: <2>Yellow After the Rain</2> (M. Peters); vibraphone: <3>Diphtongue</3> (M. Mordant); marimba: <4>Furioso and Waltz</4> (E. Hatch)
+83	Xylophone: <1>Ententanz</1> (N. J. Živković); glockenspiel: <2>Double Up</2> (M. Mordant); xylophone: <3>Minuet</3> (Petzold); xylophone: <4>Cryptus</4> (Mobers)
+84	Eschweiler “Best Of” concert — <1>programme (PDF)</1>
+85	Dutch national championships, 2nd division, xylophone section: <1>Jeroen van der Poel</1>
+86	Jugend Musiziert — Regionalwettbewerb, Aachen, 25 January: <1>David</1> (age group 2) — 24/25 points, 1st prize and prize-winner
+87	Jugend Musiziert — Landeswettbewerb, Essen, 14 March: <1>David</1> (age group 2) — 21/25 points <2>PDF</2>
+88	Mausbach: workshop “Trommelzeichen zu heutigen Noten” <1>PDF</1>
+89	Maasniel: workshops 1 and 2 <1>PDF</1>
+90	Sabbatical.
+91	Percussion workshops (various, 1–4) <1>PDF</1>
+92	Youth division, snare drum section: soloist <1>Sander Mordant</1> <2>PDF</2>
+93	Percussion workshop “Jedes Kind ein Instrument”, Eschweiler
+94	World Music Contest (WMC), soloist competition: <1>Daan Westra</1> and <2>Jonas Germans</2> <3>PDF</3>
+95	Limburgse Bond van Tamboerkorpsen — Limburg championships, Roggel, 14 March <1>PDF</1>
+96	1st division, percussion duo: <1>Martijn and Joost Schins</1> (St. Joseph Vijlen) — <2>Sticking 2-gether</2> (M. Mordant), 90 points <3>Champion of Limburg</3>
+97	1st division, marimba soloist: <1>Stephan Geelen</1> (Eendracht Dieteren) — <2>Spanish Dance</2> (K. Stensgaard), 89 points <3>Champion of Limburg</3>
+98	2nd division, xylophone/marimba duo: <1>Bianca and Joyce Berkers</1> — <2>Tango per due</2> (I. Weijmans) <3>Champion of Limburg</3>
+99	Limburgse Bond van Tamboerkorpsen — Merkelbeek, 31 January <1>PDF</1>
+100	1st division, percussion duo: <1>Martijn and Joost Schins</1> (St. Joseph Vijlen) — <2>Sticking 2-gether</2> (M. Mordant), 93 points <3>Winner 1st division & contest winner</3>
+101	Youth level: <1>Celine Dodemont</1>, B♭ bugle (section B), in cooperation with Marco Gulpen <2>Winner youth division</2>
+102	Youth level: <1>Jonas Germans</1>, snare drum, in cooperation with Schins <2>Winner youth division</2>
+103	Limburgse Bond van Tamboerkorpsen — Koningsbosch, 10 January
+104	1st division, xylophone/marimba soloist: <1>Stephan Geelen</1> (Drumband Fanfare Eendracht Dieteren) — <2>Spanish Dance</2> (Kai Stensgaard), 87 points <3>Winner 1st division</3>
+105	1st division, snare drum soloist: <1>Stephan Geelen</1> (Drumband Fanfare Eendracht Dieteren) — <2><3>Back in Town</3></2> (Michel Mordant), 87 points <4>Winner 1st division</4>
+106	2nd division, xylophone/marimba duo: <1>Bianca and Joyce Berkers</1> — <2><3>Tango per due</3></2> (I. Weijmans) <4>Winner mallet duo</4>
+107	4th division, drumset: <1>Niels Eberson</1> — <2>Drumsolo no. 1</2> (E. Lammers) <3>Winner drumset solo</3>
+108	Dutch national championships, Elburg, 3 October
+109	2nd division, xylophone/marimba soloist: <1>Joyce Berkers</1> (Drumband Schutterij St. Stephanus Dieteren) <2>Champion of the Netherlands</2>
+110	2nd division, xylophone/marimba soloist: <1>Bianca Berkers</1> (Drumband Schutterij St. Stephanus Dieteren) — 2nd best
+111	Limburg championships, Merkelbeek (16 March): <1>Stephan Geelen</1> (St. Stephanus Dieteren) — marimba solo <2>Furioso and Valse</2>, 2nd level, 88 points <3>Champion of Limburg</3>
+112	Limburg championships, Merkelbeek (16 March): <1>Joost Schins</1> (St. Joseph Vijlen) — 1st division snare drum, 93 points, 2nd best <2>video</2>
+113	Maasbracht, 12 January: <1>Stephan Geelen</1> (Drumband Schutterij St. Stephanus Dieteren) — 2nd division xylophone/marimba soloist, 87 points
+114	Heerlen, 21 January: <1>Judith Keulers</1> (Drumband Harmonie St. David Voerendaal) — 2nd division xylophone/marimba soloist, 85 points <2>video</2>
+115	Youth division snare drum: <1>Niels Eberson</1> and <2>Jeroen van Buggenum</2> (Drumband Fanfare Eendracht Dieteren) — 81 points
+116	Dutch national championships, Elburg, 13 October
+117	<1>Lars Bogie</1> — snare drum, 4th level (in cooperation with Henry Geelen) <2>Champion of the Netherlands</2>
+118	<1>Bianca and Joyce Berkers</1> — snare drum, youth level (in cooperation with Henry Geelen) <2>Champion of the Netherlands</2>
+119	<1>Stephan Geelen and Jeroen Janssen</1> — snare drum duo, 3rd level (in cooperation with Henry Geelen) <2>Champion of the Netherlands</2>
+120	<1>Joost Schins</1> — snare drum, 2nd level; contest piece <2>Sagitta</2> (M. Mols) <3>Champion of the Netherlands</3>
+121	O.L.S. Nederweert — soloist competition, honour division percussion
+122	1. <1>J. Schins</1> (Sint Joseph Vijlen) — 90.00 points
+123	2. <1>M. Schins</1> (Sint Joseph Vijlen) — 85.00 points
+124	Limburg championships, Melick, 17–18 March
+125	<1>Martijn and Joost Schins</1> (Vijlen) — snare drum duo <2>Dialogo</2> (H. Schellekens), 1st level, 87 points <3>Champion of Limburg</3>
+126	<1>Joost Schins</1> (Vijlen) — snare drum solo <2>Sagitta</2> (M. Mols), 2nd level, 90.5 points <3>Champion of Limburg</3>
+127	<1>Lars Bogie</1> (St. Stephanus Dieteren) — snare drum solo <2>Expo</2> (J. Stoffels), 4th level, 87 points <3>Champion of Limburg</3>
+128	<1>Kevin Louvenberg</1> (St. Stephanus Dieteren) — snare drum solo <2>First Concert</2> (F. Rademakers), 5th level, 87.5 points <3>Champion of Limburg</3>
+129	<1>Bianca and Joyce Berkers</1> (St. Stephanus Dieteren) — snare drum duo <2>Marche and Dance</2> (G. Bomhof), 5th level, 90 points <3>Champion of Limburg</3>
+130	Youth division snare drum duo: <1>Joyce and Bianca Berkers</1> (Drumband Schutterij St. Stephanus Dieteren) — 86 points
+131	5th division snare drum soloist: <1>Kevin Louvenberg</1> (St. Stephanus Dieteren) — 87.5 points, Limburg champion 2007
+132	5th division snare drum soloist: <1>Melvin Schulpen</1> (Drumband Schutterij St. Stephanus Dieteren) — 87 points
+133	5th division xylophone/marimba soloist: <1>Eefje Claessen</1> (Drumband Fanfare Eendracht Dieteren) — 87 points
+134	4th division snare drum soloist: <1>Joyce Berkers</1> (Drumband Schutterij St. Stephanus Dieteren) — 86 points
+135	3rd division snare drum duo: <1>Stephan Geelen and Jeroen Janssen</1> (Drumband Schutterij St. Stephanus Dieteren) — 90 points
+136	For the best results, students should also receive extra lessons from a senior percussionist; for St. Stephanus Dieteren this is Henry Geelen.
+137	4th division xylophone/marimba soloist: <1>Judith Keulers</1> (Drumband Harmonie St. David Voerendaal) — 83 points
+138	3rd division multi-percussion soloist: <1>Jasper Vliex</1> (Drumband Harmonie St. David Voerendaal) — 85 points
+139	2nd division snare drum soloist: <1>Joost Schins</1> (Schutterij St. Joseph Vijlen) — 88 points
+140	1st division snare drum duo: <1>Martijn and Joost Schins</1> (Schutterij St. Joseph Vijlen) — 87 points
+141	Dutch national championships, Berlicum, 2 June: <1>Kevin Louvenberg</1> — snare drum, youth level; contest piece <2>Basic Game</2> (L. Camp) <3>Champion of the Netherlands</3>
+142	O.L.S. Stramproy, 3 July: <1>Joost Schins</1> — <2>26 Rudimental Solo</2> (H. van Boven), level of Honour, 90.5 points
+143	Limburg championships, Kerkrade, 19 March: <1>Judith Keulers</1> — marimba, <2>Polka en Galopp</2> (I. Weijmans), 5th level, 91 points <3>Champion of Limburg</3>
+144	Limburg championships, Kerkrade, 19 March: <1>Stephan Geelen</1> — marimba, <2>Polka en Galopp</2> (I. Weijmans), 4th level, 88 points <3>Champion of Limburg</3>
+145	Limburg championships, Kerkrade, 19 March: <1>Martijn Schins</1> — snare drum, <2>Sagitta</2> (M. Mols), 2nd level, 89 points — 2nd best of Limburg
+146	Limburgse Bond van Tamboerkorpsen, Heerlen, 22 January: <1>Luc Pieters</1> — marimba, <2>Starting Up</2> (M. Mordant), youth level, 83 points
+147	Limburgse Bond van Tamboerkorpsen, Heerlen, 22 January: <1>Judith Keulers</1> — marimba, <2>Polka en Galopp</2> (I. Weijmans), 5th level, 87 points <3>DOC</3>
+148	Houthem, 21 August: <1>Joost Schins</1> — <2>Golden Tricks</2> (J. Schipper), level of Honour, 86.90 points, 2nd best
+149	Houthem, 21 August: <1>Martijn Schins</1> — <2>Expression</2> (C. Bertjens), level of Honour, 87.10 points
+150	Federatiefeest Born, 17 June: <1>Joost Schins</1> — <2>Golden Tricks</2> (J. Schipper), level of Honour, 53.5 points
+151	Federatiefeest Born, 17 June: <1>Martijn Schins</1> — <2>Expression</2> (C. Bertjens), level of Honour, 53 points
+152	Zuidlimburgse Schuttersbond, Nieuwenhagen, 28 March: <1>Joost and Martijn Schins</1> — <2>Timing</2> (Henk Smit), level of Honour, 176 points <3>Contest winner</3>
+153	Zuidlimburgse Schuttersbond, Nieuwenhagen, 28 March: <1>Joost Schins</1> — <2>Golden Tricks</2> (J. Schipper), level of Honour, 175.5 points <3>Contest winner soloists</3>
+154	Zuidlimburgse Schuttersbond, Nieuwenhagen, 28 March: <1>Martijn Schins</1> — <2>Expression</2> (C. Bertjens), level of Honour, 172.5 points — 2nd best soloist
+155	Limburg championships, Grubbenvorst, 20 March: <1>Timo Coutura</1> — marimba, <2>Yellow After the Rain</2> (M. Peters), 2nd division section F/G <3>Champion of Limburg</3>
+156	Limburgse Bond van Tamboerkorpsen, Noorbeek, 1 February: <1>Roel Zimny</1> — marimba, <2>Furioso and Valse in D minor</2> (E. Hatch) — winner 2nd division section F/G
+157	Limburgse Bond van Tamboerkorpsen, Noorbeek, 1 February: <1>Timo Coutura</1> — marimba, <2>Yellow After the Rain</2> (M. Peters), 2nd division section F/G — 2nd best
+158	OSC Baexem: <1>Dion Lamkin</1> — marimba, <2>Starting Up</2> (M. Mordant), 3rd level, 82 points
+159	Zuidlimburgse Schuttersbond, Simpelveld, 28 March: <1>Joost Schins</1> — <2>Blue Ribbon</2> (H. Borrenberghs), level of Honour, 108 points <3>Contest winner</3>
+160	Zuidlimburgse Schuttersbond, Simpelveld, 28 March: <1>Joost and Martijn Schins</1> — <2>Dialogo</2> (H. Schellekens), level of Honour, 106 points <3>Contest winner ensembles</3>
+161	Zuidlimburgse Schuttersbond, Simpelveld, 30 March: <1>Martijn Schins</1> — <2>26 Rudimental Solo</2> (H. van Boven), level of Honour, 105 points — 3rd best of the contest
+162	Limburg championships, Heel, 14 March: <1>Jasper Vliex</1> — xylophone, <2>Yankee Land</2> (M. Hoffman), 2nd level section F/G <3>Champion of Limburg</3>
+163	Limburgse Bond van Tamboerkorpsen, Heerlen, 1 February: <1>Tim Dirrix</1> — marimba, <2>Rosewood Blues</2> (C. Delancy), level of Honour section F/G
+164	Limburgse Bond van Tamboerkorpsen, Heerlen, 1 February: <1>Judith Keulers</1> — <2>Wals in C</2> (L. Claasen), youth level section F/G
+165	O.L.S. Kessenich (Belgium), 6 July: <1>Martijn Schins</1> — <2>Golden Tricks</2> (J. Schipper), level of Honour, 52.5 points
+166	Zuidlimburgse Schuttersbond, Voerendaal, 30 March: <1>Martijn Schins</1> — <2>Golden Tricks</2> (J. Schipper), level of Honour, 110 points <3>Contest winner</3>
+167	Zuidlimburgse Schuttersbond, Voerendaal, 30 March: <1>Joost Schins</1> — <2>Back in Town</2> (M. Mordant), level of Honour, 108.5 points — 3rd best of the contest
+168	Soloist contest (Z.L.S.F.), Voerendaal, 30 March: <1>Martijn and Joost Schins and Tim Kusters</1> — <2>Striking Back</2> (M. Mordant), first level, 109 points — 2nd best of the contest
+169	Limburg championships, Borgharen, 13 March: <1>Jasper Vliex</1> — xylophone, <2>Polka en Galop</2> (I. Weijmans), 3rd level section F/G <3>Champion of Limburg</3>
+170	Press clipping (Joost Schins)
+171	Zuidlimburgse Schuttersbond, Eys, 9 June: <1>Martijn Schins</1> — snare drum, <2>Compilation March</2> (G. Bomhof) and <3>Expression</3> (C. Bertjens), level of Honour
+172	Zuidlimburgse Schuttersbond, Eys, 9 June: <1>Remon Plummen</1> — snare drum, <2>Three Dances</2> (L. Camp), second level
+173	Dutch national championships, Berlicum, 2 June: <1>Armand van Loo</1> — xylophone, 3rd level section F/G; contest piece <2>Mars en Wals</2> (I. Weijmans) <3>Champion of the Netherlands</3>
+174	Soloist contest (Z.L.S.F.), Ubachsberg, 4 April: <1>Petra, Martijn and Joost Schins and Tim Kusters</1> — <2>Back to the Roots</2> (M. Mordant), first level, 104 of 120 points
+175	Limburg championships, Melick, 13 March: <1>Armand van Loo</1> — xylophone, 3rd level section F/G; contest piece <2>Wals in C</2> (L. Claesen) <3>Champion of Limburg</3>
+176	L.B.T., Heerlen, 3 February: <1>Armand van Loo</1> — xylophone, <2>Wals in C</2> (L. Claesen), 3rd level section F/G
+177	L.B.T., Roggel, 19 January: <1>Ralf Linssen</1> — snare drum, <2>My First Audition</2> (M. Mordant), youth level section A, 52 points
+178	Maria Habes soloist contest (O.S.C.), Heel, 4 November: <1>Tymen Abels</1> — marimba, <2>Solo Piece for Anaïs</2> (Ruud Wiener), third level
+179	Maria Habes soloist contest (O.S.C.), Heel, 4 November: <1>Ayrton Spierts</1> — snare drum, <2>Repetition March</2> (Henk Mennens), youth level
+180	Mons. Roncken Toernooi, Amstenrade, 23 September: <1>Tijmen Abels</1> — xylophone, 3rd level
+181	Zuidlimburgse Schuttersbond, Wijlre, 19 August: <1>Joost Schins</1> (snare drum, first level), <2>Tim Kusters</2> (snare drum, level of Honour), <3>Gido Heijenrath</3> (B♭ bugle, third level), <4>Monique Delamboy</4> (snare drum, second level)
+182	Zuidlimburgse Schuttersbond, St. Geertruid, 17 June: <1>Martijn Schins</1> (snare drum, first level), <2>Tim Kusters</2> (snare drum, level of Honour), <3>Gido Heijenrath</3> (B♭ bugle, third level), <4>Remon Plummen</4> (snare drum, third level), <5>Joost Schins</5> (snare drum, first level)
+183	Kantonale Bond van Schutterijen “Eendracht Maakt Macht”, Buggenum: <1>Ralf Naus</1> — snare drum, youth level
+184	Kantonale Bond van Schutterijen “Eendracht Maakt Macht”, Roggel, 17 June: <1>Ralf Linssen</1> — snare drum, youth level
+185	O.S.C., St. Odiliënberg, 10 June: duo <1>Juul Beckers and Timmy Coenen</1> — percussion, youth level, <2>Exposition</2> for percussion duo (M. Mordant)
+186	Mons. Roncken Toernooi, Melick, 20 May: <1>Tijmen Abels</1> — xylophone, 3rd level
+187	Dutch national championships, Berlicum, 13 May: <1>Tim Dirrix</1> — marimba, excellent level section F/G; contest piece <2>Yellow After the Rain</2> (M. Peters) <3>Champion of the Netherlands</3>
+188	Dutch national championships, Berlicum, 13 May: <1>Roel Zimny</1> — xylophone, third level section F/G; contest piece <2>Yankee Land</2> (M. Hoffman) <3>Champion of the Netherlands</3>
+189	Zuidlimburgse Schuttersbond, Mechelen, 8 April: <1>Ron Lurken</1> — snare drum, level of Honour; contest piece <2>Back in Town</2> (M. Mordant) <3>Contest winner</3>
+190	Zuidlimburgse Schuttersbond, Mechelen, 8 April: <1>Joost Schins</1> (snare drum, first level), <2>Gido Heyenrath</2> (B♭ bugle, second level), <3>Remon Plummen</3> (snare drum, second level), <4>Armand van Loo</4> (snare drum, third level)
+191	10th O.S.C., Baexem, 25 March: <1>Paul Venner</1> — concert toms, third level
+192	Limburgse Bond van Tamboerkorpsen, Landgraaf, 18 March: <1>Tim Dirrix</1> — marimba, excellent level section F/G <2>Champion of Limburg</2>
+193	Limburgse Bond van Tamboerkorpsen, Landgraaf, 18 March: <1>Ron Lurken</1> — snare drum, excellent level section C <2>Champion of Limburg</2>
+194	Limburgse Bond van Tamboerkorpsen, Landgraaf, 18 March: <1>Roel Zimny</1> — xylophone, third level section F/G <2>Champion of Limburg</2>
+195	Limburgse Bond van Tamboerkorpsen, Heerlen, 11 February: <1>Tim Dirrix</1> (marimba, excellent level F/G), <2>Ron Lurken</2> (snare drum, excellent level C), <3>Roel Zimny</3> (xylophone, third level F/G)
+196	Jugend Musiziert, Düren (Germany), 28 January: <1>Timo Coutura</1> (age group 4), <2>Daniel Kupper</2> (age group 3), <3>Stefan Hagel and Linda Mertes</3> (age group 2) — marimba, timpani, snare drum and drumset; Stefan played a timpani solo by J. McKenzie
+197	Gido and Marco Heijenrath
+198	Concert “Het Land van Ooit”, Drunen: <1>Rafael Sars</1> — snare drum, in the record attempt “The Biggest Symphony Orchestra ‘Ooit’”, conductor Henk Westbroek
+199	Schuttersfeest Gulpen, 6 August: <1>Monique Delamboy</1> (snare drum, third level, promoted to second level), <2>Gido Heijenrath</2> (B♭ bugle, third level), <3>Jan Willem Spobeck</3> (snare drum, youth level)
+200	Federatiefeest Klimmen, 23 June: <1>Martijn Schins</1> (snare drum, first level), <2>Ronny Lurken</2> (snare drum, level of Honour), <3>Remon Plummen</3> (snare drum, youth level)
+201	Oud Limburgs Schuttersfeest, Baarlo: <1>Martijn Schins</1> (snare drum, first level), <2>Ronny Lurken</2> (snare drum, level of Honour)
+202	Zuidlimburgse Schuttersbond, Nieuwenhagen, 18 June: <1>Marco Heijenrath</1> (B♭ bugle, youth level), <2>Gido Heijenrath</2> (B♭ bugle, third level)
+203	Zuidlimburgse Schuttersbond, Ubachsberg, 21 May: <1>Monique Delamboy</1> (snare drum, third level), <2>Armand van Loo</2> (snare drum, youth level), <3>Marco Heijenrath</3> (B♭ bugle, youth level), <4>Gido Heijenrath</4> (B♭ bugle, third level)
+204	Ondeling Solisten Concours, St. Odiliënberg, 2 April: <1>Kenneth Savelkoul</1> — xylophone, third level
+205	Zuidlimburgse Schuttersbond, Mheer, 26 March: <1>Joost Schins</1> (snare drum, third level), <2>Gido Heijenrath</2> (B♭ bugle, third level), <3>Remon Plummen</3> (snare drum, youth level)
+206	Limburgse Bond van Tamboerkorpsen, Landgraaf, 13 February: <1>Tim Dirrix</1> — xylophone, first level section F/G
+207	Limburgse Bond van Tamboerkorpsen, Melick, 31 January: <1>Michel Thomassen</1> — snare drum, youth level section C
+208	<1>Ronnie Lurken</1> — snare drum: Zuidlimburgse Schuttersbond Meerssen (22 August, first level), Houthem (8 August, first level), Z.L.S.F. Susteren (18 July, first level), O.L.S. Reuver (4 July, second level), Wijlre (20 June, first level), Schin op Geul (30 May, first level), Valkenburg (28 March, level of Honour)
+209	O.S.C. Heel, 25 April: <1>Tymen Abels</1> — xylophone, youth level
+210	O.S.C. Baexem, 28 March: <1>Ruud Joris</1> — xylophone, first level
+211	Limburgse Bond van Tamboerkorpsen, Roggel, 21 March: <1>Tim Dirrix</1> — xylophone, second level section F/G <2>Champion of Limburg</2>
+212	Limburgse Bond van Tamboerkorpsen, Roggel, 21 March: <1>Ronnie Lurken and Raymond Collaris</1> — snare drum ensemble, excellent level section C <2>Champion of Limburg</2>
+213	Limburgse Bond van Tamboerkorpsen, Heerlen, 31 January: <1>Ronnie Lurken and Raymond Collaris</1> (snare drum ensemble, level of Honour section C); <2>Tim Dirrix</2> (xylophone, second level section F/G)
+214	Zuid Limburgs Federatiefeest, Valkenburg, 19 July: <1>Ronnie Lurken</1> — snare drum, first level
+215	Oud Limburgs Schuttersfeest, Kinrooi (Belgium), 5 July: <1>Ronnie Lurken</1> — snare drum, first level
+216	S.E.C. Posterholt, 19 April: <1>Rik van Bree</1> — snare drum, youth level
+217	Zuidlimburgse Schuttersbond, Wijlre, 29 March: <1>Ronnie Lurken</1> — snare drum, first level. This contest has been won four times by former students (1992, 1993, 1995 and 1996).
+218	Limburgse Bond van Tamboerkorpsen, St. Geertruid, 21 March: <1>Tim Dirrix</1> — xylophone, <2>Polka en Galop</2> (I. Weijmans), third level section F/G <3>Champion of Limburg</3>
+219	Jugend Musiziert, Düren (Germany), 25 January: <1>Timo Coutura</1> (age group 3) and <2>Lucas Stolberg</2> (age group 2) — xylophone, timpani, snare drum and drumset
+220	Limburgse Bond van Tamboerkorpsen, Heerlen, 18 January: <1>Tim Dirrix</1> — xylophone, <2>Polka en Galop</2> (I. Weijmans), third level
+221	1993<1>to 1997</1>
+222	Oud Limburgs Schuttersfeest, Kaulille (Belgium), 6 July 1997: <1>Ronnie Lurken</1> — snare drum
+223	Vriendenkrans, Heel, 13 April 1997: <1>Onno van de Ven</1> — marimba, <2>Cool Bite</2> (W. Stadler), duet with Richard Steinbusch (vibraphone)
+224	O.S.C. Merkelbeek, 1 April 1996: <1>Geert Gebben</1> — snare drum, youth level
+225	S.E.C. Posterholt, 24 March 1996: <1>Pierke Boosten</1> — snare drum, youth level
+226	O.S.C. Doenrade, 2 April 1995: <1>Stevie Gelissen</1> (snare drum, second level) and <2>Joep Larue</2> (snare drum, youth level)
+227	Limburgse Bond van Tamboerkorpsen, Sittard, 14 March 1993: <1>Linda, Angelique and Carol Gubbels</1> — snare drum, third level section C
+228	Limburgse Bond van Tamboerkorpsen, Epen: <1>Sanne Teheux</1> — B♭ bugle, youth level section B <2>Champion of Limburg</2>
+229	Press clippings and documents
+230	Newspaper articles, certificates and contest documents from the students’ archive.
+231	Press clipping, 20 August 2001
+232	Press clipping, 8 April 2001
+233	Press clipping, 20 March 2001
+234	Jugend Musiziert 2001
+235	Stefan Hagel
+236	Marco and Gido Heijenrath
+237	Vaalser Weekblad, 11 August 2000
+238	Press clipping, 24 July 2000
+239	De Limburger and Vaalser Weekblad, 10 July 2000
+240	De Limburger and Vaalser Weekblad, 25 May 2000
+241	Press clipping, 27 March 2000
+242	Press clipping, 22 March 1999
+243	Press clipping, 29 March 1998
+244	Press clipping, 28 February 1997
+245	Joost Schins, 2004

@@ -1,0 +1,189 @@
+1
+nl: Home
+de: Startseite
+2
+nl: Michel Mordant — slagwerker, componist, dirigent en slagwerkdocent in Nederland en Duitsland. Composities, ensembles, lessen, projecten en het PAS Chapter Nederland.
+de: Michel Mordant — Schlagzeuger, Komponist, Dirigent und Schlagzeuglehrer in den Niederlanden und in Deutschland. Kompositionen, Ensembles, Unterricht, Projekte und das PAS Chapter Niederlande.
+3
+nl: Bert Flas, Chin-Cheng Lin, Paul Bouten, Michel Mordant, Hans Beurskens en Ludwig Albert op de Nederlandse Day of Percussion
+de: Bert Flas, Chin-Cheng Lin, Paul Bouten, Michel Mordant, Hans Beurskens und Ludwig Albert beim niederländischen Day of Percussion
+4
+nl: Affiche van de Day of Percussion, 22 oktober 2023, Sittard
+de: Plakat zum Day of Percussion, 22. Oktober 2023, Sittard
+7
+nl: Slagwerkdocent
+de: Schlagzeuglehrer
+8
+nl: Paukenist
+de: Paukist
+9
+nl: Aan het conservatorium opgeleide slagwerker uit Limburg. Hij schrijft muziek voor slagwerk, leidt slagwerkensembles en drumbands en geeft al meer dan dertig jaar les aan jonge musici aan beide zijden van de Nederlands-Duitse grens.
+de: Am Konservatorium ausgebildeter Schlagzeuger aus Limburg. Er schreibt Musik für Schlagzeug, leitet Schlagzeugensembles und Trommelkorps und unterrichtet seit über dreißig Jahren junge Musikerinnen und Musiker auf beiden Seiten der deutsch-niederländischen Grenze.
+10
+nl: Ontdek de muziek
+de: Zur Musik
+11
+nl: De Nederlandse Day of Percussion — van links: Bert Flas, Chin-Cheng Lin, Paul Bouten, Michel Mordant, Hans Beurskens en Ludwig Albert.
+de: Der niederländische Day of Percussion — von links: Bert Flas, Chin-Cheng Lin, Paul Bouten, Michel Mordant, Hans Beurskens und Ludwig Albert.
+12
+nl: Afgestudeerd, Conservatorium Maastricht
+de: Abschluss, Konservatorium Maastricht
+13
+nl: Jaar slagwerkdocent in Eschweiler
+de: Jahre Schlagzeuglehrer in Eschweiler
+14
+nl: Ensembles en korpsen geleid
+de: Ensembles und Korps geleitet
+15
+nl: Werken voor slagwerk
+de: Werke für Schlagzeug
+16
+nl: Werkterreinen
+de: Arbeitsbereiche
+17
+nl: Een leven in slagwerk
+de: Ein Leben für das Schlagzeug
+18
+nl: Componeren, dirigeren, lesgeven en jureren — vier disciplines die elkaar versterken en één doel delen: slagwerkmuziek tot leven brengen voor spelers en publiek.
+de: Komponieren, Dirigieren, Unterrichten und Jurieren — vier Disziplinen, die einander bereichern und ein Ziel teilen: Schlagzeugmusik für Spieler und Publikum lebendig werden zu lassen.
+19
+nl: Solo-, duo- en ensemblewerken voor drumstel, kleine trom, melodisch slagwerk en pauken, geregistreerd bij B.U.M.A. en uitgevoerd op concoursen en concerten.
+de: Solo-, Duo- und Ensemblewerke für Drumset, kleine Trommel, Stabspiele und Pauken, registriert bei B.U.M.A. und aufgeführt bei Wettbewerben und Konzerten.
+21
+nl: Dirigent van de slagwerkensembles van de Jugendmusikschulen Eschweiler en Heinsberg, en daarvoor van vele Nederlandse drumbands en ensembles.
+de: Leiter der Schlagzeugensembles der Jugendmusikschulen Eschweiler und Heinsberg und zuvor vieler niederländischer Trommelkorps und Ensembles.
+23
+nl: Docent
+de: Lehrer
+24
+nl: Drumstel, kleine trom, marimba, vibrafoon en pauken — met zijn eigen <1>Start</1>-methodes en leerlingen die concoursen winnen in vier landen.
+de: Drumset, kleine Trommel, Marimba, Vibraphon und Pauken — mit seinen eigenen <1>Start</1>-Schulen und Schülern, die Wettbewerbe in vier Ländern gewinnen.
+25
+nl: Lesgeven
+de: Unterricht
+27
+nl: Jurylid bij korpsconcoursen, solistenconcoursen en examens in Nederland, België en Duitsland sinds 2000.
+de: Juror bei Korpswettbewerben, Solistenwettbewerben und Prüfungen in den Niederlanden, Belgien und Deutschland seit 2000.
+28
+nl: Op dit moment
+de: Aktuell
+29
+nl: Huidige functies
+de: Aktuelle Tätigkeiten
+30
+nl: Michel combineert orkestspel met het leiden van ensembles en lesgeven aan muziekscholen in Nederland en Duitsland.
+de: Michel verbindet Orchesterspiel mit Ensembleleitung und Unterricht an Musikschulen in den Niederlanden und in Deutschland.
+31
+nl: Volledige biografie
+de: Vollständige Biografie
+33
+nl: <1>Slagwerkensemble Jugendmusikschule Eschweiler</1> (DE)
+de: <1>Schlagzeugensemble der Jugendmusikschule Eschweiler</1> (DE)
+34
+nl: <1>Slagwerkensemble Jugendmusikschule Heinsberg</1> (DE)
+de: <1>Schlagzeugensemble der Jugendmusikschule Heinsberg</1> (DE)
+37
+nl: Voorzitter
+de: Präsident
+38
+nl: Percussive Arts Society — Chapter Nederland
+de: Percussive Arts Society — Chapter Niederlande
+39
+nl: Korpsconcoursen, solistenconcoursen en examens
+de: Korpswettbewerbe, Solistenwettbewerbe und Prüfungen
+40
+nl: Nieuws
+de: Aktuelles
+41
+nl: Recent en binnenkort
+de: Aktuell und demnächst
+42
+nl: Januari 2027 · Heinsberg
+de: Januar 2027 · Heinsberg
+43
+nl: Concerten in voorbereiding
+de: Konzerte in Vorbereitung
+44
+nl: Op 17 en 23 januari 2027 treden het slagwerkensemble Eschweiler en het JuMu-ensemble op in Heinsberg — met onder meer <1>Brazilian Street Dances</1>, <2>Sabre Dance</2> en <3>Pirates of the Caribbean</3> (arr. M. Mordant).
+de: Am 17. und 23. Januar 2027 treten das Schlagzeugensemble Eschweiler und das JuMu-Ensemble in Heinsberg auf — unter anderem mit <1>Brazilian Street Dances</1>, <2>Sabre Dance</2> und <3>Pirates of the Caribbean</3> (Arr. M. Mordant).
+47
+nl: Prijzen voor drumleerlingen
+de: Preise für Drumset-Schüler
+48
+nl: Bij de regionale ronde in Aken wonnen Felix, Fynn en Jonas elk een eerste prijs; Felix en Fynn gingen door naar het Landeswettbewerb in Dortmund en Felix werd uitgenodigd voor het prijswinnaarsconcert.
+de: Beim Regionalwettbewerb in Aachen gewannen Felix, Fynn und Jonas jeweils einen ersten Preis; Felix und Fynn wurden zum Landeswettbewerb in Dortmund weitergeleitet, und Felix wurde zum Preisträgerkonzert eingeladen.
+49
+nl: Resultaten van leerlingen
+de: Erfolge der Schüler
+51
+nl: Nieuw ensembleprogramma
+de: Neues Ensembleprogramm
+52
+nl: Het slagwerkensemble Heinsberg presenteert het <1>Scherzo</1> van Saul Goodman, <2>Six Little Indians</2> en <3>Largo</3> — na een eerste triorepetitie van het <4>Scherzo</4> in juni.
+de: Das Schlagzeugensemble Heinsberg präsentiert das <1>Scherzo</1> von Saul Goodman, <2>Six Little Indians</2> und <3>Largo</3> — nach einer ersten Trioprobe des <4>Scherzo</4> im Juni.
+54
+nl: Werken in uitvoering
+de: Werke in Aufführung
+55
+nl: Een selectie opnamen van composities van Michel Mordant. De volledige lijst staat op de <1>compositiepagina</1>.
+de: Eine Auswahl von Aufnahmen der Kompositionen von Michel Mordant. Die vollständige Liste steht auf der <1>Kompositionsseite</1>.
+56
+nl: Kreato Slagwerkensemble — Day of Percussion PAS NL, Codarts Rotterdam
+de: Kreato Schlagzeugensemble — Day of Percussion PAS NL, Codarts Rotterdam
+57
+nl: Projecten
+de: Projekte
+58
+nl: Projecten in Nederland en Duitsland
+de: Projekte in den Niederlanden und in Deutschland
+59
+nl: Workshops en schoolprojecten die ritme, creativiteit en instrumentenbouw naar klaslokalen, kleuterscholen en verenigingen brengen.
+de: Workshops und Schulprojekte, die Rhythmus, Kreativität und Instrumentenbau in Klassenzimmer, Kindergärten und Vereine bringen.
+61
+nl: Een interactieve kennismaking van één uur met vijftien percussie-instrumenten, afgesloten met samenspel met het publiek.
+de: Eine einstündige Einführung zum Mitmachen in fünfzehn Percussioninstrumente, abgeschlossen mit gemeinsamem Spiel mit dem Publikum.
+62
+nl: Bekijk project
+de: Zum Projekt
+64
+nl: In zes lessen ontwerpen, bouwen en bespelen kinderen hun eigen slaginstrumenten — en presenteren ze aan klasgenoten en ouders.
+de: In sechs Stunden entwerfen, bauen und spielen Kinder ihre eigenen Schlaginstrumente — und präsentieren sie Mitschülern und Eltern.
+66
+nl: Een programma voor een heel schooljaar voor leerlingen van 10–14 jaar: bodypercussion, zelfgebouwde instrumenten, rap en optredens.
+de: Ein Programm für ein ganzes Schuljahr für Schülerinnen und Schüler von 10 bis 14 Jahren: Bodypercussion, selbst gebaute Instrumente, Rap und Auftritte.
+68
+nl: Een werkgroep in de middag die muziek maakt met alledaagse voorwerpen en bodypercussion, met ritme als middelpunt.
+de: Eine Arbeitsgemeinschaft am Nachmittag, die mit Alltagsgegenständen und Bodypercussion musiziert — der Rhythmus steht im Mittelpunkt.
+70
+nl: Klankonderzoekers en instrumentenbouwers maken een blijvende ‘klankentuin’ op het schoolterrein.
+de: Klangforscher und Instrumentenbauer gestalten einen dauerhaften „Klanggarten“ auf dem Schulgelände.
+71
+nl: 2000 – heden
+de: 2000 – heute
+72
+nl: Overige activiteiten
+de: Weitere Aktivitäten
+73
+nl: Schoolworkshops, trommelgroepen op de Grundschule Don Bosco, theoriecursussen en meer, jaar voor jaar.
+de: Schulworkshops, Trommel-AGs an der Grundschule Don Bosco, Theoriekurse und mehr, Jahr für Jahr.
+74
+nl: Alle activiteiten
+de: Alle Aktivitäten
+76
+nl: PAS Chapter Nederland
+de: PAS Chapter Niederlande
+77
+nl: Michel Mordant is voorzitter van het Nederlandse Chapter van de Percussive Arts Society en medepresentator van de <1>Day of Percussion</1> — de Nederlandse Slagwerkdag die sinds 2006 plaatsvond in Maastricht, Voerendaal, Tilburg, Vught, Rotterdam, Kerkrade, Den Haag, Thorn, Zwolle, Eindhoven en Sittard.
+de: Michel Mordant ist Präsident des niederländischen Chapters der Percussive Arts Society und Mitgastgeber des <1>Day of Percussion</1> — des niederländischen Schlagzeugtags, der seit 2006 in Maastricht, Voerendaal, Tilburg, Vught, Rotterdam, Kerkrade, Den Haag, Thorn, Zwolle, Eindhoven und Sittard stattfand.
+78
+nl: Chapter & Day of Percussion
+de: Chapter & Day of Percussion
+79
+nl: Day of Percussion, 22 oktober 2023 — Gemeenschapshuis Broeksittard.
+de: Day of Percussion, 22. Oktober 2023 — Gemeenschapshuis Broeksittard.
+80
+nl: Lessen, workshops, composities of juryverzoeken
+de: Unterricht, Workshops, Kompositionen oder Jury-Anfragen
+81
+nl: Voor lessen, workshops, ensembleprojecten, bladmuziek of jurering hoort Michel Mordant graag van u.
+de: Für Unterricht, Workshops, Ensembleprojekte, Noten oder Jurytätigkeit freut sich Michel Mordant auf Ihre Nachricht.

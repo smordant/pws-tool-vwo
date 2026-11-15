@@ -1,0 +1,32 @@
+1	Percussion Ensemble Heinsberg
+2	The Percussion Ensemble of the Jugendmusikschule Heinsberg, directed by Michel Mordant: repertoire, line-up and rehearsals.
+3	<1>Ensembles</1> / Heinsberg
+4	Germany · current
+5	Percussion Ensemble Jugendmusikschule Heinsberg
+6	A young percussion ensemble at the <1>Jugendmusikschule Heinsberg</1>, directed by Michel Mordant.
+7	28 September 2026
+8	Programme and line-up
+9	Scherzo
+10	Zoë, Claudia
+11	Paul
+12	Karl, Nicolas
+13	Six Little Indians
+14	1 — Ty
+15	2 — Ta
+16	Thilo
+17	3 — Sn
+18	Leon
+19	4 — Fi
+20	Nicolas
+21	5 — Cy
+22	Lukas
+23	6 — Bd
+24	Karl
+25	7 — Dr
+26	Zoë (additional)
+27	Largo
+28	Karl, Nicolas, Lukas
+29	Paul, Leon, Thilo
+30	22 June 2026
+31	First rehearsal
+32	Saul Goodman, <1>Scherzo</1> for trio: xylophone — Zoë; two snare drums — Paul; timpani — Karl.

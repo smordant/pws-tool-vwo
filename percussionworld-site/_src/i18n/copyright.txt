@@ -1,0 +1,18 @@
+1
+nl: Auteursrechtinformatie over de muziek van Michel Mordant, geregistreerd bij B.U.M.A., Nederland.
+de: Urheberrechtshinweise zur Musik von Michel Mordant, registriert bei B.U.M.A., Niederlande.
+2
+nl: Juridisch
+de: Rechtliches
+3
+nl: Auteursrecht muziek
+de: Urheberrecht der Musik
+4
+nl: Alle muziek op deze website © M. Mordant, geregistreerd bij B.U.M.A., Nederland.
+de: Alle Musik auf dieser Website © M. Mordant, registriert bei B.U.M.A., Niederlande.
+5
+nl: Partituurvoorbeelden en opnamen op deze site zijn uitsluitend ter informatie. Muziek gezet met Finale, van versie 3.0 tot en met versie 2000.
+de: Notenbeispiele und Aufnahmen auf dieser Website dienen ausschließlich der Information. Notensatz mit Finale, von Version 3.0 bis Version 2000.
+6
+nl: Voor uitvoeringsmateriaal, toestemming voor uitvoering of meer informatie kunt u <1>Michel Mordant mailen</1>.
+de: Für Aufführungsmaterial, Aufführungsgenehmigungen oder weitere Informationen <1>schreiben Sie bitte Michel Mordant</1>.

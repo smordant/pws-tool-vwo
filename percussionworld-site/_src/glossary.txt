@@ -1,0 +1,215 @@
+# Woordenlijst voor uitslagen, lijsten en data:  Engels | Nederlands | Duits
+# Regels die met re: beginnen zijn reguliere expressies en worden eerst toegepast.
+re:\b(\d{1,2}) January\b|\1 januari|\1. Januar
+re:\b(\d{1,2}) February\b|\1 februari|\1. Februar
+re:\b(\d{1,2}) March\b|\1 maart|\1. März
+re:\b(\d{1,2}) April\b|\1 april|\1. April
+re:\b(\d{1,2}) May\b|\1 mei|\1. Mai
+re:\b(\d{1,2}) June\b|\1 juni|\1. Juni
+re:\b(\d{1,2}) July\b|\1 juli|\1. Juli
+re:\b(\d{1,2}) August\b|\1 augustus|\1. August
+re:\b(\d{1,2}) September\b|\1 september|\1. September
+re:\b(\d{1,2}) October\b|\1 oktober|\1. Oktober
+re:\b(\d{1,2}) November\b|\1 november|\1. November
+re:\b(\d{1,2}) December\b|\1 december|\1. Dezember
+re:\b(\d{1,2})–(\d{1,2})\. (?=Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)|\1–\2. |\1.–\2. 
+re:\bJanuary – March\b|januari – maart|Januar – März
+re:^January\b|Januari|Januar
+re:^March\b|Maart|März
+re:^May\b|Mei|Mai
+re:^June\b|Juni|Juni
+re:^July\b|Juli|Juli
+re:^October\b|Oktober|Oktober
+re:^December\b|December|Dezember
+re:(\d)\.(\d+) points|\1,\2 points|\1,\2 points
+re:\b(\d)(?:st|nd|rd|th) division\b|\1e divisie|\1. Division
+re:\b(\d)(?:st|nd|rd|th) level\b|\1e afdeling|\1. Stufe
+re:\b(\d)(?:st|nd|rd|th) best\b|\1e plaats|\1. Platz
+re:\b(\d)(?:st|nd|rd|th) place\b|\1e plaats|\1. Platz
+re:\b(\d)(?:st|nd|rd|th) prize\b|\1e prijs|\1. Preis
+re:\b(\d+) of (\d+) points\b|\1 van \2 points|\1 von \2 points
+re:\b[Aa]ge group (\w+)\b|leeftijdsgroep \1|Altersgruppe \1
+re:\((\d) mallets\)|(\1 mallets)|(\1 Schlägel)
+re:\b(\d)(-| )mallets?\b|\1\2mallets|\1 Schlägel
+snare drum|kleine trom|kleine Trommel
+snare drums|kleine trommen|kleine Trommeln
+snare drum duo|duo kleine trom|Duo kleine Trommel
+snare drum solo|solo kleine trom|Solo kleine Trommel
+snare drum ensemble|ensemble kleine trom|Ensemble kleine Trommel
+snare drum soloist|solist kleine trom|Solist kleine Trommel
+snare drum soloists|solisten kleine trom|Solisten kleine Trommel
+field drum|paradetrom|Paradetrommel
+tenor drum|tenortrom|Tenortrommel
+bass drum|grote trom|große Trommel
+bass/tenor drum|grote trom/tenortrom|große Trommel/Tenortrommel
+snare and field drum|kleine trom en paradetrom|kleine Trommel und Paradetrommel
+cymbals|bekkens|Becken
+crash cymbals|crashbekkens|Crashbecken
+ride cymbals|ridebekkens|Ridebecken
+suspended cymbal|hangend bekken|hängendes Becken
+finger cymbals|vingercimbalen|Fingerzimbeln
+temple blocks|templeblocks|Templeblocks
+triangle|triangel|Triangel
+woodblock|woodblock|Woodblock
+high woodblock|hoge woodblock|hoher Woodblock
+cowbell|cowbell|Cowbell
+cowbells|cowbells|Cowbells
+bongos|bongo’s|Bongos
+congas|conga’s|Congas
+toms|toms|Toms
+concert toms|concerttoms|Konzert-Toms
+timpani|pauken|Pauken
+timpani solo|paukensolo|Paukensolo
+timpani exercises|paukenoefeningen|Paukenübungen
+xylophone|xylofoon|Xylophon
+xylophone solo|xylofoon solo|Xylophon solo
+vibraphone|vibrafoon|Vibraphon
+marimba|marimba|Marimba
+glockenspiel|klokkenspel|Glockenspiel
+drumset|drumstel|Drumset
+drumset exercises|oefeningen voor drumstel|Übungen für Drumset
+drumset solo|drumsolo|Drumset-Solo
+percussion|slagwerk|Schlagzeug
+percussion ensemble|slagwerkensemble|Schlagzeugensemble
+percussion duo|slagwerkduo|Schlagzeugduo
+percussion trio|slagwerktrio|Schlagzeugtrio
+multi-percussion|multipercussie|Multipercussion
+Percussion Ensemble|Slagwerkensemble|Schlagzeugensemble
+Percussion Group|Slagwerkgroep|Schlagzeuggruppe
+Percussion group|Slagwerkgroep|Schlagzeuggruppe
+Drum and Bugle Corps|Tamboer- en klaroenkorps|Trommel- und Fanfarenkorps
+Drum, Horn and Bugle Corps|Tamboer-, hoorn- en klaroenkorps|Trommel-, Horn- und Fanfarenkorps
+drum band|drumband|Trommelkorps
+youth drum band|jeugddrumband|Jugendtrommelkorps
+B♭ bugle|bes-bugle|B-Bugle
+bass bugle|basbugle|Bassbugle
+whip|zweep|Peitsche
+whistle|fluitje|Pfeife
+tambourine|tamboerijn|Tamburin
+castanets|castagnetten|Kastagnetten
+sleigh bells|sleebellen|Schellen
+agogo bells|agogobellen|Agogo-Glocken
+bar chimes|bar chimes|Bar Chimes
+tubular bell A|buisklok A|Röhrenglocke A
+handclap|handklap|Händeklatschen
+gong|gong|Gong
+guiro|guiro|Guiro
+maracas|maracas|Maracas
+claves|claves|Claves
+vibraslap|vibraslap|Vibraslap
+flexatone|flexatoon|Flexaton
+frigideira|frigideira|Frigideira
+cabasa|cabasa|Cabasa
+beatring|beatring|Beatring
+afuche|afuche|Afuche
+hi-hat|hihat|Hi-Hat
+tuned percussion|melodisch slagwerk|Stabspiele
+mallets|mallets|Mallets
+2 voices ad lib.|2 stemmen ad lib.|2 Stimmen ad lib.
+or set-up|of set-up|oder Set-up
+set-up|set-up|Set-up
+piano accompaniment|pianobegeleiding|Klavierbegleitung
+piano|piano|Klavier
+easy|eenvoudig|leicht
+medium|gemiddeld|mittel
+difficult|moeilijk|schwer
+easy to medium|eenvoudig tot gemiddeld|leicht bis mittel
+easy to difficult|eenvoudig tot moeilijk|leicht bis schwer
+Easy–medium|Eenvoudig–gemiddeld|Leicht–mittel
+Easy–difficult|Eenvoudig–moeilijk|Leicht–schwer
+Medium–difficult|Gemiddeld–moeilijk|Mittel–schwer
+Easy–medium–difficult|Eenvoudig–gemiddeld–moeilijk|Leicht–mittel–schwer
+three parts|drie delen|drei Teile
+score sample|partituurvoorbeeld|Notenbeispiel
+sample|voorbeeld|Beispiel
+pages|pagina’s|Seiten
+page|pagina|Seite
+part|deel|Teil
+excerpt|fragment|Auszug
+points|punten|Punkte
+winner|winnaar|Sieger
+Winner of the year|Winnaar van het jaar|Sieger des Jahres
+contest winner|concourswinnaar|Wettbewerbssieger
+Contest winner soloists|Concourswinnaar solisten|Wettbewerbssieger Solisten
+Contest winner ensembles|Concourswinnaar ensembles|Wettbewerbssieger Ensembles
+Winner mallet duo|Winnaar malletduo|Sieger Mallet-Duo
+Winner drumset solo|Winnaar drumsolo|Sieger Drumset-Solo
+Winner youth division|Winnaar jeugddivisie|Sieger Jugenddivision
+2nd best soloist|2e plaats solisten|2. Platz Solisten
+3rd best of the contest|3e plaats van het concours|3. Platz des Wettbewerbs
+2nd best of the contest|2e plaats van het concours|2. Platz des Wettbewerbs
+2nd best of Limburg|2e van Limburg|Zweiter von Limburg
+3rd best of Limburg|3e van Limburg|Dritter von Limburg
+Champion of Limburg|Kampioen van Limburg|Limburger Meister
+Champion of the Netherlands|Nederlands kampioen|Niederländischer Meister
+Limburg champion 2007|Limburgs kampioen 2007|Limburger Meister 2007
+Limburg championships|Limburgse kampioenschappen|Limburger Meisterschaften
+Dutch national championships|Nederlandse kampioenschappen|Niederländische Meisterschaften
+Dutch championships|Nederlandse kampioenschappen|Niederländische Meisterschaften
+championship|kampioenschap|Meisterschaft
+contest piece|concoursstuk|Wettbewerbsstück
+contest|concours|Wettbewerb
+Military Band Contest|Korpsconcours|Korpswettbewerb
+soloist competition|solistenconcours|Solistenwettbewerb
+soloist contest|solistenconcours|Solistenwettbewerb
+soloist|solist|Solist
+soloists|solisten|Solisten
+youth level|jeugdafdeling|Jugendstufe
+youth division|jeugddivisie|Jugenddivision
+honour division|eredivisie|Ehrendivision
+level of Honour|ere-afdeling|Ehrenstufe
+excellent level|afdeling uitmuntendheid|Stufe „ausgezeichnet“
+first level|eerste afdeling|erste Stufe
+second level|tweede afdeling|zweite Stufe
+third level|derde afdeling|dritte Stufe
+section|sectie|Sektion
+division|divisie|Division
+promotion to|promotie naar|Aufstieg in die
+promoted to|gepromoveerd naar|aufgestiegen in die
+promotion from|promotie van|Aufstieg von
+in cooperation with|in samenwerking met|in Zusammenarbeit mit
+with credits of the jury|met lof van de jury|mit Lob der Jury
+judging bands|jurering korpsen|Wertung Korps
+judging marching bands|jurering marcherende korpsen|Wertung Marschkorps
+judging soloists|jurering solisten|Wertung Solisten
+judging snare drum and piccolo soloists|jurering solisten kleine trom en piccolo|Wertung Solisten kleine Trommel und Piccolo
+judging snare drum soloists|jurering solisten kleine trom|Wertung Solisten kleine Trommel
+judging snare drum and bugle soloists|jurering solisten kleine trom en bugle|Wertung Solisten kleine Trommel und Bugle
+judging|jurering|Wertung
+concert|concert|Konzert
+Christmas concert|kerstconcert|Weihnachtskonzert
+open-air concert|openluchtconcert|Open-Air-Konzert
+video|video|Video
+programme|programma|Programm
+poster|affiche|Plakat
+photo|foto|Foto
+photos|foto’s|Fotos
+The Netherlands|Nederland|Niederlande
+the Netherlands|Nederland|Niederlande
+Netherlands|Nederland|Niederlande
+Germany|Duitsland|Deutschland
+Belgium|België|Belgien
+Cologne|Keulen|Köln
+The Hague|Den Haag|Den Haag
+and|en|und
+with|met|mit
+or|of|oder
+arr.|arr.|Arr.
+dir.|o.l.v.|Ltg.
+date|datum|Datum
+place|plaats|Ort
+level|afdeling|Stufe
+result|resultaat|Ergebnis
+title|titel|Titel
+composer|componist|Komponist
+author|auteur|Autor
+method|methode|Schule
+methods|methodes|Schulen
+solos|solo’s|Soli
+duets|duetten|Duette
+technique|techniek|Technik
+notes|opmerkingen|Anmerkungen
+student|leerling|Schüler
+duration|duur|Dauer
+distinction|onderscheiding|Auszeichnung
+view|bekijk|Ansehen
