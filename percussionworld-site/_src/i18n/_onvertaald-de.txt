@@ -1,10 +1,3 @@
-adjudication	30 April – 1 May — Neerpelt (Belgium): <1>European Music Festival for Young People</1>, with its first percussion contest — <2>percussion jury</2>
-adjudication	As judge at a band contest in Nederweert, 1994.
-adjudication	Jury of percussion, European Music Festival for Young People, Neerpelt 2005
-adjudication	Michel Mordant as adjudicator: jury work at band contests, soloist competitions and festivals in the Netherlands, Belgium and Germany since 2000.
-adjudication	Michel Mordant as judge at a band contest in Nederweert, 1994
-adjudication	O.L.S. Heythuysen — Tambour-maître at the défilé
-adjudication	Since 2000 Michel Mordant has served as a jury member for drum bands, marching bands and soloists — for the Limburg schutterij federations, the O.L.S., soloist competitions and international festivals.
 compositions	<1>Dance of the Pixy’s</1> — xylophone and piano
 compositions	Back on Base
 compositions	Focus for Marimba — part 1 (5 mallets)
@@ -21,13 +14,9 @@ ensemble-einighausen	<1>Percussion ensemble:</1> <2>Mexican Dance</2> (J. Wassen
 ensemble-einighausen	Repertoire: <1><2>Magnificent People</2></1> (W. Norel); <3><4>You’re So Cool</4></3> (H. Zimmer, arr. F. Kessels); <5><6>Io, the Moon and the Giant</6></5> (S. Kamstra).
 ensemble-eschweiler	Jugend Musiziert: <1>Drummers Go Latin</1>; <2>The Winding River</2> (T. O’Connor); <3>Pirates of the Caribbean</3> (Hans Zimmer, arr. M. Mordant).
 ensemble-kreato	<1>Ensemble:</1> Bianca and Joyce Berkers, Cyril Graus, Luuk Heijmans, Myrthe Peulen, Roger Scheepers, Stan van Landeghem, Stan Voncken, Wiek Maessen — <2>Balalaikan Holiday</2> (Morris A. Brand); <3>To the Top</3> (Wibrand van Norel).
+ensemble-schinveld	2nd best of Limburg, with credits of the jury
+ensemble-schinveld	3rd best of Limburg, with credits of the jury
 index	Stomp at School
-links	A personal selection of percussionists, ensembles, instrument makers and resources. Would you like to exchange links? <1>Get in touch</1>.
-links	Drums on the Web
-links	European Music Festival for Young People
-links	Several of these links date from the early years of the web; some websites may have moved or no longer exist.
-links	World wide percussion links: percussionists, ensembles, instrument makers and percussion resources, selected by Michel Mordant.
-pas	10th Day of Percussion — 2020, Eindhoven (cancelled: corona)
 pas	10th Day of Percussion — 2023, Sittard
 pas	1st Day of Percussion — 2006, Maastricht (PDF)
 pas	2nd Day of Percussion — 2007, Voerendaal (PDF)
@@ -36,129 +25,24 @@ pas	4th Day of Percussion — 2009, Vught (PDF)
 pas	5th Day of Percussion — 2010, Codarts Rotterdam (PDF)
 pas	6th Day of Percussion — 2011, Kerkrade (PDF)
 pas	7th Day of Percussion — 2012, The Hague
-pas	7th Dutch Percussion Day, 10.00–17.00, at the Royal Conservatoire (<1>Koninklijk Conservatorium</1>), Juliana van Stolberglaan 1, 2595 CA The Hague.
 pas	8th Day of Percussion — 2015, Thorn
-pas	8th Dutch Percussion Day, 10.00–18.00, at Muziekcentrale Adams, Aziëstraat 17–19, Ittervoort (Thorn). With various drum bands, percussion groups and ensembles. Sheet music took centre stage, with several publishers present. Musical hosts: Albert Staten and Michel Mordant.
 pas	9th Day of Percussion — 2018, Zwolle
-pas	9th Dutch Percussion Day, 10.00–18.00, at <1>ArtEZ</1>, Aan de Stadsmuur 88, 8011 VD Zwolle.
-pas	Activity, business and financial reports submitted to PAS for 2022 (no PAS members in attendance were registered).
-pas	Announcement — PAS Day of Percussion 2023:
 pas	Day of Percussion
 pas	Day of Percussion 2012
-pas	Day of Percussion 2012 — performers
 pas	Day of Percussion 2015
 pas	Day of Percussion 2018
-pas	Day of Percussion 2018 — performer
 pas	Day of Percussion 2020
 pas	Day of Percussion 2023
-pas	In 2022 there were no chapter concerts such as a Day of Percussion. The chapter was present at the World Music Contest in Kerkrade with promotional material, membership forms and other PAS material:
-pas	Michel Mordant is President of the Netherlands Chapter of the <1>Percussive Arts Society</1> and co-host of the <2>Day of Percussion</2>, the national percussion day of the Netherlands. <3>Chapter community page</3>
 pas	PAS Day of Percussion 2006
-pas	PAS Day of Percussion 2006, the Netherlands.
 pas	PAS Day of Percussion 2023
-pas	Photos of the Day of Percussion 2006 and the international PASIC convention are in the <1>photo archive</1>.
-pas	Planned performers: Alex Jacobowitz, Tatiana Koleva, and the Eric Aalbers percussion ensemble conducted by Paul Doom. Musical hosts: Jelle Roeper and Michel Mordant. <1>CGN United</1>
-pas	Poster Day of Percussion 2023
-pas	Presented by Percussion Friends and the Percussive Arts Society: the 10th Dutch Percussion Day (Nederlandse Slagwerkdag), 10.00–22.00, at Gemeenschapshuis Broeksittard, Dorpstraat 1, 6137 SR Sittard. Free admission, with workshops by Ramon Lormans, Maikel Claessens and Georgi Tsenov; performances by drum bands and percussion groups from Sittard and the surrounding area and the Musikschule Eschweiler; closing concert by Mallet Collective. Musical hosts: Fanfare St. Caecilia and Michel Mordant.
-pas	Slagwerkkrant: article by Jan Pustjens (PDF)
-pas	Sponsored by Van Vught Slagwerk, PaBo-Music and others.
-pas	Sponsored by Van Vught Slagwerk, PaBo-Music, Van der Plas, Van Groningen and others.
-pas	The 10th Dutch Percussion Day was planned for 29 March 2020, 10.00–18.00, at Fontys Sporthogeschool, Theo Koomenlaan 3, 5644 HZ Eindhoven — and was cancelled because of the corona pandemic.
-pas	The Netherlands Chapter of the Percussive Arts Society and the Dutch Day of Percussion (Nederlandse Slagwerkdag), 2006–2023.
-pas	With Miguel Rodriguez, Slagwerkgroep Den Haag, Percossa, Davai Percussion, Ruud Wiener and percussionists of the Residentie Orkest. Workshops, master classes, demonstrations, stands, performances by various ensembles and presentations by conservatory students — ragtimes, percussion trios, solo marimba repertoire, African workshops and more. Musical hosts: Hans Zonderop and Michel Mordant.
-photos	As judge at a band contest in Nederweert, 1994
-photos	Encounters with Billy Cobham, Thomas Lang, Jim Chapin, Nebojša Živković and many others — and moments with ensembles and at the music fair in Frankfurt.
-photos	First concert at Forum Sittard (2022); with rock group Powerized (2024); concert at Adams together with Ensemble JMS Eschweiler; summer concert.
-photos	First rehearsal of 2026 with Sander; <1>Nacht der offenen Kirchen</1> 2024; Tag des Ehrenamtes 2023; and the years 1991–2022.
-photos	First rehearsal of Saul Goodman’s <1>Scherzo</1> for trio — xylophone: Zoë; two snare drums: Paul; timpani: Karl.
-photos	Four decades of percussion in pictures — ensembles and concerts, workshops and lessons, meetings with great percussionists, and the very beginning in Vijlen. Click any photo to enlarge.
-photos	Guitar (around 1980), the band of the Sophianum (around 1980) and the Gesamtschule band.
-photos	Ludwig Albert, Michel and Timo Coutura (a student of mine)
-photos	Michel at four years old
-photos	More photos on Facebook<1>External</1>
-photos	On military service with the Limburgse Jagers: Michel (tambour) on the right, Jan Weeda (trumpet) on the left, my mother in the middle — Roermond, 1982
-photos	Our last day at Kreato, with Jo Zinzen.
-photos	PAS Day of Percussion 2006, the Netherlands
-photos	Photo archive of Michel Mordant: ensembles, workshops, teaching, orchestras, meetings with famous percussionists and the early years.
-photos	Playing Mozart’s Alla Turca (KV 331), arranged for marimba ensemble by Michel Mordant
-photos	School of Music Eschweiler
-photos	School of Music Gangelt
-photos	School of Music Kreato Thorn
-photos	With Christian Bourdon, author of “African Rhythms for Drumset”
-photos	With Fats and the Young Jazz Cats.
-photos	Workshops at the School of Music Eschweiler
-project-stomp-school	<1>Projects</1> / Netherlands
-project-stomp-school	Afwerken en uitleg van de speelwijze van de shaker. Muziek maken met bodypercussion en/of de gemaakte shakers. Voor- en naspelen (toetsing gehoor) met shakers en meespelen met muziek.
-project-stomp-school	Bouw van het instrument: de voorbereide onderdelen samenvoegen (materiaal in het blikje doen, afdichten met lijm, alles goed laten drogen en controleren). Eventueel tekening, stickers of viltstift.
-project-stomp-school	De workshop slaginstrumenten ontwerpen, maken en bespelen! In zes weken leren de kinderen een ontwerp maken, uitwerken en bespelen.
-project-stomp-school	Eigen ontwerp van een instrument en meegebrachte materialen. De instrumenten worden gemaakt met hulp van de docent.
-project-stomp-school	Eventueel als aanvulling of afwerking: een tekening op het blikje plakken (let op dat blikje en tekening even groot zijn), stickers, of inkleuren met viltstiften.
-project-stomp-school	Les 1
-project-stomp-school	Les 2
-project-stomp-school	Les 3
-project-stomp-school	Les 4
-project-stomp-school	Les 5
-project-stomp-school	Les 6
-project-stomp-school	Ook mogelijk: een concertje in een verzorgingshuis, kleuterschool of basisschool.
-project-stomp-school	Project in Nederland · in Dutch
-project-stomp-school	Repetitie en afsluitende presentatie voor medeleerlingen, docenten en ouders. Evaluatie met de hele groep.
-project-stomp-school	Start met het maken van shakers. Benodigdheden: een leeg blikje, kleine steentjes of vergelijkbaar materiaal (bijv. harde erwten, rijst), schaar, lijm en karton om het drinkgat dicht te plakken.
 project-stomp-school	Stomp at School
-project-stomp-school	Stomp at School: in six lessons children design, build and play their own percussion instruments. A school project by Michel Mordant.
-project-stomp-school	Toelichting op het proces door de docent en eerste kennismaking met de mogelijkheden en materialen. Demonstratie van shakers, stokken, trommelemmers en rammelaars. Toetsing van gehoor en ritmegevoel door eenvoudig voor- en naklappen (kwart- en achtste noten) per vier tellen.
-project-stomp-school	Ze combineren vormgeving, ruimtelijk inzicht, abstraherend denkvermogen, projectmatig werken en leren plannen met creativiteit, ritmisch gevoel en presentatie.
-project-stomp-school	Zo ontwikkelen kinderen op meerdere vlakken inzicht.
 project-stomp-school	‘Stomp At School’
-project-workshop-percussie	1 uur (met eventuele uitloop)
-project-workshop-percussie	<1>Projects</1> / Netherlands
-project-workshop-percussie	Agogo bells
-project-workshop-percussie	Bekkens a 2 — slaan en wrijven
-project-workshop-percussie	Bongo’s — met de hand en met verschillende stokken (hout, vilt en garen)
 project-workshop-percussie	Claves
-project-workshop-percussie	Concept
 project-workshop-percussie	Cowbell
-project-workshop-percussie	De instrumenten worden uitgedeeld en gezamenlijk met de toeschouwers (geprobeerd te) bespeeld.
-project-workshop-percussie	Djembé
-project-workshop-percussie	Duur
-project-workshop-percussie	Een interactieve workshop van één uur waarin vijftien percussie-instrumenten worden gepresenteerd, uitgelegd en samen met het publiek bespeeld.
-project-workshop-percussie	Elk instrument wordt gepresenteerd, toegelicht en voorgespeeld, in deze volgorde:
-project-workshop-percussie	Foto’s van de workshop in Maastricht, met medewerking van Myrthe en Sander, volgen.
-project-workshop-percussie	Gong — met vuist en stok; de rand bestrijken met een ijzeren en een houten stok
-project-workshop-percussie	Guiro en shaker-guiro
-project-workshop-percussie	Instrumenten
-project-workshop-percussie	Lokaal ter grootte van een klas
-project-workshop-percussie	Maracas en cabassa
-project-workshop-percussie	Meespelen in 4/4: op tel 1 en 3 met de voeten stampen, op 2 en 4 klappen.
-project-workshop-percussie	Opstelling
-project-workshop-percussie	Plaats
-project-workshop-percussie	Project in Nederland · in Dutch
-project-workshop-percussie	Sleigh bells
-project-workshop-percussie	Suspended cymbals — speelwijzen rand, midden en cup; stokken van hout, vilt en garen
-project-workshop-percussie	Tamboerijn en beatring — met uitleg van het verschil (een beatring heeft geen vel)
-project-workshop-percussie	Tamboerijn en beatring, sleigh bells, agogo bells, claves, maracas en cabassa, guiro en shaker-guiro, vibraslap, bekkens a 2, gong, templeblocks, bongo’s, suspended cymbals (speelwijzen: rand, midden en cup), cowbell, triangel, djembé — met stokken van hout, vilt en garen.
-project-workshop-percussie	Templeblocks — stokken van hout, vilt en garen
 project-workshop-percussie	Triangel
-project-workshop-percussie	U-vorm met stoelen (geen tafels); achter de docent tafels met de instrumenten uitgestald
-project-workshop-percussie	Uitleg en speelwijze
 project-workshop-percussie	Vibraslap
-project-workshop-percussie	Vooroefening
 project-workshop-percussie	Workshop Percussie
-project-workshop-percussie	Workshop Percussie by Michel Mordant: a one-hour hands-on introduction to fifteen percussion instruments, ending with a performance together with the audience.
-projects	20 March — <1>conducting workshop</1> at the Bond van Tambour Maîtres (<2>bvtm.nl</2>)
-projects	A year plan of body percussion, instrument building, rap and performances.
-projects	A year-by-year overview of workshops, school drum groups, courses and other activities.
-projects	Advertisement in the <1>Slagwerkkrant</1>
-projects	Advertisement in the Dutch percussion magazine <1>Slagwerkkrant</1>.
-projects	Advertisement in the Slagwerkkrant
-projects	Donation of sheet music
-projects	Donation of sheet music.
-projects	Fifteen percussion instruments presented and played — together with the audience.
-projects	Hands-on projects that bring rhythm, creativity and instrument building to schools, kindergartens and music societies — in the Netherlands and in Germany.
-projects	PAS stand at the WMC Kerkrade.
-projects	Percussion projects and workshops by Michel Mordant in the Netherlands and Germany: Workshop Percussie, Stomp at School, Kindergarten, Klanggarten and other activities.
 projects	Stomp at School
-projects	Theory course schedule, School of Music Thorn
-projects	Theory course, School of Music Thorn
 projects	“A World of Percussion Music”.
 start-methods	Start voor / für / for Drums
 students	<1>Bianca and Joyce Berkers</1> (St. Stephanus Dieteren) — snare drum duo <2>Marche and Dance</2> (G. Bomhof), 5th level, 90 points <3>Champion of Limburg</3>

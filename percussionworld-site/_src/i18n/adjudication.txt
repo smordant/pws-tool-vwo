@@ -1,0 +1,60 @@
+1
+nl: Jurering
+de: Jury
+2
+nl: Michel Mordant als jurylid: jurering bij korpsconcoursen, solistenconcoursen en festivals in Nederland, België en Duitsland sinds 2000.
+de: Michel Mordant als Juror: Jurytätigkeit bei Korpswettbewerben, Solistenwettbewerben und Festivals in den Niederlanden, Belgien und Deutschland seit 2000.
+3
+nl: Michel Mordant als jurylid bij een korpsconcours in Nederweert, 1994
+de: Michel Mordant als Juror bei einem Korpswettbewerb in Nederweert, 1994
+4
+nl: Slagwerkjury, Europees Muziekfestival voor de Jeugd, Neerpelt 2005
+de: Schlagzeugjury, Europäisches Musikfestival für die Jugend, Neerpelt 2005
+5
+nl: Jurylid
+de: Juror
+6
+nl: Sinds 2000 is Michel Mordant jurylid voor drumbands, marcherende korpsen en solisten — voor de Limburgse schuttersbonden, het O.L.S., solistenconcoursen en internationale festivals.
+de: Seit 2000 ist Michel Mordant Juror für Trommelkorps, Marschkorps und Solisten — für die Limburger Schützenbünde, das O.L.S., Solistenwettbewerbe und internationale Festivals.
+7
+nl: Organisaties
+de: Organisationen
+= Soloist competitions and percussion festivals
+nl: Solistenconcoursen en slagwerkfestivals
+de: Solistenwettbewerbe und Schlagzeugfestivals
+15
+nl: Als jurylid bij een korpsconcours in Nederweert, 1994.
+de: Als Juror bei einem Korpswettbewerb in Nederweert, 1994.
+23
+nl: O.L.S. Heythuysen — tambour-maître bij het defilé
+de: O.L.S. Heythuysen — Tambourmajor beim Defilee
+24
+nl: O.L.S. Born — laatste optreden als muziekjurylid
+de: O.L.S. Born — letzter Einsatz als Musikjuror
+25
+nl: 2014<1>t/m 2022</1>
+de: 2014<1>bis 2022</1>
+26
+nl: Geen jureringen vermeld.
+de: Keine Jurytätigkeiten verzeichnet.
+= 14–15 June — Musikfest Bad Münstereifel (Germany)
+nl: 14–15 juni — Musikfest Bad Münstereifel (Duitsland)
+de: 14.–15. Juni — Musikfest Bad Münstereifel (Deutschland)
+= 51st Felimaas soloist competition — Concordia Wanssum
+nl: 51e Felimaas-solistenconcours — Concordia Wanssum
+de: 51. Felimaas-Solistenwettbewerb — Concordia Wanssum
+= Trio concert, Harmonie St. Cecilia Grevenbicht-Papenhoven
+nl: Trio-concert, Harmonie St. Cecilia Grevenbicht-Papenhoven
+de: Trio-Konzert, Harmonie St. Cecilia Grevenbicht-Papenhoven
+= 11 December — soloist competition, Fluit- & Trommelkorps St. Andreas: judging soloists
+nl: 11 december — solistenconcours Fluit- & Trommelkorps St. Andreas: jurering solisten
+de: 11. Dezember — Solistenwettbewerb, Fluit- & Trommelkorps St. Andreas: Wertung Solisten
+= 27 November — soloist competition, Harmonie Pancratius Kerkrade: judging soloists
+nl: 27 november — solistenconcours Harmonie Pancratius Kerkrade: jurering solisten
+de: 27. November — Solistenwettbewerb, Harmonie Pancratius Kerkrade: Wertung Solisten
+62
+nl: 30 april – 1 mei — Neerpelt (België): <1>Europees Muziekfestival voor de Jeugd</1>, met het eerste slagwerkconcours — <2>slagwerkjury</2>
+de: 30. April – 1. Mai — Neerpelt (Belgien): <1>Europäisches Musikfestival für die Jugend</1>, mit dem ersten Schlagzeugwettbewerb — <2>Schlagzeugjury</2>
+= 1–2 September — Bremen / Buxtehude (Germany)
+nl: 1–2 september — Bremen / Buxtehude (Duitsland)
+de: 1.–2. September — Bremen / Buxtehude (Deutschland)

@@ -1,0 +1,123 @@
+1
+nl: Slagwerkprojecten en workshops van Michel Mordant in Nederland en Duitsland: Workshop Percussie, Stomp at School, Kindergarten, Klanggarten en overige activiteiten.
+de: Schlagzeugprojekte und Workshops von Michel Mordant in den Niederlanden und in Deutschland: Workshop Percussie, Stomp at School, Kindergarten, Klanggarten und weitere Aktivitäten.
+3
+nl: Rooster theoriecursus, muziekschool Thorn
+de: Stundenplan Theoriekurs, Musikschule Thorn
+4
+nl: Advertentie in de Slagwerkkrant
+de: Anzeige in der Slagwerkkrant
+5
+nl: Educatie & projecten
+de: Bildung & Projekte
+= Projects and workshops
+nl: Projecten en workshops
+de: Projekte und Workshops
+7
+nl: Praktische projecten die ritme, creativiteit en instrumentenbouw naar scholen, kleuterscholen en muziekverenigingen brengen — in Nederland en in Duitsland.
+de: Praxisnahe Projekte, die Rhythmus, Kreativität und Instrumentenbau in Schulen, Kindergärten und Musikvereine bringen — in den Niederlanden und in Deutschland.
+8
+nl: Projecten in Nederland
+de: Projekte in den Niederlanden
+= The Netherlands
+nl: Nederland
+de: Niederlande
+= Workshop · 1 hour
+nl: Workshop · 1 uur
+de: Workshop · 1 Stunde
+11
+nl: Vijftien percussie-instrumenten gepresenteerd en bespeeld — samen met het publiek.
+de: Fünfzehn Percussioninstrumente vorgestellt und gespielt — gemeinsam mit dem Publikum.
+= School project · 6 lessons
+nl: Schoolproject · 6 lessen
+de: Schulprojekt · 6 Stunden
+= Design, build and play your own percussion instruments.
+nl: Ontwerp, bouw en bespeel je eigen slaginstrumenten.
+de: Eigene Schlaginstrumente entwerfen, bauen und spielen.
+14
+nl: Projecten in Duitsland
+de: Projekte in Deutschland
+= School year · ages 10–14
+nl: Schooljaar · 10–14 jaar
+de: Schuljahr · 10–14 Jahre
+16
+nl: Een jaarplan met bodypercussion, instrumentenbouw, rap en optredens.
+de: Ein Jahresplan mit Bodypercussion, Instrumentenbau, Rap und Auftritten.
+17
+nl: Werkgroep
+de: Arbeitsgemeinschaft
+= Music with pots, pans, brooms and body percussion.
+nl: Muziek met potten, pannen, bezems en bodypercussion.
+de: Musik mit Töpfen, Pfannen, Besen und Bodypercussion.
+19
+nl: Klankinstallatie
+de: Klanginstallation
+20
+nl: Klankonderzoekers bouwen een blijvende klankentuin.
+de: Klangforscher bauen einen dauerhaften Klanggarten.
+21
+nl: Workshops, cursussen en meer
+de: Workshops, Kurse und mehr
+22
+nl: Een overzicht per jaar van workshops, trommelgroepen op scholen, cursussen en overige activiteiten.
+de: Eine Übersicht nach Jahren über Workshops, Trommel-AGs an Schulen, Kurse und weitere Aktivitäten.
+= School percussion workshop, 2024
+nl: Slagwerkworkshop op school, 2024
+de: Schlagzeug-Workshop in der Schule, 2024
+= Workshop, Catharina school, Heerlen
+nl: Workshop, Catharinaschool, Heerlen
+de: Workshop, Catharina-Schule, Heerlen
+= Grundschule Don Bosco Eschweiler — drum group (Trommel AG)
+nl: Grundschule Don Bosco Eschweiler — trommelgroep (Trommel AG)
+de: Grundschule Don Bosco Eschweiler — Trommel-AG
+= Kindergarten Alsdorf — drumming group (Trommelspiel AG)
+nl: Kindergarten Alsdorf — trommelgroep (Trommelspiel AG)
+de: Kindergarten Alsdorf — Trommelspiel-AG
+29
+nl: PAS-stand op het WMC Kerkrade.
+de: PAS-Stand beim WMC Kerkrade.
+= Online percussion contest
+nl: Online slagwerkconcours
+de: Online-Schlagzeugwettbewerb
+= Online soloist competition 2021.
+nl: Online solistenconcours 2021.
+de: Online-Solistenwettbewerb 2021.
+32
+nl: Schenking van bladmuziek
+de: Notenspende
+35
+nl: Schenking van bladmuziek.
+de: Notenspende.
+36
+nl: 2019<1>t/m 2020</1>
+de: 2019<1>bis 2020</1>
+= Percussion school / Schlagzeugschule: open day (Tag der offenen Tür)
+nl: Slagwerkschool / Schlagzeugschule: open dag (Tag der offenen Tür)
+de: Schlagzeugschule: Tag der offenen Tür
+= Open day, percussion school.
+nl: Open dag, slagwerkschool.
+de: Tag der offenen Tür, Schlagzeugschule.
+= Myouthic workshop, primary school Koningslust
+nl: Myouthic-workshop, basisschool Koningslust
+de: Myouthic-Workshop, Grundschule Koningslust
+= Workshop, St. Pieter Maastricht (with Myrthe and Sander)
+nl: Workshop, St. Pieter Maastricht (met Myrthe en Sander)
+de: Workshop, St. Pieter Maastricht (mit Myrthe und Sander)
+51
+nl: 20 maart — <1>workshop directie</1> bij de Bond van Tambour Maîtres (<2>bvtm.nl</2>)
+de: 20. März — <1>Dirigier-Workshop</1> beim Bond van Tambour Maîtres (<2>bvtm.nl</2>)
+53
+nl: Advertentie in de <1>Slagwerkkrant</1>
+de: Anzeige in der <1>Slagwerkkrant</1>
+54
+nl: 2000<1>– heden</1>
+de: 2000<1>– heute</1>
+55
+nl: Theoriecursus, muziekschool Thorn
+de: Theoriekurs, Musikschule Thorn
+56
+nl: Rooster theoriecursus.
+de: Stundenplan des Theoriekurses.
+58
+nl: Advertentie in het Nederlandse slagwerktijdschrift <1>Slagwerkkrant</1>.
+de: Anzeige in der niederländischen Schlagzeugzeitschrift <1>Slagwerkkrant</1>.

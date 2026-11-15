@@ -508,7 +508,7 @@ def main():
             for el, src, tags in segments_of(soup):
                 if not has_letters(src):
                     continue
-                literal = bool(set(el.get("class", [])) & LITERAL) or el.name == "cite" or el.find_parent(["cite"]) is not None or el.find_parent(class_="pill-list") is not None
+                literal = bool(set(el.get("class", [])) & LITERAL) or el.name == "cite" or el.find_parent(["cite"]) is not None or el.find_parent(class_=["pill-list", "link-columns"]) is not None
                 new = translate(src, lang, page_lang, cat, p.stem, tags, literal)
                 if new != src:
                     el.clear()

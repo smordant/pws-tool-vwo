@@ -1,0 +1,54 @@
+1
+nl: Stomp at School: in zes lessen ontwerpen, bouwen en bespelen kinderen hun eigen slaginstrumenten. Een schoolproject van Michel Mordant.
+de: Stomp at School: In sechs Stunden entwerfen, bauen und spielen Kinder ihre eigenen Schlaginstrumente. Ein Schulprojekt von Michel Mordant.
+5
+en: The workshop for designing, building and playing percussion instruments! In six weeks the children learn to make a design, work it out and play it.
+de: Der Workshop zum Entwerfen, Bauen und Spielen von Schlaginstrumenten! In sechs Wochen lernen die Kinder, einen Entwurf zu erstellen, auszuarbeiten und zu spielen.
+6
+en: This is how children develop insight in several areas at once.
+de: So entwickeln Kinder Einsichten auf mehreren Gebieten zugleich.
+7
+en: They combine design, spatial awareness, abstract thinking, project work and learning to plan with creativity, a sense of rhythm and presentation.
+de: Sie verbinden Gestaltung, räumliches Vorstellungsvermögen, abstraktes Denken, Projektarbeit und Planen mit Kreativität, Rhythmusgefühl und Präsentation.
+8
+en: Also possible: a small concert in a care home, kindergarten or primary school.
+de: Auch möglich: ein kleines Konzert in einem Seniorenheim, Kindergarten oder einer Grundschule.
+9
+en: Lesson 1
+de: Stunde 1
+10
+en: The teacher explains the process and introduces the possibilities and materials. Demonstration of shakers, sticks, bucket drums and rattles. Testing of hearing and sense of rhythm through simple call-and-response clapping (quarter and eighth notes) in groups of four beats.
+de: Der Dozent erläutert den Ablauf und stellt die Möglichkeiten und Materialien vor. Vorführung von Shakern, Stöcken, Trommeleimern und Rasseln. Überprüfung von Gehör und Rhythmusgefühl durch einfaches Vor- und Nachklatschen (Viertel- und Achtelnoten) über je vier Schläge.
+11
+en: Lesson 2
+de: Stunde 2
+12
+en: Starting to make shakers. Needed: an empty can, small pebbles or similar material (e.g. dried peas, rice), scissors, glue and cardboard to seal the opening.
+de: Beginn des Shaker-Baus. Benötigt werden: eine leere Dose, kleine Steinchen oder ähnliches Material (z. B. trockene Erbsen, Reis), Schere, Kleber und Karton zum Verschließen der Trinköffnung.
+13
+en: Optional finishing touches: a drawing glued to the can (make sure can and drawing are the same size), stickers, or colouring with felt-tip pens.
+de: Eventuell als Ergänzung oder Verzierung: eine Zeichnung auf die Dose kleben (darauf achten, dass Dose und Zeichnung gleich groß sind), Aufkleber oder Bemalen mit Filzstiften.
+14
+en: Lesson 3
+de: Stunde 3
+15
+en: The children’s own instrument designs and the materials they have brought. The instruments are made with the teacher’s help.
+de: Eigener Instrumentenentwurf und mitgebrachte Materialien. Die Instrumente werden mit Hilfe des Dozenten gebaut.
+16
+en: Lesson 4
+de: Stunde 4
+17
+en: Building the instrument: assembling the prepared parts (filling the can, sealing it with glue, letting everything dry well and checking it). Optionally a drawing, stickers or felt-tip pens.
+de: Bau des Instruments: die vorbereiteten Teile zusammenfügen (Material in die Dose füllen, mit Kleber verschließen, alles gut trocknen lassen und kontrollieren). Eventuell Zeichnung, Aufkleber oder Filzstift.
+18
+en: Lesson 5
+de: Stunde 5
+19
+en: Finishing off and explaining how to play the shaker. Making music with body percussion and/or the home-made shakers. Call and response (ear training) with shakers, and playing along with music.
+de: Fertigstellen und Erklärung der Spielweise des Shakers. Musizieren mit Bodypercussion und/oder den gebauten Shakern. Vor- und Nachspielen (Gehörprüfung) mit Shakern und Mitspielen zu Musik.
+20
+en: Lesson 6
+de: Stunde 6
+21
+en: Rehearsal and final presentation for fellow pupils, teachers and parents. Evaluation with the whole group.
+de: Probe und abschließende Präsentation vor Mitschülern, Lehrern und Eltern. Auswertung mit der ganzen Gruppe.

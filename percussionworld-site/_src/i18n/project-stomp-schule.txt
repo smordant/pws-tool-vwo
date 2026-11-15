@@ -1,0 +1,309 @@
+1
+nl: Stomp at School (Duitsland): een programma voor een heel schooljaar voor leerlingen van 10 tot 14 jaar, met bodypercussion, zelfgebouwde instrumenten, rap en optredens.
+de: Stomp in der Schule: ein Programm für ein ganzes Schuljahr für Schülerinnen und Schüler von 10 bis 14 Jahren, mit Bodypercussion, selbst gebauten Instrumenten, Rap und Auftritten.
+2
+nl: Informatieblad: Gesamtschule Projekt STOMP
+de: Informationsblatt: Gesamtschule Projekt STOMP
+3
+nl: Jaarplan voor leerlingen van 10 tot 14 jaar: bodypercussion, zelfgebouwde instrumenten, rap en optredens — in het verzorgingshuis, in de Gesamtschule en op het zomerfeest.
+en: A year plan for pupils aged 10 to 14: body percussion, self-built instruments, rap and performances — at the care home, at the Gesamtschule and at the summer fair.
+4
+nl: Lesindeling
+en: Lesson schedule
+5
+nl: Datum
+en: Date
+6
+nl: Les
+en: Lesson
+7
+nl: Inhoud
+en: Content
+9
+nl: Voorstellen en werving in de klassen. Foto’s en film.
+en: Introduction and recruitment in the classes. Photos and film.
+11
+nl: Welkom, plattegrond maken, Stomp-video (7 min.), voor- en naspelen 1: klappen. <1>Huiswerk:</1> in de agenda noteren — wijnkurken, conservenblikken, gedroogde erwten, rijst, kroonkurken van bierflesjes, houten plankjes, stokken, kleur- en viltstiften, kranten en andere spullen voor instrumentenbouw verzamelen; lijm en schaar meebrengen.
+en: Welcome, seating plan, Stomp video (7 min.), call and response 1: clapping. <1>Homework:</1> note in the school planner — collect wine corks, tin cans, dried peas, rice, bottle caps, small wooden boards, sticks, coloured pencils and felt-tip pens, newspapers and other things for building instruments; bring glue and scissors.
+13
+nl: Voor- en naspelen 2 richting bodypercussion 1. Presenteren van de meegebrachte voorwerpen en ideeën. Groepsimprovisatie 1 op eigen voorwerpen. Conserven- en drankblikjes beplakken, beschilderen en beschrijven. <1>Huiswerk:</1> meer materiaal meebrengen. Foto’s en film.
+en: Call and response 2, moving towards body percussion 1. Presenting the objects and ideas brought along. Group improvisation 1 on the pupils’ own objects. Covering, painting and labelling tins and drinks cans. <1>Homework:</1> bring more materials. Photos and film.
+15
+nl: Voor- en naspelen 3, bodypercussion 2, verder werken aan de blikjes. Groepsimprovisatie 2. <1>Huiswerk:</1> meer materiaal meebrengen; een rijm in 4/4 bedenken (been – klap – knip – knip). Foto’s en film.
+en: Call and response 3, body percussion 2, continuing work on the cans. Group improvisation 2. <1>Homework:</1> bring more materials; invent a rhyme in 4/4 (thigh – clap – snap – snap). Photos and film.
+17
+nl: Voor- en naspelen 4. Blikjes afplakken en vullen (rijst, steentjes enz.). Introductie van emmers, blikken, pannen, ketels, lepels en stokken voor de groepsimprovisatie. Bodypercussion 3 (been – klap – knip – knip) met raptekst; werkblad 1 (tekst van een rap met drie coupletten). Foto’s en film.
+en: Call and response 4. Finishing and filling the cans (rice, pebbles, etc.). Introducing buckets, tins, pans, kettles, spoons and sticks for the group improvisation. Body percussion 3 (thigh – clap – snap – snap) with rap lyrics; worksheet 1 (lyrics of a three-verse rap). Photos and film.
+19
+nl: Vrij (activiteitenweek).
+en: No lesson (activity week).
+21
+nl: Bodypercussion 2, rammelaars knutselen en verder met de rap. Voor- en naspelen 5 (achtsten, zestienden en combinaties). Stomp-video hoofdstuk 2. Repetitie met het koor.
+en: Body percussion 2, making rattles and continuing the rap. Call and response 5 (eighths, sixteenths and combinations). Stomp video chapter 2. Rehearsal with the choir.
+23
+nl: Herfstvakantie.
+en: Autumn holidays.
+25
+nl: <1>Huiswerk:</1> wijnkurken en (bamboe)stokken verzamelen (voorbeeld meenemen en laten zien). Trommelstokken knutselen.
+en: <1>Homework:</1> collect wine corks and (bamboo) sticks (bring an example to show). Making drumsticks.
+27
+nl: Foto’s en film.
+en: Photos and film.
+29
+nl: Optreden in het verzorgingshuis. Foto’s en film.
+en: Performance at the care home. Photos and film.
+31
+nl: Voor- en naspelen 5 met trommelstokken, verder met de rap.
+en: Call and response 5 with drumsticks, continuing the rap.
+33
+nl: Optreden in de Gesamtschule.
+en: Performance at the Gesamtschule.
+35
+nl: Stokken knutselen 1, Stomp-video hoofdstuk 3, demonstratie slagwerk in het slagwerklokaal en repetitie met het koor (kerstliederen).
+en: Making sticks 1, Stomp video chapter 3, percussion demonstration in the percussion room and rehearsal with the choir (Christmas carols).
+38
+nl: Optreden in het verzorgingshuis.
+en: Performance at the care home.
+40
+nl: Kerstvakantie.
+en: Christmas holidays.
+42
+nl: Stokken knutselen 2 / voor- en naspelen.
+en: Making sticks 2 / call and response.
+44
+nl: Stokken knutselen 3 / Stomp-video.
+en: Making sticks 3 / Stomp video.
+46
+nl: Stokken knutselen 4 — enkele leerlingen klaar, vier nog niet. Video van de sambagroep van de Musikschule Eschweiler.
+en: Making sticks 4 — some pupils finished, four not yet. Video of the samba group of the Musikschule Eschweiler.
+49
+nl: Weiberfastnacht (carnaval).
+en: Weiberfastnacht (carnival).
+51
+nl: Stokken knutselen 5 — nog vier leerlingen; de anderen beschilderen hun stokken.
+en: Making sticks 5 — four pupils still to finish; the others paint their sticks.
+53
+nl: Voorbereiding chocalho, voor- en naspelen. <1>Huiswerk:</1> kroonkurken en een stuk hout meebrengen (precieze maten in het huiswerkschrift).
+en: Preparing the chocalho, call and response. <1>Homework:</1> bring bottle caps and a piece of wood (exact measurements in the homework book).
+55
+nl: Kroonkurken, hout beschilderen, voor- en naspelen (achtsten, zestienden en combinaties), repetitie met het koor.
+en: Bottle caps, painting the wood, call and response (eighths, sixteenths and combinations), rehearsal with the choir.
+58
+nl: Kroonkurken, hout beschilderen. Video slagwerk: ensembles van de muziekschool en een slagwerkgroep uit Nederland.
+en: Bottle caps, painting the wood. Percussion video: ensembles of the music school and a percussion group from the Netherlands.
+60
+nl: Kroonkurken, hout beschilderen, voor- en naspelen. Info en repetitie voor het concert op 5 mei (zomerfeest van de Gesamtschule).
+en: Bottle caps, painting the wood, call and response. Information and rehearsal for the concert on 5 May (Gesamtschule summer fair).
+62
+nl: Info en repetitie concert 5 mei. Film sambastuk en koorrepetitie.
+en: Information and rehearsal for the 5 May concert. Film of the samba piece and choir rehearsal.
+64
+nl: Paasvakantie.
+en: Easter holidays.
+66
+nl: Info en repetitie concert 5 mei: 4 shakers, 4 emmers met stokken en 4 chocalho’s (en verder knutselen).
+en: Information and rehearsal for the 5 May concert: 4 shakers, 4 buckets with sticks and 4 chocalhos (and more building).
+68
+nl: Info en repetitie concert 5 mei: 4 shakers, 4 emmers met stokken en 4 chocalho’s.
+en: Information and rehearsal for the 5 May concert: 4 shakers, 4 buckets with sticks and 4 chocalhos.
+70
+nl: Chocalho’s afmaken, samba <1>Di Villa</1> oefenen.
+en: Finishing the chocalhos, practising the samba <1>Di Villa</1>.
+72
+nl: (Extra) woensdagochtend — voorbereiding 5 mei.
+en: (Extra) Wednesday morning — preparation for 5 May.
+74
+nl: Samba <1>Di Villa</1> oefenen.
+en: Practising the samba <1>Di Villa</1>.
+76
+nl: (Extra) vrijdagochtend.
+en: (Extra) Friday morning.
+78
+nl: Zaterdag: optreden op het zomerfeest.
+en: Saturday: performance at the summer fair.
+80
+nl: Hemelvaartsdag.
+en: Ascension Day.
+82
+nl: Extra: shakers, stokken en chocalho’s maken voor de Gesamtschule.
+en: Extra: making shakers, sticks and chocalhos for the Gesamtschule.
+84
+nl: Pinksteren.
+en: Whitsun.
+86
+nl: Sacramentsdag.
+en: Corpus Christi.
+89
+nl: Voorstellen en werving in klas 9C.
+en: Introduction and recruitment in class 9C.
+95
+nl: Lessen 36 t/m 40
+en: Lessons 36 to 40
+96
+nl: Verzorgingshuis
+en: Care home
+97
+nl: Muziekschool
+en: Music school
+98
+nl: Wervingsles en concert
+en: Recruitment lesson and concert
+99
+nl: Organisatie
+en: Organisation
+100
+nl: <1>Knutselmateriaal:</1> schaar, lijm, naalden en draad (om te naaien), lijmklemmen, messen, spijkers, hamer, blikken, emmers.
+en: <1>Craft materials:</1> scissors, glue, needles and thread (for sewing), glue clamps, knives, nails, hammer, cans, buckets.
+101
+nl: <1>Instrumenten:</1> bezems, emmers en pannen, stoffer en blik, ballen, containers.
+en: <1>Instruments:</1> brooms, buckets and pots, dustpan and brush, balls, bins.
+102
+nl: <1>Inrichting:</1> afsluitbare kast, geluidsinstallatie. Voor speciale lessen lenen: dvd-speler en televisie.
+en: <1>Facilities:</1> lockable cupboard, sound system. To borrow for special lessons: DVD player and television.
+103
+nl: <1>Uitzonderingen:</1> bij mooi weer naar buiten — maar let op geluidsoverlast voor de andere lessen (containers, emmers, trapleuningen, voeten, ballen, bezems en handvegers).
+en: <1>Exceptions:</1> go outside in fine weather — but mind the noise for other lessons (bins, buckets, stair railings, feet, balls, brooms and hand brushes).
+104
+nl: <1>Voorbereiding:</1> kranten meebrengen en onder het knutselwerk leggen.
+en: <1>Preparation:</1> bring newspapers to put under the craft work.
+8
+nl: 7 sept
+en: 7 Sept
+10
+nl: 14 sept
+en: 14 Sept
+12
+nl: 21 sept
+en: 21 Sept
+14
+nl: 28 sept
+en: 28 Sept
+16
+nl: 5 okt
+en: 5 Oct
+18
+nl: 12 okt
+en: 12 Oct
+20
+nl: 19 okt
+en: 19 Oct
+22
+nl: 26 okt – 2 nov
+en: 26 Oct – 2 Nov
+24
+nl: 9 nov
+en: 9 Nov
+26
+nl: 16 nov
+en: 16 Nov
+28
+nl: 23 nov
+en: 23 Nov
+30
+nl: 30 nov
+en: 30 Nov
+32
+nl: 2 dec
+en: 2 Dec
+34
+nl: 7 dec
+en: 7 Dec
+36
+nl: 14 dec
+en: 14 Dec
+37
+nl: 21 dec
+en: 21 Dec
+39
+nl: 28 dec – 4 jan
+en: 28 Dec – 4 Jan
+41
+nl: 11 jan
+en: 11 Jan
+43
+nl: 18 jan
+en: 18 Jan
+45
+nl: 25 jan
+en: 25 Jan
+47
+nl: 1 feb
+en: 1 Feb
+48
+nl: 8 feb
+en: 8 Feb
+50
+nl: 15 feb
+en: 15 Feb
+52
+nl: 22 feb
+en: 22 Feb
+54
+nl: 1 mrt
+en: 1 Mar
+56
+nl: 6 mrt
+en: 6 Mar
+57
+nl: 8 mrt
+en: 8 Mar
+59
+nl: 15 mrt
+en: 15 Mar
+61
+nl: 22 mrt
+en: 22 Mar
+63
+nl: 29 mrt – 5 apr
+en: 29 Mar – 5 Apr
+65
+nl: 12 apr
+en: 12 Apr
+67
+nl: 19 apr
+en: 19 Apr
+69
+nl: 26 apr
+en: 26 Apr
+71
+nl: 2 mei
+en: 2 May
+73
+nl: 3 mei
+en: 3 May
+75
+nl: 4 mei
+en: 4 May
+77
+nl: 5 mei
+en: 5 May
+79
+nl: 10 mei
+en: 10 May
+81
+nl: 17 mei
+en: 17 May
+83
+nl: 24 mei
+en: 24 May
+85
+nl: 31 mei
+en: 31 May
+87
+nl: 7 jun
+en: 7 Jun
+88
+nl: 11 jun
+en: 11 Jun
+90
+nl: 14 jun
+en: 14 Jun
+91
+nl: 21 jun
+en: 21 Jun
+92
+nl: 28 jun
+en: 28 Jun
+93
+nl: 5 jul
+en: 5 Jul

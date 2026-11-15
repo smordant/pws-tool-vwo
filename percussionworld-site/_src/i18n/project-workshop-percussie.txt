@@ -1,0 +1,98 @@
+= <1>Projects</1> / Netherlands
+nl: <1>Projecten</1> / Nederland
+de: <1>Projekte</1> / Niederlande
+= <1>Projects</1> / Germany
+nl: <1>Projecten</1> / Duitsland
+de: <1>Projekte</1> / Deutschland
+= Project in Nederland · in Dutch
+nl: Project in Nederland
+en: Project in the Netherlands
+de: Projekt in den Niederlanden
+= Projekt in Deutschland · in German
+nl: Project in Duitsland
+en: Project in Germany
+de: Projekt in Deutschland
+1
+nl: Workshop Percussie van Michel Mordant: een interactieve kennismaking van één uur met vijftien percussie-instrumenten, afgesloten met samenspel met het publiek.
+de: Workshop Percussie von Michel Mordant: eine einstündige Einführung zum Mitmachen in fünfzehn Percussioninstrumente, abgeschlossen mit gemeinsamem Spiel mit dem Publikum.
+2
+en: A one-hour interactive workshop in which fifteen percussion instruments are presented, explained and played together with the audience.
+de: Ein einstündiger interaktiver Workshop, in dem fünfzehn Percussioninstrumente vorgestellt, erklärt und gemeinsam mit dem Publikum gespielt werden.
+3
+en: Duration
+de: Dauer
+4
+en: 1 hour (possibly a little longer)
+de: 1 Stunde (eventuell etwas länger)
+5
+en: Venue
+de: Ort
+6
+en: A room the size of a classroom
+de: Raum in Klassengröße
+7
+en: Set-up
+de: Aufbau
+8
+en: Chairs in a U-shape (no tables); tables with the instruments on display behind the teacher
+de: Stühle in U-Form (keine Tische); hinter dem Dozenten Tische mit den ausgestellten Instrumenten
+9
+en: Instruments
+de: Instrumente
+10
+en: Tambourine and beatring, sleigh bells, agogo bells, claves, maracas and cabasa, guiro and shaker-guiro, vibraslap, pair of cymbals, gong, temple blocks, bongos, suspended cymbals (played on the edge, the bow and the cup), cowbell, triangle, djembe — with sticks of wood, felt and yarn.
+de: Tamburin und Beatring, Schellen, Agogo-Glocken, Claves, Maracas und Cabasa, Guiro und Shaker-Guiro, Vibraslap, Beckenpaar, Gong, Templeblocks, Bongos, hängende Becken (Spielweisen: Rand, Mitte und Kuppe), Cowbell, Triangel, Djembe — mit Schlägeln aus Holz, Filz und Garn.
+11
+en: Explanation and playing techniques
+de: Erklärung und Spielweise
+12
+en: Each instrument is presented, explained and demonstrated, in this order:
+de: Jedes Instrument wird vorgestellt, erläutert und vorgespielt, in dieser Reihenfolge:
+13
+en: Tambourine and beatring — explaining the difference (a beatring has no head)
+de: Tamburin und Beatring — mit Erklärung des Unterschieds (ein Beatring hat kein Fell)
+14
+de: Schellen
+15
+de: Agogo-Glocken
+17
+en: Maracas and cabasa
+de: Maracas und Cabasa
+18
+en: Guiro and shaker-guiro
+de: Guiro und Shaker-Guiro
+20
+en: Pair of cymbals — struck and rubbed
+de: Beckenpaar — schlagen und reiben
+21
+en: Gong — with the fist and a beater; stroking the rim with an iron and a wooden stick
+de: Gong — mit Faust und Schlägel; den Rand mit einem Eisen- und einem Holzstab streichen
+22
+en: Temple blocks — sticks of wood, felt and yarn
+de: Templeblocks — Schlägel aus Holz, Filz und Garn
+23
+en: Bongos — by hand and with different sticks (wood, felt and yarn)
+de: Bongos — mit der Hand und mit verschiedenen Schlägeln (Holz, Filz und Garn)
+24
+en: Suspended cymbals — played on the edge, the bow and the cup; sticks of wood, felt and yarn
+de: Hängende Becken — Spielweisen Rand, Mitte und Kuppe; Schlägel aus Holz, Filz und Garn
+26
+en: Triangle
+27
+en: Djembe
+de: Djembe
+28
+en: Warm-up exercise
+de: Vorübung
+29
+en: Playing along in 4/4: stamp your feet on beats 1 and 3, clap on 2 and 4.
+de: Mitspielen im 4/4-Takt: auf 1 und 3 mit den Füßen stampfen, auf 2 und 4 klatschen.
+30
+en: Concept
+de: Konzept
+31
+en: The instruments are handed out and played together with the audience — as well as everyone can.
+de: Die Instrumente werden verteilt und gemeinsam mit den Zuschauern gespielt — so gut es geht.
+32
+en: Photos of the workshop in Maastricht, with the assistance of Myrthe and Sander, will follow.
+de: Fotos vom Workshop in Maastricht, unter Mitwirkung von Myrthe und Sander, folgen.

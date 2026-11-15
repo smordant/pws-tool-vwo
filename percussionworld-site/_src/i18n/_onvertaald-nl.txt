@@ -1,10 +1,3 @@
-adjudication	30 April – 1 May — Neerpelt (Belgium): <1>European Music Festival for Young People</1>, with its first percussion contest — <2>percussion jury</2>
-adjudication	As judge at a band contest in Nederweert, 1994.
-adjudication	Jury of percussion, European Music Festival for Young People, Neerpelt 2005
-adjudication	Michel Mordant as adjudicator: jury work at band contests, soloist competitions and festivals in the Netherlands, Belgium and Germany since 2000.
-adjudication	Michel Mordant as judge at a band contest in Nederweert, 1994
-adjudication	O.L.S. Heythuysen — Tambour-maître at the défilé
-adjudication	Since 2000 Michel Mordant has served as a jury member for drum bands, marching bands and soloists — for the Limburg schutterij federations, the O.L.S., soloist competitions and international festivals.
 compositions	<1>Dance of the Pixy’s</1> — xylophone and piano
 compositions	Back on Base
 compositions	Focus for Marimba — part 1 (5 mallets)
@@ -23,13 +16,9 @@ ensemble-einighausen	<1>Percussion ensemble:</1> <2>Mexican Dance</2> (J. Wassen
 ensemble-einighausen	Repertoire: <1><2>Magnificent People</2></1> (W. Norel); <3><4>You’re So Cool</4></3> (H. Zimmer, arr. F. Kessels); <5><6>Io, the Moon and the Giant</6></5> (S. Kamstra).
 ensemble-eschweiler	Jugend Musiziert: <1>Drummers Go Latin</1>; <2>The Winding River</2> (T. O’Connor); <3>Pirates of the Caribbean</3> (Hans Zimmer, arr. M. Mordant).
 ensemble-kreato	<1>Ensemble:</1> Bianca and Joyce Berkers, Cyril Graus, Luuk Heijmans, Myrthe Peulen, Roger Scheepers, Stan van Landeghem, Stan Voncken, Wiek Maessen — <2>Balalaikan Holiday</2> (Morris A. Brand); <3>To the Top</3> (Wibrand van Norel).
+ensemble-schinveld	2nd best of Limburg, with credits of the jury
+ensemble-schinveld	3rd best of Limburg, with credits of the jury
 index	Stomp at School
-links	A personal selection of percussionists, ensembles, instrument makers and resources. Would you like to exchange links? <1>Get in touch</1>.
-links	Drums on the Web
-links	European Music Festival for Young People
-links	Several of these links date from the early years of the web; some websites may have moved or no longer exist.
-links	World wide percussion links: percussionists, ensembles, instrument makers and percussion resources, selected by Michel Mordant.
-pas	10th Day of Percussion — 2020, Eindhoven (cancelled: corona)
 pas	10th Day of Percussion — 2023, Sittard
 pas	1st Day of Percussion — 2006, Maastricht (PDF)
 pas	2nd Day of Percussion — 2007, Voerendaal (PDF)
@@ -38,202 +27,21 @@ pas	4th Day of Percussion — 2009, Vught (PDF)
 pas	5th Day of Percussion — 2010, Codarts Rotterdam (PDF)
 pas	6th Day of Percussion — 2011, Kerkrade (PDF)
 pas	7th Day of Percussion — 2012, The Hague
-pas	7th Dutch Percussion Day, 10.00–17.00, at the Royal Conservatoire (<1>Koninklijk Conservatorium</1>), Juliana van Stolberglaan 1, 2595 CA The Hague.
 pas	8th Day of Percussion — 2015, Thorn
-pas	8th Dutch Percussion Day, 10.00–18.00, at Muziekcentrale Adams, Aziëstraat 17–19, Ittervoort (Thorn). With various drum bands, percussion groups and ensembles. Sheet music took centre stage, with several publishers present. Musical hosts: Albert Staten and Michel Mordant.
 pas	9th Day of Percussion — 2018, Zwolle
-pas	9th Dutch Percussion Day, 10.00–18.00, at <1>ArtEZ</1>, Aan de Stadsmuur 88, 8011 VD Zwolle.
-pas	Activity, business and financial reports submitted to PAS for 2022 (no PAS members in attendance were registered).
-pas	Announcement — PAS Day of Percussion 2023:
 pas	Day of Percussion
 pas	Day of Percussion 2012
-pas	Day of Percussion 2012 — performers
 pas	Day of Percussion 2015
 pas	Day of Percussion 2018
-pas	Day of Percussion 2018 — performer
 pas	Day of Percussion 2020
 pas	Day of Percussion 2023
-pas	In 2022 there were no chapter concerts such as a Day of Percussion. The chapter was present at the World Music Contest in Kerkrade with promotional material, membership forms and other PAS material:
-pas	Michel Mordant is President of the Netherlands Chapter of the <1>Percussive Arts Society</1> and co-host of the <2>Day of Percussion</2>, the national percussion day of the Netherlands. <3>Chapter community page</3>
 pas	PAS Day of Percussion 2006
-pas	PAS Day of Percussion 2006, the Netherlands.
 pas	PAS Day of Percussion 2023
-pas	Photos of the Day of Percussion 2006 and the international PASIC convention are in the <1>photo archive</1>.
-pas	Planned performers: Alex Jacobowitz, Tatiana Koleva, and the Eric Aalbers percussion ensemble conducted by Paul Doom. Musical hosts: Jelle Roeper and Michel Mordant. <1>CGN United</1>
-pas	Poster Day of Percussion 2023
-pas	Presented by Percussion Friends and the Percussive Arts Society: the 10th Dutch Percussion Day (Nederlandse Slagwerkdag), 10.00–22.00, at Gemeenschapshuis Broeksittard, Dorpstraat 1, 6137 SR Sittard. Free admission, with workshops by Ramon Lormans, Maikel Claessens and Georgi Tsenov; performances by drum bands and percussion groups from Sittard and the surrounding area and the Musikschule Eschweiler; closing concert by Mallet Collective. Musical hosts: Fanfare St. Caecilia and Michel Mordant.
-pas	Slagwerkkrant: article by Jan Pustjens (PDF)
-pas	Sponsored by Van Vught Slagwerk, PaBo-Music and others.
-pas	Sponsored by Van Vught Slagwerk, PaBo-Music, Van der Plas, Van Groningen and others.
-pas	The 10th Dutch Percussion Day was planned for 29 March 2020, 10.00–18.00, at Fontys Sporthogeschool, Theo Koomenlaan 3, 5644 HZ Eindhoven — and was cancelled because of the corona pandemic.
-pas	The Netherlands Chapter of the Percussive Arts Society and the Dutch Day of Percussion (Nederlandse Slagwerkdag), 2006–2023.
-pas	With Miguel Rodriguez, Slagwerkgroep Den Haag, Percossa, Davai Percussion, Ruud Wiener and percussionists of the Residentie Orkest. Workshops, master classes, demonstrations, stands, performances by various ensembles and presentations by conservatory students — ragtimes, percussion trios, solo marimba repertoire, African workshops and more. Musical hosts: Hans Zonderop and Michel Mordant.
-photos	As judge at a band contest in Nederweert, 1994
-photos	Encounters with Billy Cobham, Thomas Lang, Jim Chapin, Nebojša Živković and many others — and moments with ensembles and at the music fair in Frankfurt.
-photos	First concert at Forum Sittard (2022); with rock group Powerized (2024); concert at Adams together with Ensemble JMS Eschweiler; summer concert.
-photos	First rehearsal of 2026 with Sander; <1>Nacht der offenen Kirchen</1> 2024; Tag des Ehrenamtes 2023; and the years 1991–2022.
-photos	First rehearsal of Saul Goodman’s <1>Scherzo</1> for trio — xylophone: Zoë; two snare drums: Paul; timpani: Karl.
-photos	Four decades of percussion in pictures — ensembles and concerts, workshops and lessons, meetings with great percussionists, and the very beginning in Vijlen. Click any photo to enlarge.
-photos	Guitar (around 1980), the band of the Sophianum (around 1980) and the Gesamtschule band.
-photos	Ludwig Albert, Michel and Timo Coutura (a student of mine)
-photos	Michel at four years old
-photos	More photos on Facebook<1>External</1>
-photos	On military service with the Limburgse Jagers: Michel (tambour) on the right, Jan Weeda (trumpet) on the left, my mother in the middle — Roermond, 1982
-photos	Our last day at Kreato, with Jo Zinzen.
-photos	PAS Day of Percussion 2006, the Netherlands
-photos	Photo archive of Michel Mordant: ensembles, workshops, teaching, orchestras, meetings with famous percussionists and the early years.
-photos	Playing Mozart’s Alla Turca (KV 331), arranged for marimba ensemble by Michel Mordant
-photos	School of Music Eschweiler
-photos	School of Music Gangelt
-photos	School of Music Kreato Thorn
-photos	With Christian Bourdon, author of “African Rhythms for Drumset”
-photos	With Fats and the Young Jazz Cats.
-photos	Workshops at the School of Music Eschweiler
-project-kindergarten	<1>Projects</1> / Germany
-project-kindergarten	Auf diese Weise werden die Schülerinnen und Schüler zu einer kreativen Auseinandersetzung mit ihrer alltäglichen Umgebung motiviert — ein Gegengewicht zu den vielen kognitiven Unterrichtsfächern.
-project-kindergarten	Children making music in the Kindergarten Alsdorf drumming group
-project-kindergarten	Das gemeinsame jahrgangs- und klassenübergreifende Musizieren fördert die Gemeinschaft unterschiedlicher Schülerinnen und Schüler (Alter, kulturelle Herkunft, Fähigkeiten …) ungemein und schafft ein „Wir-Gefühl“, das auch der Identifikation mit der Schule dient.
-project-kindergarten	Die Arbeitsgruppe entwickelt Ideen der musikalischen Realisation, experimentiert, übt in der Gruppe entwickelte Rhythmusstücke ein und präsentiert die Ergebnisse einem Publikum.
-project-kindergarten	In einer Arbeitsgemeinschaft am Nachmittag erforschen Schülerinnen und Schüler, mit welchen Alltagsgegenständen aus ihrer Lebenswelt — Töpfe, Pfannen, Besen … — sowie mit körpereigenen Instrumenten Musik gemacht werden kann. Der Rhythmus steht dabei im Vordergrund.
 project-kindergarten	Kindergarten
-project-kindergarten	Kindergarten project: an afternoon working group exploring music with everyday objects and body percussion, with rhythm at the centre.
-project-kindergarten	Musikrepertoire, gespielt auf unkonventionellen Instrumenten.
-project-kindergarten	Projekt in Deutschland · in German
-project-kindergarten	Trommelspiel-AG, Kindergarten Alsdorf.
-project-klanggarten	<1>Projects</1> / Germany
-project-klanggarten	Beim Herstellen von Klangkörpern können Werkstoffe sowie Alltagsgegenstände zusammengesetzt werden. Die Kreativität steht im Vordergrund, sodass auch eigenwillige und originelle Neuschöpfungen entstehen können, in die alle teilnehmenden Kinder ihre Ideen, ihr Wissen und ihre Fertigkeiten — auch in der künstlerischen Gestaltung — einbringen.
-project-klanggarten	Das Projekt bietet Kindern die Gelegenheit, die Welt der Klänge und Töne zu erforschen und sie für das Hören von Klängen zu sensibilisieren.
-project-klanggarten	Das gesamte Projekt umfasst musikpädagogische, künstlerische und handwerkliche Aspekte; auch soziales Lernen und Nachhaltigkeit sind wesentliche Bestandteile der Arbeit.
-project-klanggarten	Der Klanggarten
-project-klanggarten	Der Klanggarten kann anschließend genutzt werden, um mit Klangeigenschaften zu experimentieren und zu musizieren — improvisatorisch ebenso wie formgebunden.
-project-klanggarten	Die Kinder experimentieren klanglich mit unterschiedlichen Werkstoffen, bauen Instrumente und nutzen sie hinsichtlich ihrer Klangeigenschaften rhythmisch und musikalisch. Dabei setzen sie sich mit Eigenschaften von Klängen wie Lautstärke, Tondauer und Tonhöhe auseinander.
-project-klanggarten	In einer zweiten Phase entstehen aus selbst erstellten und vorgefundenen Klangkörpern in Gemeinschaftsarbeit Klangskulpturen, die in einem „Klanggarten“ im Außenbereich der Schule (Schulhof oder Garten) dauerhaft installiert werden. Selbst gebaute Saiten-, Blas- und Schlaginstrumente sowie andere klangerzeugende Körper werden nach Vorstellung und Planung der Kinder zu Klanginstallationen zusammengefügt.
-project-klanggarten	Klangforscher und Instrumentenbauer experimentieren mit Klängen und Rhythmen — Installation eines „Klanggartens“.
 project-klanggarten	Klanggarten
-project-klanggarten	Klanggarten: sound explorers and instrument builders experiment with sound and rhythm and install a permanent sound garden at their school.
-project-klanggarten	Projekt in Deutschland · in German
-project-stomp-schule	(Extra) Freitagmorgen.
-project-stomp-schule	(Extra) Mittwochmorgen — Vorbereitung 5. Mai.
-project-stomp-schule	1 Feb
-project-stomp-schule	1 Mrz
-project-stomp-schule	10 Mai
-project-stomp-schule	11 Jan
-project-stomp-schule	11 Jun
-project-stomp-schule	12 Apr
-project-stomp-schule	12 Okt
-project-stomp-schule	14 Dez
-project-stomp-schule	14 Jun
-project-stomp-schule	14 Sept
-project-stomp-schule	15 Feb
-project-stomp-schule	15 Mrz
-project-stomp-schule	16 Nov
-project-stomp-schule	17 Mai
-project-stomp-schule	18 Jan
-project-stomp-schule	19 Apr
-project-stomp-schule	19 Okt
-project-stomp-schule	2 Dez
-project-stomp-schule	2 Mai
-project-stomp-schule	21 Dez
-project-stomp-schule	21 Jun
-project-stomp-schule	21 Sept
-project-stomp-schule	22 Feb
-project-stomp-schule	22 Mrz
-project-stomp-schule	23 Nov
-project-stomp-schule	24 Mai
-project-stomp-schule	25 Jan
-project-stomp-schule	26 Apr
-project-stomp-schule	26 Okt – 2 Nov
-project-stomp-schule	28 Dez – 4 Jan
-project-stomp-schule	28 Jun
-project-stomp-schule	28 Sept
-project-stomp-schule	29 Mrz – 5 Apr
-project-stomp-schule	3 Mai
-project-stomp-schule	30 Nov
-project-stomp-schule	31 Mai
-project-stomp-schule	4 Mai
-project-stomp-schule	5 Jul
-project-stomp-schule	5 Mai
-project-stomp-schule	5 Okt
-project-stomp-schule	6 Mrz
-project-stomp-schule	7 Dez
-project-stomp-schule	7 Jun
-project-stomp-schule	7 Sept
-project-stomp-schule	8 Feb
-project-stomp-schule	8 Mrz
-project-stomp-schule	9 Nov
-project-stomp-schule	<1>Ausnahmen:</1> bei schönem Wetter nach draußen gehen — aber auf den Lärm für den übrigen Unterricht achten (Container, Eimer, Treppengeländer, Füße, Bälle, Besen und Handfeger).
-project-stomp-schule	<1>Bastelmaterial:</1> Schere, Klebstoff, Nadeln und Draht (zum Nähen), Leimklemmen, Messer, Nägel, Hammer, Dosen, Eimer.
-project-stomp-schule	<1>Einrichtung:</1> abschließbarer Schrank, Musikanlage. Für Spezialstunden leihen: DVD und Fernseher.
-project-stomp-schule	<1>Hausaufgabe:</1> Weinkorken und (Bambus-)Stöcke sammeln (Beispiel mitnehmen und zeigen). Trommelstöcke basteln.
-project-stomp-schule	<1>Instrumente:</1> Besen, Eimer und Töpfe, Kehrblech und Feger, Bälle, Container.
-project-stomp-schule	<1>Projects</1> / Germany
-project-stomp-schule	<1>Vorbereitung:</1> Zeitungen mitbringen und unter die Bastelarbeiten legen.
-project-stomp-schule	Altersheim
-project-stomp-schule	Auftritt im Altersheim.
-project-stomp-schule	Auftritt im Altersheim. Fotos und Film.
-project-stomp-schule	Auftritt in der Gesamtschule.
-project-stomp-schule	Bodypercussion 2, Rasseln basteln und Rap weiter. Vor- und Nachspiel 5 (Achtel, Sechzehntel und Kombinationen). Stomp-Video Kapitel 2. Probe mit dem Chor.
-project-stomp-schule	Chocalhos fertigstellen, Samba <1>Di Villa</1> üben.
-project-stomp-schule	Christi Himmelfahrt.
-project-stomp-schule	Datum
-project-stomp-schule	Extra: Anfertigen von Shakern, Stöcken und Chocalhos für die Gesamtschule.
-project-stomp-schule	Fotos und Film.
-project-stomp-schule	Frei (Aktivwoche).
-project-stomp-schule	Fronleichnam.
 project-stomp-schule	Gesamtschule Eschweiler — Projekt STOMP.
-project-stomp-schule	Herbstferien.
-project-stomp-schule	Info und Probe Konzert 5. Mai. Film Sambastück und Chorprobe.
-project-stomp-schule	Info und Probe Konzert 5. Mai: 4 Shaker, 4 Eimer mit Stöcken und 4 Chocalhos (und weiter basteln).
-project-stomp-schule	Info und Probe Konzert 5. Mai: 4 Shaker, 4 Eimer mit Stöcken und 4 Chocalhos.
-project-stomp-schule	Information sheet: Gesamtschule Projekt STOMP
-project-stomp-schule	Inhalt
-project-stomp-schule	Jahresplan für Schülerinnen und Schüler von 10 bis 14 Jahren: Bodypercussion, selbst gebaute Instrumente, Rap und Auftritte — im Altersheim, in der Gesamtschule und beim Sommerfest.
-project-stomp-schule	Kronkorken, Holz bemalen, Vor- und Nachspiel (Achtel, Sechzehntel und Kombinationen), Probe mit dem Chor.
-project-stomp-schule	Kronkorken, Holz bemalen, Vor- und Nachspiel. Info und Probe für das Konzert am 5. Mai (Sommerfest der Gesamtschule).
-project-stomp-schule	Kronkorken, Holz bemalen. Video Schlagzeug: Ensembles der Musikschule und Schlagzeuggruppe aus den Niederlanden.
-project-stomp-schule	Musikschule
-project-stomp-schule	Organisation
-project-stomp-schule	Osterferien.
-project-stomp-schule	Pfingsten.
-project-stomp-schule	Projekt in Deutschland · in German
-project-stomp-schule	Samba <1>Di Villa</1> üben.
-project-stomp-schule	Samstag: Auftritt beim Sommerfest.
-project-stomp-schule	Stomp at School (Germany): a full school-year programme for pupils aged 10 to 14 with body percussion, self-built instruments, rap and public performances.
 project-stomp-schule	Stomp in der Schule
-project-stomp-schule	Stunde
-project-stomp-schule	Stunden 36 bis 40
-project-stomp-schule	Stundeneinteilung
-project-stomp-schule	Stöcke basteln 1, Stomp-Video Kapitel 3, Vorführung Schlagzeug im Schlagzeugraum und Probe mit dem Chor (Weihnachtslieder).
-project-stomp-schule	Stöcke basteln 2 / Vor- und Nachspiel.
-project-stomp-schule	Stöcke basteln 3 / Stomp-Video.
-project-stomp-schule	Stöcke basteln 4 — einige Schüler fertig, vier noch nicht. Video der Sambagruppe der Musikschule Eschweiler.
-project-stomp-schule	Stöcke basteln 5 — noch vier Schüler; die übrigen bemalen ihre Stöcke.
-project-stomp-schule	Vor- und Nachspiel 2 in Richtung Bodypercussion 1. Vorstellen der mitgebrachten Gegenstände und Ideen. Gruppenimprovisation 1 auf eigenen Gegenständen. Konserven- und Getränkedosen bekleben, bemalen und beschriften. <1>Hausaufgabe:</1> weitere Materialien mitbringen. Fotos und Film.
-project-stomp-schule	Vor- und Nachspiel 3, Bodypercussion 2, Dosen weiter gestalten. Gruppenimprovisation 2. <1>Hausaufgabe:</1> weitere Materialien mitbringen; einen Reim im 4/4-Takt erfinden (Bein – Klatsch – Schnips – Schnips). Fotos und Film.
-project-stomp-schule	Vor- und Nachspiel 4. Dosen fertig bekleben und füllen (Reis, Steine usw.). Vorstellung von Eimern, Dosen, Pfannen, Kesseln, Löffeln und Stöcken für die Gruppenimprovisation. Bodypercussion 3 (Bein – Klatsch – Schnips – Schnips) mit Raptext; Arbeitsblatt 1 (Text eines dreistrophigen Raps). Fotos und Film.
-project-stomp-schule	Vor- und Nachspiel 5 mit Trommelstöcken, Rap weiter.
-project-stomp-schule	Vorbereitung Chocalho, Vor- und Nachspiel. <1>Hausaufgabe:</1> Kronkorken und ein Stück Holz mitbringen (genaue Maße im Hausaufgabenheft).
-project-stomp-schule	Vorstellung und Werbung in Klasse 9C.
-project-stomp-schule	Vorstellung und Werbung in den Klassen. Fotos und Film.
-project-stomp-schule	Weiberfastnacht.
-project-stomp-schule	Weihnachtsferien.
-project-stomp-schule	Werbungsunterricht und Konzert
-project-stomp-schule	Willkommen, Sitzplan erstellen, Stomp-Video (7 Min.), Vor- und Nachspiel 1: Klatschen. <1>Hausaufgabe:</1> im Schulplaner notieren — Weinkorken, Konservendosen, trockene Erbsen, Reis, Kronkorken von Bierflaschen, Holzbrettchen, Stöcke, Bunt- und Filzstifte, Zeitungen und andere Dinge zum Instrumentenbau sammeln; Kleber und Schere mitbringen.
-projects	20 March — <1>conducting workshop</1> at the Bond van Tambour Maîtres (<2>bvtm.nl</2>)
-projects	A year plan of body percussion, instrument building, rap and performances.
-projects	A year-by-year overview of workshops, school drum groups, courses and other activities.
-projects	Advertisement in the <1>Slagwerkkrant</1>
-projects	Advertisement in the Dutch percussion magazine <1>Slagwerkkrant</1>.
-projects	Advertisement in the Slagwerkkrant
-projects	Donation of sheet music
-projects	Donation of sheet music.
-projects	Fifteen percussion instruments presented and played — together with the audience.
-projects	Hands-on projects that bring rhythm, creativity and instrument building to schools, kindergartens and music societies — in the Netherlands and in Germany.
-projects	PAS stand at the WMC Kerkrade.
-projects	Percussion projects and workshops by Michel Mordant in the Netherlands and Germany: Workshop Percussie, Stomp at School, Kindergarten, Klanggarten and other activities.
 projects	Stomp at School
-projects	Theory course schedule, School of Music Thorn
-projects	Theory course, School of Music Thorn
 projects	“A World of Percussion Music”.
 start-methods	Start voor / für / for Drums
 students	<1>Bianca and Joyce Berkers</1> (St. Stephanus Dieteren) — snare drum duo <2>Marche and Dance</2> (G. Bomhof), 5th level, 90 points <3>Champion of Limburg</3>

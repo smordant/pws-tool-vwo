@@ -13,6 +13,19 @@ re:\b(\d{1,2}) October\b|\1 oktober|\1. Oktober
 re:\b(\d{1,2}) November\b|\1 november|\1. November
 re:\b(\d{1,2}) December\b|\1 december|\1. Dezember
 re:\b(\d{1,2})–(\d{1,2})\. (?=Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)|\1–\2. |\1.–\2. 
+re:(?<!^)\bJanuary (\d{4})\b|januari \1|Januar \1
+re:(?<!^)\bFebruary (\d{4})\b|februari \1|Februar \1
+re:(?<!^)\bMarch (\d{4})\b|maart \1|März \1
+re:(?<!^)\bApril (\d{4})\b|april \1|April \1
+re:(?<!^)\bMay (\d{4})\b|mei \1|Mai \1
+re:(?<!^)\bJune (\d{4})\b|juni \1|Juni \1
+re:(?<!^)\bJuly (\d{4})\b|juli \1|Juli \1
+re:(?<!^)\bAugust (\d{4})\b|augustus \1|August \1
+re:(?<!^)\bSeptember (\d{4})\b|september \1|September \1
+re:(?<!^)\bOctober (\d{4})\b|oktober \1|Oktober \1
+re:(?<!^)\bNovember (\d{4})\b|november \1|November \1
+re:(?<!^)\bDecember (\d{4})\b|december \1|Dezember \1
+re:^(\d+)(?:st|nd|rd|th) |\1e |\1. 
 re:\bJanuary – March\b|januari – maart|Januar – März
 re:^January\b|Januari|Januar
 re:^March\b|Maart|März
@@ -75,7 +88,7 @@ glockenspiel|klokkenspel|Glockenspiel
 drumset|drumstel|Drumset
 drumset exercises|oefeningen voor drumstel|Übungen für Drumset
 drumset solo|drumsolo|Drumset-Solo
-percussion|slagwerk|Schlagzeug
+re:\bpercussion\b|slagwerk|Schlagzeug
 percussion ensemble|slagwerkensemble|Schlagzeugensemble
 percussion duo|slagwerkduo|Schlagzeugduo
 percussion trio|slagwerktrio|Schlagzeugtrio
@@ -280,3 +293,11 @@ to the highest level|naar de hoogste afdeling|in die höchste Stufe
 Class B|Klasse B|Klasse B
 in preparation|in voorbereiding|in Vorbereitung
 judge|jurylid|Juror
+primary school|basisschool|Grundschule
+drum group|trommelgroep|Trommel-AG
+drumming group|trommelgroep|Trommel-AG
+theory course|theoriecursus|Theoriekurs
+open day|open dag|Tag der offenen Tür
+football camp|voetbalkamp|Fußballcamp
+and others|e.a.|u. a.
+school workshop|schoolworkshop|Schulworkshop

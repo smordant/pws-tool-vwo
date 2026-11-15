@@ -100,3 +100,6 @@ de: Zeitungsausschnitte und Dokumente
 230
 nl: Krantenartikelen, oorkonden en concoursdocumenten uit het leerlingenarchief.
 de: Zeitungsartikel, Urkunden und Wettbewerbsunterlagen aus dem Schülerarchiv.
+= O.S.C., St. Odiliënberg, 10 June: duo <1>Juul Beckers and Timmy Coenen</1> — percussion, youth level, <2>Exposition</2> for percussion duo (M. Mordant)
+nl: O.S.C., St. Odiliënberg, 10 juni: duo <1>Juul Beckers en Timmy Coenen</1> — slagwerk, jeugdafdeling, <2>Exposition</2> voor slagwerkduo (M. Mordant)
+de: O.S.C., St. Odiliënberg, 10. Juni: Duo <1>Juul Beckers und Timmy Coenen</1> — Schlagzeug, Jugendstufe, <2>Exposition</2> für Schlagzeugduo (M. Mordant)
