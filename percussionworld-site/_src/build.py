@@ -44,6 +44,7 @@ LANG_NAMES = {"nl": "Nederlands", "en": "English", "de": "Deutsch"}
 DOMAIN = "https://www.percussionworld.nl"
 EMAIL = "percussion@home.nl"
 WEBMASTER = "Sander Mordant"  # websitebouwer en -beheerder (voettekst)
+WEBMASTER_EMAIL = "sandermordant.web@outlook.com"
 CUR_PAGE = ' aria-current="page"'
 CUR_LANG = ' aria-current="true"'
 
@@ -405,7 +406,7 @@ def render(lang, name, meta, body):
   </div>
   <div class="container footer-base">
     <p>{ui['footer_rights']}</p>
-    <p class="footer-credit">{ui['webcredit']} <span>{WEBMASTER}</span> &middot; <a href="copyright.html">{ui['copyright']}</a></p>
+    <p class="footer-credit">{ui['webcredit']} <a href="mailto:{WEBMASTER_EMAIL}">{WEBMASTER}</a> &middot; <a href="copyright.html">{ui['copyright']}</a></p>
   </div>
 </footer>
 <div class="lightbox" hidden>

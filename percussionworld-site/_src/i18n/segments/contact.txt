@@ -27,3 +27,10 @@
 27	<1>Stichting Opmaat</1>, Schinnen (NL)
 28	<1>Jugendmusikschule</1> and Gesamtschule Eschweiler (DE)
 29	<1>Jugendmusikschule Heinsberg</1> (DE)
+30	Website
+31	Website design and maintenance
+32	This website was designed and built by Sander Mordant, who also maintains it. For questions or remarks about the website — or if you would like a website of your own — please get in touch with him.
+33	Webmaster
+34	Sander Mordant
+35	sandermordant.web@outlook.com
+36	linkedin.com/in/sandermordant

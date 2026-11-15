@@ -55,3 +55,18 @@ de: Wo Michel unterrichtet
 28
 nl: <1>Jugendmusikschule</1> en Gesamtschule Eschweiler (DE)
 de: <1>Jugendmusikschule</1> und Gesamtschule Eschweiler (DE)
+= Website design and maintenance
+nl: Ontwerp en beheer van de website
+de: Gestaltung und Betreuung der Website
+= This website was designed and built by Sander Mordant, who also maintains it. For questions or remarks about the website — or if you would like a website of your own — please get in touch with him.
+nl: Deze website is ontworpen en gebouwd door Sander Mordant, die de site ook beheert. Heeft u een vraag of opmerking over de website — of wilt u zelf een website laten maken — neem dan contact met hem op.
+de: Diese Website wurde von Sander Mordant gestaltet und umgesetzt, der sie auch betreut. Bei Fragen oder Anmerkungen zur Website — oder wenn Sie selbst eine Website wünschen — nehmen Sie bitte Kontakt mit ihm auf.
+= Webmaster
+nl: Websitebeheerder
+de: Webmaster
+= Sander Mordant
+nl: Sander Mordant
+de: Sander Mordant
+= Website
+nl: Website
+de: Website

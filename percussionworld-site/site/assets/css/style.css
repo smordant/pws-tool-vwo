@@ -527,3 +527,4 @@ cite { font-style: normal; }
 .footer-lang a[aria-current="true"] { color: #fff; }
 .footer-lang a[aria-current="true"] .lang-code { background: var(--brass); border-color: var(--brass); color: #fff; }
 .footer-credit span { color: rgba(255,255,255,.85); }
+.footer-credit a { color: rgba(255,255,255,.85); text-decoration: underline; text-decoration-color: rgba(207,174,106,.6); text-underline-offset: 3px; }
