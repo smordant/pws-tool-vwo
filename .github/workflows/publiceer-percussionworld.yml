@@ -1,0 +1,37 @@
+# Zet de map percussionworld-site/site/ automatisch op www.percussionworld.nl
+# zodra er op de hoofdbranch (main) iets aan de site verandert.
+#
+# Eenmalig instellen in GitHub: Settings → Secrets and variables → Actions → New repository secret
+#   FTP_SERVER      het FTP-adres van de hosting, bijv. ftp.percussionworld.nl
+#   FTP_USERNAME    de FTP-gebruikersnaam
+#   FTP_PASSWORD    het FTP-wachtwoord
+#   FTP_SERVER_DIR  de map van de website op de server, met een schuine streep aan het eind,
+#                   bijv. /public_html/  (de map waarin nu de oude index.html staat)
+# Optioneel, onder het tabblad Variables: FTP_PROTOCOL = ftp  (standaard wordt het veiligere ftps gebruikt)
+name: Publiceer percussionworld.nl
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "percussionworld-site/site/**"
+  workflow_dispatch:
+
+concurrency:
+  group: publiceer-percussionworld
+  cancel-in-progress: false
+
+jobs:
+  publiceer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Upload naar de webhosting
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ${{ vars.FTP_PROTOCOL || 'ftps' }}
+          local-dir: percussionworld-site/site/
+          server-dir: ${{ secrets.FTP_SERVER_DIR }}
