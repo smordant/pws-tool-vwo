@@ -22,7 +22,7 @@ SOCIAL = [
 
 UI = {
     "nl": dict(
-        skip="Naar de inhoud", nav_label="Hoofdmenu", menu="Menu", language="Taal", choose_language="Taal kiezen",
+        skip="Naar de inhoud", webcredit="Website: ontwerp en beheer door", nav_label="Hoofdmenu", menu="Menu", language="Taal", choose_language="Taal kiezen",
         explore="Ontdek", connect="Volg", links="Slagwerklinks", copyright="Copyright",
         close="Sluiten", prev="Vorige", next="Volgende",
         footer_about="Slagwerker, componist, dirigent en slagwerkdocent, werkzaam in Nederland en Duitsland.",
@@ -30,7 +30,7 @@ UI = {
         keywords="slagwerk, percussie, drumband, slagwerkmuziek, componist, dirigent, Mordant, marimba, vibrafoon, xylofoon, drumstel, kleine trom, pauken, slagwerkdocent",
     ),
     "en": dict(
-        skip="Skip to content", nav_label="Main", menu="Menu", language="Language", choose_language="Choose language",
+        skip="Skip to content", webcredit="Website design and maintenance:", nav_label="Main", menu="Menu", language="Language", choose_language="Choose language",
         explore="Explore", connect="Connect", links="Percussion links", copyright="Copyright",
         close="Close", prev="Previous", next="Next",
         footer_about="Percussionist, composer, conductor and percussion teacher, working in the Netherlands and Germany.",
@@ -38,7 +38,7 @@ UI = {
         keywords="percussion, drumband, percussion music, composer, conductor, Mordant, marimba, vibraphone, xylophone, drumset, snare drum, timpani, percussion teacher",
     ),
     "de": dict(
-        skip="Zum Inhalt", nav_label="Hauptmenü", menu="Menü", language="Sprache", choose_language="Sprache wählen",
+        skip="Zum Inhalt", webcredit="Website: Gestaltung und Betreuung", nav_label="Hauptmenü", menu="Menü", language="Sprache", choose_language="Sprache wählen",
         explore="Entdecken", connect="Folgen", links="Schlagzeug-Links", copyright="Urheberrecht",
         close="Schließen", prev="Zurück", next="Weiter",
         footer_about="Schlagzeuger, Komponist, Dirigent und Schlagzeuglehrer, tätig in den Niederlanden und in Deutschland.",
