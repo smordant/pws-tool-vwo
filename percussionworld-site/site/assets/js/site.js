@@ -1,13 +1,43 @@
-// Percussion World — navigation toggle and image lightbox
+// Percussion World — menu, taalkeuze en lightbox voor afbeeldingen
 (function () {
+  // Uitschuifbaar zijmenu (smalle schermen)
   var toggle = document.querySelector('.nav-toggle');
   var nav = document.getElementById('site-nav');
   if (toggle && nav) {
-    toggle.addEventListener('click', function () {
-      var open = nav.classList.toggle('open');
+    var backdrop = document.createElement('div');
+    backdrop.className = 'nav-backdrop';
+    document.body.appendChild(backdrop);
+    var setNav = function (open) {
+      nav.classList.toggle('open', open);
+      backdrop.classList.toggle('show', open);
+      toggle.classList.toggle('is-open', open);
       toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-    });
+      document.body.style.overflow = open ? 'hidden' : '';
+    };
+    toggle.addEventListener('click', function () { setNav(!nav.classList.contains('open')); });
+    backdrop.addEventListener('click', function () { setNav(false); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setNav(false); });
   }
+
+  // Taalkeuze: uitschuifmenu in de kop
+  var lang = document.querySelector('.lang');
+  if (lang) {
+    var langBtn = lang.querySelector('.lang-toggle');
+    var setLang = function (open) {
+      lang.classList.toggle('open', open);
+      langBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    };
+    langBtn.addEventListener('click', function (e) { e.stopPropagation(); setLang(!lang.classList.contains('open')); });
+    document.addEventListener('click', function (e) { if (!lang.contains(e.target)) setLang(false); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setLang(false); });
+  }
+  // Onthoud de gekozen taal en houd de plek op de pagina (#anker) vast bij wisselen
+  Array.prototype.forEach.call(document.querySelectorAll('a[hreflang]'), function (a) {
+    a.addEventListener('click', function () {
+      try { localStorage.setItem('pw-lang', a.getAttribute('hreflang')); } catch (err) {}
+      if (location.hash) a.href = a.href.split('#')[0] + location.hash;
+    });
+  });
 
   var box = document.querySelector('.lightbox');
   if (!box) return;

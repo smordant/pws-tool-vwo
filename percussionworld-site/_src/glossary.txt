@@ -25,7 +25,7 @@ re:(?<!^)\bSeptember (\d{4})\b|september \1|September \1
 re:(?<!^)\bOctober (\d{4})\b|oktober \1|Oktober \1
 re:(?<!^)\bNovember (\d{4})\b|november \1|November \1
 re:(?<!^)\bDecember (\d{4})\b|december \1|Dezember \1
-re:^(\d+)(?:st|nd|rd|th) |\1e |\1. 
+re:^(\d+)(?:st|nd|rd|th) (?!best|division|level|place|prize)|\1e |\1. 
 re:\bJanuary – March\b|januari – maart|Januar – März
 re:^January\b|Januari|Januar
 re:^March\b|Maart|März
@@ -88,7 +88,7 @@ glockenspiel|klokkenspel|Glockenspiel
 drumset|drumstel|Drumset
 drumset exercises|oefeningen voor drumstel|Übungen für Drumset
 drumset solo|drumsolo|Drumset-Solo
-re:\bpercussion\b|slagwerk|Schlagzeug
+re:(?<![\w@./-])percussion(?![\w@-])|slagwerk|Schlagzeug
 percussion ensemble|slagwerkensemble|Schlagzeugensemble
 percussion duo|slagwerkduo|Schlagzeugduo
 percussion trio|slagwerktrio|Schlagzeugtrio
@@ -301,3 +301,4 @@ open day|open dag|Tag der offenen Tür
 football camp|voetbalkamp|Fußballcamp
 and others|e.a.|u. a.
 school workshop|schoolworkshop|Schulworkshop
+percussion@home.nl|percussion@home.nl|percussion@home.nl

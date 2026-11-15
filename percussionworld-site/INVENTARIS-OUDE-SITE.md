@@ -1,5 +1,7 @@
 # Inventaris oude site percussionworld.nl → nieuwe site
 
+> De genoemde nieuwe pagina's staan in `site/` (Nederlands), `site/en/` (Engels) en `site/de/` (Duits). Het uitgewerkte overzicht van ontbrekende bestanden staat in `ONTBREKENDE-BESTANDEN.md`.
+
 Uitgelezen op 15 november 2026: **81 HTML-pagina's**, ~500 bestanden (foto's, PDF's, Word-documenten, MP3), plus het verborgen fotoarchief achter de link "test" op de fotopagina (182 foto's).
 
 ## 1. Structuur van de oude site
@@ -21,7 +23,7 @@ De oude site bestaat uit twee frames: een menu links (`frame1.htm`) en een inhou
 | Links | infolinks.html | links.html |
 | Copyright | musicpri.html | copyright.html + voettekst |
 | My Instruments, Free Sheetmusic, YouTube, Facebook, LinkedIn | Facebook/YouTube/LinkedIn | voettekst + contact.html |
-| Instagram | https://www.instagram.com/ (geen profiel) | weggelaten — zie vragen |
+| Instagram | https://www.instagram.com/ (geen profiel) | weggelaten tot er een profielnaam is |
 
 ### Startpagina (frame2.htm)
 Projecten in Nederland (Workshop Percussie, Stomp) en Duitsland (Stomp, Kindergarten, Klanggarten), mailknop, PAS Netherlands Chapter (Day of Percussion, "More info"), PAS-logo en een bezoekersteller (thecounter.com).
@@ -115,6 +117,7 @@ Verder verwijzen enkele links naar diensten die niet meer bestaan: **slide.com**
 - Interne notities op de PAS-pagina's ("FOTOS KLOPPEN NIET!!!!", "Nog in onderhandeling", "Verzonden Paul Marcel en PAS") zijn weggelaten. De foto's van 2020 waren een kopie van 2018 en staan daarom niet bij 2020.
 - De PAS-rapportageformulieren van 2022 staan in een inklapbaar blok.
 - De toelichting bij "Born: last time jury" (een tekst over rechtbankjury's) is weggelaten; het feit zelf staat er nog.
+- Familie- en privéfoto's (zus Ine als schutterskoningin, dochter Myrthe, een uitje met ijs, selfies e.d.) staan niet online; ze zijn bewaard in `niet-online/`.
 - De leerlingresultaten op de oude pagina hadden door Word kapotte, doorlopende links. Alles is per jaar en per wedstrijd opnieuw gerangschikt; de krantenknipsels staan apart in een archief onderaan.
 - Spelfouten in namen zijn gecorrigeerd (bijv. Ceacilia → Caecilia, Khachaturian, Živković, Bad Münstereifel, O'Connor).
 - "New Error" (Felix, 2025) is "New Era" geworden, zoals elders op de site.

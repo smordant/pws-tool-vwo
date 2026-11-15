@@ -28,3 +28,15 @@ de: 2. Platz, „Deutschland-Pokal“
 29
 nl: Concert in Nederweert.
 de: Konzert in Nederweert.
+= Promotion from 3rd to 2nd level, with credits of the jury
+nl: Promotie van de 3e naar de 2e afdeling, met lof van de jury
+de: Aufstieg von der 3. in die 2. Stufe, mit Lob der Jury
+= Promotion from 2nd to 1st level, with credits of the jury
+nl: Promotie van de 2e naar de 1e afdeling, met lof van de jury
+de: Aufstieg von der 2. in die 1. Stufe, mit Lob der Jury
+= 3rd best of Limburg, with credits of the jury
+nl: 3e van Limburg, met lof van de jury
+de: Dritter von Limburg, mit Lob der Jury
+= 2nd best of Limburg, with credits of the jury
+nl: 2e van Limburg, met lof van de jury
+de: Zweiter von Limburg, mit Lob der Jury

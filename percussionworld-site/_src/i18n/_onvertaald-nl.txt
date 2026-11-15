@@ -16,8 +16,6 @@ ensemble-einighausen	<1>Percussion ensemble:</1> <2>Mexican Dance</2> (J. Wassen
 ensemble-einighausen	Repertoire: <1><2>Magnificent People</2></1> (W. Norel); <3><4>You’re So Cool</4></3> (H. Zimmer, arr. F. Kessels); <5><6>Io, the Moon and the Giant</6></5> (S. Kamstra).
 ensemble-eschweiler	Jugend Musiziert: <1>Drummers Go Latin</1>; <2>The Winding River</2> (T. O’Connor); <3>Pirates of the Caribbean</3> (Hans Zimmer, arr. M. Mordant).
 ensemble-kreato	<1>Ensemble:</1> Bianca and Joyce Berkers, Cyril Graus, Luuk Heijmans, Myrthe Peulen, Roger Scheepers, Stan van Landeghem, Stan Voncken, Wiek Maessen — <2>Balalaikan Holiday</2> (Morris A. Brand); <3>To the Top</3> (Wibrand van Norel).
-ensemble-schinveld	2nd best of Limburg, with credits of the jury
-ensemble-schinveld	3rd best of Limburg, with credits of the jury
 index	Stomp at School
 pas	10th Day of Percussion — 2023, Sittard
 pas	1st Day of Percussion — 2006, Maastricht (PDF)
