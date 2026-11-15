@@ -42,7 +42,7 @@ MAX_SIDE = 1800
 LANGS = ["nl", "en", "de"]
 LANG_NAMES = {"nl": "Nederlands", "en": "English", "de": "Deutsch"}
 DOMAIN = "https://www.percussionworld.nl"
-EMAIL = "slagwerkadvies@gmail.com"
+EMAIL = "percussion@home.nl"
 CUR_PAGE = ' aria-current="page"'
 CUR_LANG = ' aria-current="true"'
 
